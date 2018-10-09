@@ -1,4 +1,4 @@
-function [wPlot, HdBVec] = iirLPFModel (fp, fs, GaindB, GainsdB, fh, steps)
+function [wVec, HjwVec] = iirLPFModel (fp, fs, GaindB, GainsdB, fh, f)
 
 %% This is used to mess around in
 disp('%%%%%%%%%%%%% LOW PASS FILTER %%%%%%%%%%%%%');
@@ -58,18 +58,29 @@ syms w;
 freqRes = exp(1j*w*T);
 
 Hjw = subs(Hz, z, freqRes);
-HdB = 20*log10(abs(Hjw));
-
-
-HdBPlot = 1:steps:wh;
-wPlot = 1:steps:wh;
+HjwVec = 1:length(f)-1;
+wVec = 1:length(f)-1;
 count = 1;
-for i = 1:steps:wh
-   HdBPlot(count) = subs(HdB,w,i);
-   wPlot(count) = (2/T)*tan((i*T)/(2));
-   count = count + 1;
+
+for i = 1:length(f)-1
+%    disp(2*pi*f(count));
+%    disp(count);
+   HjwVec(count) = subs(Hjw, w, 2*pi*f(count));
+   wVec(count) = (2/T)*tan((2*pi*f(count)*T)/(2));
+   count = count+1;
 end
 
-HdBVec = HdBPlot;
+% HdB = 20*log10(abs(Hjw));
+
+
+% HdBPlot = 0:length(f)-1;
+% wPlot = 0:length(f)-1;
+% count = 1;
+% for i = 0:length(f)-1
+%    HdBPlot(count) = subs(HdB,w,2*pi*f(count));
+%    wPlot(count) = (2/T)*tan((2*pi*f(count)*T)/(2));
+%    count = count + 1;
+% end
+
 end
 
