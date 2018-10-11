@@ -1,0 +1,25 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {2}Background}{2}{section.2}
+\contentsline {section}{\numberline {3}Design Research}{2}{section.3}
+\contentsline {subsection}{\numberline {3.1}Existing Solutions}{2}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Literature Review}{2}{subsection.3.2}
+\contentsline {section}{\numberline {4}Design Objectives}{4}{section.4}
+\contentsline {section}{\numberline {5}Design Requirements}{4}{section.5}
+\contentsline {section}{\numberline {6}Design Assumptions and Constrains}{4}{section.6}
+\contentsline {subsection}{\numberline {6.1}Assumptions}{4}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Constraints}{4}{subsection.6.2}
+\contentsline {section}{\numberline {7}Design Methodology}{5}{section.7}
+\contentsline {section}{\numberline {8}Adaptive Filter Design}{5}{section.8}
+\contentsline {subsection}{\numberline {8.1}Audiogram}{5}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Insertion Gain}{5}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Number of Frequency Sub-Bands}{6}{subsection.8.3}
+\contentsline {section}{\numberline {9}Dynamic Compression Design}{7}{section.9}
+\contentsline {section}{\numberline {10}Success Criterion}{7}{section.10}
+\contentsline {section}{\numberline {11}Critical Evaluation of Results}{7}{section.11}
+\contentsline {subsection}{\numberline {11.1}Socioeconomic Impacts of Design}{7}{subsection.11.1}
+\contentsline {section}{\numberline {12}Future Recommendations}{7}{section.12}
+\contentsline {section}{\numberline {13}Conclusion}{7}{section.13}
+\contentsline {section}{\numberline {A}Impact Appendix - Non-Technical thing}{9}{Appendix.a.A}
+\contentsline {section}{\numberline {B}Insertion Gain Parameters}{9}{Appendix.a.B}
+\contentsline {section}{\numberline {C}Number of Filters Investigation}{9}{Appendix.a.C}

@@ -1,0 +1,681 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{witsHearingStats}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9d6ccd0f1193a4963aa1552be65d1c2a}{%
+           family={Witwatersrand},
+           familyi={W\bibinitperiod},
+           given={University},
+           giveni={U\bibinitperiod},
+           prefix={of\bibnamedelima the},
+           prefixi={o\bibinitperiod\bibinitdelim t\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d6ccd0f1193a4963aa1552be65d1c2a}
+      \strng{fullhash}{9d6ccd0f1193a4963aa1552be65d1c2a}
+      \strng{bibnamehash}{9d6ccd0f1193a4963aa1552be65d1c2a}
+      \strng{authorbibnamehash}{9d6ccd0f1193a4963aa1552be65d1c2a}
+      \strng{authornamehash}{9d6ccd0f1193a4963aa1552be65d1c2a}
+      \strng{authorfullhash}{9d6ccd0f1193a4963aa1552be65d1c2a}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{International Ear Care Day - Act Now, Here's How!}
+      \field{year}{2016}
+    \endentry
+    \entry{qualityOfLife}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f1cd6d5a76a279968ce5a1a40d17daa7}{%
+           family={Ciorba},
+           familyi={C\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f58850e3ccc4e9926df9eb2233b2e617}{%
+           family={Bianchini},
+           familyi={B\bibinitperiod},
+           given={Chiara},
+           giveni={C\bibinitperiod}}}%
+        {{hash=17969e28465f787974a9e36edb04d63c}{%
+           family={Pelucchi},
+           familyi={P\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=994d70d74c0b70ebfb5aac209524a230}{%
+           family={Pastore},
+           familyi={P\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{48b2bce7bf2a4a64f1bebaf0846ab15b}
+      \strng{fullhash}{e4e10221b2540811c96dd85c3cb13d3f}
+      \strng{bibnamehash}{e4e10221b2540811c96dd85c3cb13d3f}
+      \strng{authorbibnamehash}{e4e10221b2540811c96dd85c3cb13d3f}
+      \strng{authornamehash}{48b2bce7bf2a4a64f1bebaf0846ab15b}
+      \strng{authorfullhash}{e4e10221b2540811c96dd85c3cb13d3f}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Clinical Interventions in Aging}
+      \field{month}{6}
+      \field{title}{The impact of hearing loss on the quality of life of elderly adults}
+      \field{volume}{7}
+      \field{year}{2012}
+      \field{pages}{159\bibrangedash 163}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.2147/CIA.S26059
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3393360/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3393360/
+      \endverb
+    \endentry
+    \entry{earinfo}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=84a64131eee8a93382c6a0502f19dc31}{%
+           family={Earinfo.com},
+           familyi={E\bibinitperiod},
+           given={Earinfo.com},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Earinfo.com}%
+      }
+      \strng{namehash}{84a64131eee8a93382c6a0502f19dc31}
+      \strng{fullhash}{84a64131eee8a93382c6a0502f19dc31}
+      \strng{bibnamehash}{84a64131eee8a93382c6a0502f19dc31}
+      \strng{authorbibnamehash}{84a64131eee8a93382c6a0502f19dc31}
+      \strng{authornamehash}{84a64131eee8a93382c6a0502f19dc31}
+      \strng{authorfullhash}{84a64131eee8a93382c6a0502f19dc31}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{How to Understand Your Hearing Test - Hearing Aid Resource for Consumers}
+      \field{title}{Hearing Aid Resource for Consumers}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://www.earinfo.com/faq/hearing-loss
+      \endverb
+      \verb{url}
+      \verb http://www.earinfo.com/faq/hearing-loss
+      \endverb
+    \endentry
+    \entry{hearIt}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8add76446d10ec958043dbc3ede45abe}{%
+           family={Hear-it.org},
+           familyi={H\bibinithyphendelim i\bibinitperiod}}}%
+      }
+      \strng{namehash}{8add76446d10ec958043dbc3ede45abe}
+      \strng{fullhash}{8add76446d10ec958043dbc3ede45abe}
+      \strng{bibnamehash}{8add76446d10ec958043dbc3ede45abe}
+      \strng{authorbibnamehash}{8add76446d10ec958043dbc3ede45abe}
+      \strng{authornamehash}{8add76446d10ec958043dbc3ede45abe}
+      \strng{authorfullhash}{8add76446d10ec958043dbc3ede45abe}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{hear-it.org}
+      \field{title}{Sensorineural Hearing Loss (SNHL) - Causes and treatments}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.hear-it.org/Sensorineural-hearing-loss
+      \endverb
+      \verb{url}
+      \verb https://www.hear-it.org/Sensorineural-hearing-loss
+      \endverb
+    \endentry
+    \entry{atlantic}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ea1691a90da75a362265dc76b988aef6}{%
+           family={Centers},
+           familyi={C\bibinitperiod},
+           given={Atlantic\bibnamedelima Hearing},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Atlantic Hearing Centers}%
+      }
+      \strng{namehash}{ea1691a90da75a362265dc76b988aef6}
+      \strng{fullhash}{ea1691a90da75a362265dc76b988aef6}
+      \strng{bibnamehash}{ea1691a90da75a362265dc76b988aef6}
+      \strng{authorbibnamehash}{ea1691a90da75a362265dc76b988aef6}
+      \strng{authornamehash}{ea1691a90da75a362265dc76b988aef6}
+      \strng{authorfullhash}{ea1691a90da75a362265dc76b988aef6}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Hearing Aids in Kensington, MD - Atlantic Hearing Centers}
+      \field{month}{2}
+      \field{title}{Cochlear Implant vs. a Hearing Aid - What's the difference?}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.atlantichearingcenters.com/blog/2018/feb02-cochlear-implants-vs-hearing-aids
+      \endverb
+      \verb{url}
+      \verb https://www.atlantichearingcenters.com/blog/2018/feb02-cochlear-implants-vs-hearing-aids
+      \endverb
+    \endentry
+    \entry{carroll}{article}{}
+      \name{author}{3}{}{%
+        {{hash=cc57125685925bff5ddee17c643f3451}{%
+           family={Carroll},
+           familyi={C\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b1dce1007d5a62a155aae495adf8afa8}{%
+           family={Tiaden},
+           familyi={T\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0b1d9ff321e23ca3f19787893d625c12}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Fan-Gang},
+           giveni={F\bibinithyphendelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{08d21c90ed1db3d979742d233ab39af2}
+      \strng{fullhash}{08d21c90ed1db3d979742d233ab39af2}
+      \strng{bibnamehash}{08d21c90ed1db3d979742d233ab39af2}
+      \strng{authorbibnamehash}{08d21c90ed1db3d979742d233ab39af2}
+      \strng{authornamehash}{08d21c90ed1db3d979742d233ab39af2}
+      \strng{authorfullhash}{08d21c90ed1db3d979742d233ab39af2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of the Acoustic Society of America}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{Fundamental frequency is critical to speech perception in noise in combined acoustic and electric hearing}
+      \field{volume}{130}
+      \field{year}{2011}
+      \field{pages}{2054\bibrangedash 2062}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1121/1.3631563
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3206909/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3206909/
+      \endverb
+    \endentry
+    \entry{woodford}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=dbe6d9f98cd129a4856753f0f1129244}{%
+           family={Woodford},
+           familyi={W\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbe6d9f98cd129a4856753f0f1129244}
+      \strng{fullhash}{dbe6d9f98cd129a4856753f0f1129244}
+      \strng{bibnamehash}{dbe6d9f98cd129a4856753f0f1129244}
+      \strng{authorbibnamehash}{dbe6d9f98cd129a4856753f0f1129244}
+      \strng{authornamehash}{dbe6d9f98cd129a4856753f0f1129244}
+      \strng{authorfullhash}{dbe6d9f98cd129a4856753f0f1129244}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Explain that Stuff}
+      \field{month}{4}
+      \field{title}{How do hearing aids work?}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.explainthatstuff.com/hearingaids.html
+      \endverb
+      \verb{url}
+      \verb https://www.explainthatstuff.com/hearingaids.html
+      \endverb
+    \endentry
+    \entry{ricketts}{article}{}
+      \name{author}{1}{}{%
+        {{hash=dcfc03545be9a04bf52c80147ec744a9}{%
+           family={Ricketts},
+           familyi={R\bibinitperiod},
+           given={Todd\bibnamedelima Andrew},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{dcfc03545be9a04bf52c80147ec744a9}
+      \strng{fullhash}{dcfc03545be9a04bf52c80147ec744a9}
+      \strng{bibnamehash}{dcfc03545be9a04bf52c80147ec744a9}
+      \strng{authorbibnamehash}{dcfc03545be9a04bf52c80147ec744a9}
+      \strng{authornamehash}{dcfc03545be9a04bf52c80147ec744a9}
+      \strng{authorfullhash}{dcfc03545be9a04bf52c80147ec744a9}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends In Amplification}
+      \field{number}{4}
+      \field{title}{Directional Hearing Aids}
+      \field{volume}{5}
+      \field{year}{2001}
+      \field{pages}{139\bibrangedash 176}
+      \range{pages}{38}
+    \endentry
+    \entry{sebastian}{book}{}
+      \name{author}{2}{}{%
+        {{hash=ebd7c797faa8318d9a1c42d43adbe1c0}{%
+           family={Sebastian},
+           familyi={S\bibinitperiod},
+           given={Arun},
+           giveni={A\bibinitperiod}}}%
+        {{hash=386ec67c8011b4fb36c1e30e07b1a825}{%
+           family={T.\bibnamedelimi G.},
+           familyi={T\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{4d8cc2d929c6221a5c93614dbc390dd1}
+      \strng{fullhash}{4d8cc2d929c6221a5c93614dbc390dd1}
+      \strng{bibnamehash}{4d8cc2d929c6221a5c93614dbc390dd1}
+      \strng{authorbibnamehash}{4d8cc2d929c6221a5c93614dbc390dd1}
+      \strng{authornamehash}{4d8cc2d929c6221a5c93614dbc390dd1}
+      \strng{authorfullhash}{4d8cc2d929c6221a5c93614dbc390dd1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Digital Filter Bank for Hearing Aid Application Using FRM Technique}
+      \field{title}{Digital Filter Bank for Hearing Aid Application Using FRM Technique}
+    \endentry
+    \entry{audiogram}{misc}{}
+      \list{publisher}{1}{%
+        {Mayfield Brain & Spine}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Posture & Body Mechanics}
+      \field{month}{4}
+      \field{title}{Audiometry Test, Hearing Test}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.mayfieldclinic.com/PE-Hearing.HTM
+      \endverb
+      \verb{url}
+      \verb https://www.mayfieldclinic.com/PE-Hearing.HTM
+      \endverb
+    \endentry
+    \entry{diffMeth}{inbook}{}
+      \name{author}{2}{}{%
+        {{hash=c234063b5f044e955b76aa8f2553c26c}{%
+           family={Kakol},
+           familyi={K\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8b9471c61598bbd36a32ca75fcec3d10}{%
+           family={Kostek},
+           familyi={K\bibinitperiod},
+           given={Bozena},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{98ec305e22cb26f9b9f4e4eb9257b23d}
+      \strng{fullhash}{98ec305e22cb26f9b9f4e4eb9257b23d}
+      \strng{bibnamehash}{98ec305e22cb26f9b9f4e4eb9257b23d}
+      \strng{authorbibnamehash}{98ec305e22cb26f9b9f4e4eb9257b23d}
+      \strng{authornamehash}{98ec305e22cb26f9b9f4e4eb9257b23d}
+      \strng{authorfullhash}{98ec305e22cb26f9b9f4e4eb9257b23d}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{2016 Signal Processing: Algorithms, Architectures, Arrangements, and Applications (SPA)}
+      \field{pages}{219\bibrangedash 224}
+      \range{pages}{6}
+    \endentry
+    \entry{chang}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6408bdec6040c04268dc6b049870b949}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Kuo-Chiang},
+           giveni={K\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=16236df5395b25c7824f6de8d11789b3}{%
+           family={Chuang},
+           familyi={C\bibinitperiod},
+           given={Ming-Hsun},
+           giveni={M\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=df42e4484a2530f58c9af10c4abc6070}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Ching-Hao},
+           giveni={C\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{30e2586362f823706079bba3eee9d5fb}
+      \strng{fullhash}{30e2586362f823706079bba3eee9d5fb}
+      \strng{bibnamehash}{30e2586362f823706079bba3eee9d5fb}
+      \strng{authorbibnamehash}{30e2586362f823706079bba3eee9d5fb}
+      \strng{authornamehash}{30e2586362f823706079bba3eee9d5fb}
+      \strng{authorfullhash}{30e2586362f823706079bba3eee9d5fb}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS}
+      \field{month}{8}
+      \field{number}{3}
+      \field{title}{10-ms 18-Band Quasi-ANSI S1.11 1/3-Octave Filter Bank for Digital Hearing Aids}
+      \field{volume}{60}
+      \field{year}{2012}
+      \field{pages}{638\bibrangedash 649}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/TCSI.2012.2209731
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/6268303
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/6268303
+      \endverb
+    \endentry
+    \entry{octave}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d700447af1c34122534491d9345a4716}{%
+           family={Shearman},
+           familyi={S\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {EDN Network}%
+      }
+      \strng{namehash}{d700447af1c34122534491d9345a4716}
+      \strng{fullhash}{d700447af1c34122534491d9345a4716}
+      \strng{bibnamehash}{d700447af1c34122534491d9345a4716}
+      \strng{authorbibnamehash}{d700447af1c34122534491d9345a4716}
+      \strng{authornamehash}{d700447af1c34122534491d9345a4716}
+      \strng{authorfullhash}{d700447af1c34122534491d9345a4716}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EDN}
+      \field{month}{4}
+      \field{title}{Analyze signals octave by octave}
+      \field{year}{2001}
+      \verb{urlraw}
+      \verb https://www.edn.com/electronics-news/4382916/Analyze-signals-octave-by-octave
+      \endverb
+      \verb{url}
+      \verb https://www.edn.com/electronics-news/4382916/Analyze-signals-octave-by-octave
+      \endverb
+    \endentry
+    \entry{dhawan}{inbook}{}
+      \name{author}{2}{}{%
+        {{hash=2471b63e8d27658d2631db7f8e0389fd}{%
+           family={Dhawan},
+           familyi={D\bibinitperiod},
+           given={Ritwik},
+           giveni={R\bibinitperiod}}}%
+        {{hash=982018e702f648eac30ba841cf531a74}{%
+           family={Mahalakshmi},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{9a443b750211196c1b5c5a0e6f8b87b5}
+      \strng{fullhash}{9a443b750211196c1b5c5a0e6f8b87b5}
+      \strng{bibnamehash}{9a443b750211196c1b5c5a0e6f8b87b5}
+      \strng{authorbibnamehash}{9a443b750211196c1b5c5a0e6f8b87b5}
+      \strng{authornamehash}{9a443b750211196c1b5c5a0e6f8b87b5}
+      \strng{authorfullhash}{9a443b750211196c1b5c5a0e6f8b87b5}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Digital Filtering In Hearing Aid System For The Hearing Impaired}
+      \field{title}{International Conference on Electrical, Electronics, and Optimization Techniques (ICEEOT) - 2016}
+      \field{pages}{1494\bibrangedash 1497}
+      \range{pages}{4}
+    \endentry
+    \entry{moore}{book}{}
+      \name{author}{1}{}{%
+        {{hash=499896bad26a5b7cd5b893292832de06}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Brian\bibnamedelimb C.\bibnamedelimi J.},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald Group Publishing Limited,}%
+      }
+      \strng{namehash}{499896bad26a5b7cd5b893292832de06}
+      \strng{fullhash}{499896bad26a5b7cd5b893292832de06}
+      \strng{bibnamehash}{499896bad26a5b7cd5b893292832de06}
+      \strng{authorbibnamehash}{499896bad26a5b7cd5b893292832de06}
+      \strng{authornamehash}{499896bad26a5b7cd5b893292832de06}
+      \strng{authorfullhash}{499896bad26a5b7cd5b893292832de06}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{title}{An Introduction to the Psychology of Hearing}
+      \field{year}{2012}
+    \endentry
+    \entry{tillman}{article}{}
+      \name{author}{2}{}{%
+        {{hash=89f27bf5115e770cd269cff4e0fa30ee}{%
+           family={Tillman},
+           familyi={T\bibinitperiod},
+           given={TW},
+           giveni={T\bibinitperiod}}}%
+        {{hash=11de8cc0fff667d3ec1e33207879b855}{%
+           family={Carhart},
+           familyi={C\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a093b016a26929d34d634eee8e100027}
+      \strng{fullhash}{a093b016a26929d34d634eee8e100027}
+      \strng{bibnamehash}{a093b016a26929d34d634eee8e100027}
+      \strng{authorbibnamehash}{a093b016a26929d34d634eee8e100027}
+      \strng{authornamehash}{a093b016a26929d34d634eee8e100027}
+      \strng{authorfullhash}{a093b016a26929d34d634eee8e100027}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Archives of Otolaryngology}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Interaction of competing speech signals with hearing losses}
+      \field{volume}{91}
+      \field{year}{1970}
+      \field{pages}{273\bibrangedash 279}
+      \range{pages}{7}
+    \endentry
+    \entry{present}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=2aae4b4c7393fb9f6759452b6fdc2450}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jingdong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=50f152a58e4a694e44bf07fc68be4636}{%
+           family={Benesty},
+           familyi={B\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{15bd4af9a259ca500d32d383e1640141}
+      \strng{fullhash}{15bd4af9a259ca500d32d383e1640141}
+      \strng{bibnamehash}{15bd4af9a259ca500d32d383e1640141}
+      \strng{authorbibnamehash}{15bd4af9a259ca500d32d383e1640141}
+      \strng{authornamehash}{15bd4af9a259ca500d32d383e1640141}
+      \strng{authorfullhash}{15bd4af9a259ca500d32d383e1640141}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Design and Implementation of Small Microphone Arrays}
+      \field{year}{2014}
+    \endentry
+    \entry{broadEnd}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=caeafad43f6537996beee940a7e1fac2}{%
+           family={InvenSense},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{caeafad43f6537996beee940a7e1fac2}
+      \strng{fullhash}{caeafad43f6537996beee940a7e1fac2}
+      \strng{bibnamehash}{caeafad43f6537996beee940a7e1fac2}
+      \strng{authorbibnamehash}{caeafad43f6537996beee940a7e1fac2}
+      \strng{authornamehash}{caeafad43f6537996beee940a7e1fac2}
+      \strng{authorfullhash}{caeafad43f6537996beee940a7e1fac2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Microphone Array Beamforming}
+      \field{year}{2013}
+    \endentry
+    \entry{mccowan}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=cc807dda042362d07b2920b3369c266c}{%
+           family={McCowan},
+           familyi={M\bibinitperiod},
+           given={Iain},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Queensland University of Technology}%
+      }
+      \strng{namehash}{cc807dda042362d07b2920b3369c266c}
+      \strng{fullhash}{cc807dda042362d07b2920b3369c266c}
+      \strng{bibnamehash}{cc807dda042362d07b2920b3369c266c}
+      \strng{authorbibnamehash}{cc807dda042362d07b2920b3369c266c}
+      \strng{authornamehash}{cc807dda042362d07b2920b3369c266c}
+      \strng{authorfullhash}{cc807dda042362d07b2920b3369c266c}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Robust Speech Recognition using Microphone Arrays}
+      \field{type}{phdthesis}
+      \field{year}{2001}
+    \endentry
+    \entry{munir}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ed19e77060694c79ad472fb25ab479b6}{%
+           family={Munir},
+           familyi={M\bibinitperiod},
+           given={Behzad},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {UoverIP Consulting Inc.}%
+      }
+      \strng{namehash}{ed19e77060694c79ad472fb25ab479b6}
+      \strng{fullhash}{ed19e77060694c79ad472fb25ab479b6}
+      \strng{bibnamehash}{ed19e77060694c79ad472fb25ab479b6}
+      \strng{authorbibnamehash}{ed19e77060694c79ad472fb25ab479b6}
+      \strng{authornamehash}{ed19e77060694c79ad472fb25ab479b6}
+      \strng{authorfullhash}{ed19e77060694c79ad472fb25ab479b6}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Unified Over IP}
+      \field{month}{3}
+      \field{title}{Voice Fundamentals - Human Speech Frequency}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb http://www.uoverip.com/voice-fundamentals-human-speech-frequency/
+      \endverb
+      \verb{url}
+      \verb http://www.uoverip.com/voice-fundamentals-human-speech-frequency/
+      \endverb
+    \endentry
+    \entry{audioMaxFreq}{misc}{}
+      \list{publisher}{1}{%
+        {ASHA}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Averican Speech-Language-Hearing Association}
+      \field{title}{The Audiogram}
+      \verb{urlraw}
+      \verb https://www.asha.org/public/hearing/audiogram/
+      \endverb
+      \verb{url}
+      \verb https://www.asha.org/public/hearing/audiogram/
+      \endverb
+    \endentry
+    \entry{mahmoud}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9cf5516e174d4dcaf3fdb9ea8ec640a9}{%
+           family={Mahmoud},
+           familyi={M\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Health & Medicine}%
+      }
+      \strng{namehash}{9cf5516e174d4dcaf3fdb9ea8ec640a9}
+      \strng{fullhash}{9cf5516e174d4dcaf3fdb9ea8ec640a9}
+      \strng{bibnamehash}{9cf5516e174d4dcaf3fdb9ea8ec640a9}
+      \strng{authorbibnamehash}{9cf5516e174d4dcaf3fdb9ea8ec640a9}
+      \strng{authornamehash}{9cf5516e174d4dcaf3fdb9ea8ec640a9}
+      \strng{authorfullhash}{9cf5516e174d4dcaf3fdb9ea8ec640a9}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{LinkedIn SlideShare}
+      \field{month}{6}
+      \field{title}{Reading an audiogram}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://www.slideshare.net/amirmah/reading-an-audiogram
+      \endverb
+      \verb{url}
+      \verb https://www.slideshare.net/amirmah/reading-an-audiogram
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

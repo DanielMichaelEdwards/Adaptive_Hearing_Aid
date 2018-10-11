@@ -1,0 +1,26 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[1] Config.pm:305> INFO - Logfile is 'Daniel Edwards - 1055301.blg'
+[142] biber-MSWIN64:313> INFO - === 
+[208] Biber.pm:371> INFO - Reading 'Daniel Edwards - 1055301.bcf'
+[370] Biber.pm:857> INFO - Found 22 citekeys in bib section 0
+[396] Biber.pm:3976> INFO - Processing section 0
+[417] Biber.pm:4136> INFO - Looking for bibtex format file 'ref.bib' for section 0
+[421] bibtex.pm:1500> INFO - LaTeX decoding ...
+[463] bibtex.pm:1316> INFO - Found BibTeX data source 'ref.bib'
+[482] Utils.pm:193> WARN - month field 'Jun' in entry 'qualityOfLife' is not an integer - this will probably not sort properly.
+[496] Utils.pm:193> WARN - month field 'Feb' in entry 'atlantic' is not an integer - this will probably not sort properly.
+[508] Utils.pm:193> WARN - month field 'Oct' in entry 'carroll' is not an integer - this will probably not sort properly.
+[513] Utils.pm:193> WARN - month field 'Apr' in entry 'woodford' is not an integer - this will probably not sort properly.
+[523] Utils.pm:193> WARN - month field 'Apr' in entry 'audiogram' is not an integer - this will probably not sort properly.
+[536] Utils.pm:193> WARN - month field 'Aug' in entry 'chang' is not an integer - this will probably not sort properly.
+[541] Utils.pm:193> WARN - month field 'Apr' in entry 'octave' is not an integer - this will probably not sort properly.
+[563] Utils.pm:193> WARN - month field 'Mar' in entry 'tillman' is not an integer - this will probably not sort properly.
+[583] Utils.pm:193> WARN - month field 'Mar' in entry 'munir' is not an integer - this will probably not sort properly.
+[589] Utils.pm:193> WARN - month field 'Jun' in entry 'mahmoud' is not an integer - this will probably not sort properly.
+[618] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[618] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[619] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[619] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[658] bbl.pm:617> INFO - Writing 'Daniel Edwards - 1055301.bbl' with encoding 'UTF-8'
+[678] bbl.pm:720> INFO - Output to Daniel Edwards - 1055301.bbl
+[681] Biber.pm:110> INFO - WARNINGS: 10
