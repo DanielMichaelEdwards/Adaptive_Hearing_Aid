@@ -675,6 +675,150 @@
       \verb https://www.slideshare.net/amirmah/reading-an-audiogram
       \endverb
     \endentry
+    \entry{brennan}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5a8c476f799ad56301d00cf89b58224d}{%
+           family={Brennan},
+           familyi={B\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=01b495b14bccd0bd55d60645140ddb87}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{4fd19a1403269c797050916f0300217a}
+      \strng{fullhash}{4fd19a1403269c797050916f0300217a}
+      \strng{bibnamehash}{4fd19a1403269c797050916f0300217a}
+      \strng{authorbibnamehash}{4fd19a1403269c797050916f0300217a}
+      \strng{authornamehash}{4fd19a1403269c797050916f0300217a}
+      \strng{authorfullhash}{4fd19a1403269c797050916f0300217a}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ISCAS '98. Proceedings of the 1998 IEEE International Symposium on Circuits and Systems}
+      \field{month}{8}
+      \field{title}{ISCAS '98. Proceedings of the 1998 IEEE International Symposium on Circuits and Systems}
+      \field{volume}{6}
+      \field{year}{2002}
+      \field{pages}{569\bibrangedash 572}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ISCAS.1998.705338
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/705338
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/705338
+      \endverb
+    \endentry
+    \entry{chong}{article}{}
+      \name{author}{2}{}{%
+        {{hash=82128adfdfec73510769eecc26cc0d26}{%
+           family={Chong},
+           familyi={C\bibinitperiod},
+           given={Kwen-Siong},
+           giveni={K\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=5be25f05cc1ebce346385f2ae26d7257}{%
+           family={Gwee},
+           familyi={G\bibinitperiod},
+           given={Bah-Hwee},
+           giveni={B\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{330d7f8ed56cbc02681df8dc25e4022f}
+      \strng{fullhash}{330d7f8ed56cbc02681df8dc25e4022f}
+      \strng{bibnamehash}{330d7f8ed56cbc02681df8dc25e4022f}
+      \strng{authorbibnamehash}{330d7f8ed56cbc02681df8dc25e4022f}
+      \strng{authornamehash}{330d7f8ed56cbc02681df8dc25e4022f}
+      \strng{authorfullhash}{330d7f8ed56cbc02681df8dc25e4022f}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: EXPRESS BRIEFS}
+      \field{month}{9}
+      \field{number}{09}
+      \field{title}{A 16-Channel Low-Power Nonuniform Spaced Filter Bank Core for Digital Hearing Aids}
+      \field{volume}{53}
+      \field{year}{2009}
+      \field{pages}{853\bibrangedash 857}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/TCSII.2006.881821
+      \endverb
+    \endentry
+    \entry{octFreqCalc}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=d13f793bd73e75933e389b1387328ec9}{%
+           family={Cassidy},
+           familyi={C\bibinitperiod},
+           given={Ryan\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=438418c7ecd91754acabbd3bb4378361}{%
+           family={Smith\bibnamedelima III},
+           familyi={S\bibinitperiod\bibinitdelim I\bibinitperiod},
+           given={Julius\bibnamedelima O},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Stanford University}%
+      }
+      \strng{namehash}{54ae63ad06acd4dbb7a81c7860c1930c}
+      \strng{fullhash}{54ae63ad06acd4dbb7a81c7860c1930c}
+      \strng{bibnamehash}{54ae63ad06acd4dbb7a81c7860c1930c}
+      \strng{authorbibnamehash}{54ae63ad06acd4dbb7a81c7860c1930c}
+      \strng{authornamehash}{54ae63ad06acd4dbb7a81c7860c1930c}
+      \strng{authorfullhash}{54ae63ad06acd4dbb7a81c7860c1930c}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Third-Octave Filter Banks}
+      \field{month}{6}
+      \field{title}{Third-Octave Filter Banks}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://ccrma.stanford.edu/realsimple/aud_fb/Third_Octave_Filter_Banks.html
+      \endverb
+      \verb{url}
+      \verb https://ccrma.stanford.edu/realsimple/aud_fb/Third_Octave_Filter_Banks.html
+      \endverb
+    \endentry
+    \entry{bark}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=438418c7ecd91754acabbd3bb4378361}{%
+           family={Smith\bibnamedelima III},
+           familyi={S\bibinitperiod\bibinitdelim I\bibinitperiod},
+           given={Julius\bibnamedelima O},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Stanford University CCRMA}%
+      }
+      \strng{namehash}{438418c7ecd91754acabbd3bb4378361}
+      \strng{fullhash}{438418c7ecd91754acabbd3bb4378361}
+      \strng{bibnamehash}{438418c7ecd91754acabbd3bb4378361}
+      \strng{authorbibnamehash}{438418c7ecd91754acabbd3bb4378361}
+      \strng{authornamehash}{438418c7ecd91754acabbd3bb4378361}
+      \strng{authorfullhash}{438418c7ecd91754acabbd3bb4378361}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Bark Frequency Scale}
+      \field{month}{2}
+      \field{title}{The Bark Frequency Scale}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://ccrma.stanford.edu/~jos/sasp/Bark_Frequency_Scale.html
+      \endverb
+      \verb{url}
+      \verb https://ccrma.stanford.edu/~jos/sasp/Bark_Frequency_Scale.html
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

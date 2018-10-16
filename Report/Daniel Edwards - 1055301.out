@@ -12,13 +12,23 @@
 \BOOKMARK [1][-]{section.8}{Adaptive Filter Design}{}% 12
 \BOOKMARK [2][-]{subsection.8.1}{Audiogram}{section.8}% 13
 \BOOKMARK [2][-]{subsection.8.2}{Insertion Gain}{section.8}% 14
-\BOOKMARK [2][-]{subsection.8.3}{Number of Frequency Sub-Bands}{section.8}% 15
-\BOOKMARK [1][-]{section.9}{Dynamic Compression Design}{}% 16
-\BOOKMARK [1][-]{section.10}{Success Criterion}{}% 17
-\BOOKMARK [1][-]{section.11}{Critical Evaluation of Results}{}% 18
-\BOOKMARK [2][-]{subsection.11.1}{Socioeconomic Impacts of Design}{section.11}% 19
-\BOOKMARK [1][-]{section.12}{Future Recommendations}{}% 20
-\BOOKMARK [1][-]{section.13}{Conclusion}{}% 21
-\BOOKMARK [1][-]{Appendix.a.A}{Impact Appendix - Non-Technical thing}{}% 22
-\BOOKMARK [1][-]{Appendix.a.B}{Insertion Gain Parameters}{}% 23
-\BOOKMARK [1][-]{Appendix.a.C}{Number of Filters Investigation}{}% 24
+\BOOKMARK [2][-]{subsection.8.3}{Number of Filters}{section.8}% 15
+\BOOKMARK [1][-]{section.9}{Uniform, Critical-like, Symmetric and 1/3 Octave Filter Bank Design}{}% 16
+\BOOKMARK [2][-]{subsection.9.1}{Uniform Filter Bank Design}{section.9}% 17
+\BOOKMARK [2][-]{subsection.9.2}{Critical-like Filter Bank Design}{section.9}% 18
+\BOOKMARK [2][-]{subsection.9.3}{Symmetric Filter Bank Design}{section.9}% 19
+\BOOKMARK [2][-]{subsection.9.4}{Octave Filter Bank Design}{section.9}% 20
+\BOOKMARK [1][-]{section.10}{ANSIXXXX Design}{}% 21
+\BOOKMARK [1][-]{section.11}{Dynamic Compression Design}{}% 22
+\BOOKMARK [1][-]{section.12}{Success Criterion}{}% 23
+\BOOKMARK [1][-]{section.13}{Critical Evaluation of Results}{}% 24
+\BOOKMARK [2][-]{subsection.13.1}{Socioeconomic Impacts of Design}{section.13}% 25
+\BOOKMARK [1][-]{section.14}{Future Recommendations}{}% 26
+\BOOKMARK [1][-]{section.15}{Conclusion}{}% 27
+\BOOKMARK [1][-]{Appendix.a.A}{Impact Appendix - Non-Technical thing}{}% 28
+\BOOKMARK [1][-]{Appendix.a.B}{Insertion Gain Parameters}{}% 29
+\BOOKMARK [1][-]{Appendix.a.C}{Number of Filters Investigation}{}% 30
+\BOOKMARK [1][-]{Appendix.a.D}{Bark-Scale}{}% 31
+\BOOKMARK [1][-]{Appendix.a.E}{Critical-Like Filter Bank Frequency Bands}{}% 32
+\BOOKMARK [1][-]{Appendix.a.F}{Symmetric Filter Bank Frequency Bands}{}% 33
+\BOOKMARK [1][-]{Appendix.a.G}{Octave Filter Bank Frequency Bands}{}% 34

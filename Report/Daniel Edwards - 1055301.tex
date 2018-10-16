@@ -4,6 +4,8 @@
 \usepackage{placeins}
 \usepackage{siunitx}
 \usepackage{amsmath}
+\usepackage{caption}
+\usepackage{subcaption}
 \usepackage{adjustbox}
 \usepackage[margin=1in]{geometry}
 \usepackage{pgfplotstable}
@@ -100,8 +102,9 @@ put something in about Ricketts and avoiding noise - isolation, say something ab
 \noindent McCowan \cite{mccowan} provides a comprehensive explanation of the wave propagation and various algorithms to determine directivity. This paper evaluates the performance of these algorithms within this context to determine the optimum solution.
 
 Put something in about the number of bands that increases the matching error
-Put the stuff about the audiogram gain factor thingy
-
+Put the stuff about the audiogram gain factor thingy\\
+mention stuff about why digital is better than analog\\
+talk about group delay
 \section{Design Objectives}
 
 \noindent What the design intends to solve.
@@ -128,14 +131,21 @@ constrains: 8kHz, response time
 \noindent In this system, the adaptive filtering component is optimised for the audiogram matching error and response time. 
 
 
-Mention the compression aspect
+Mention the compression aspect\\
+compare a bunch of different designs\\
+find the best one\\
+choose DSP and stuff from there\\
+digital filters\\
+ideal filter bank
 
 \section{Adaptive Filter Design}
 
-State the factors that contribute to the optimisation
+State the factors that contribute to the optimisation\\
 \noindent The adaptive filter is a filter bank which consists of an array of bandpass filters. Each of the bandpass filters operate with a particular frequency range and gain. This design subsection aims to utilise this frequency bank rectify a patients audiogram. This audiogram is presented in Section \ref{sec:audiogram}.\\
 
-\noindent \textbf{Approach:} Research proved that there are multiple filter bank types used to rectifying a patients audiogram. To determine the optimum design, each of these systems will be considered. Sections XXX...XXX present the design of the uniform, critical-like, symmetric and $1/3$ octave filter banks with similar design consideration discussed in Section \ref{sec:numFreqBands}...XXX. These designs will also be compared to the ANSIXXX specification presented in Section XXX.
+\noindent \textbf{Approach:} Research proved that there are multiple filter bank types used to rectifying a patients audiogram. To determine the optimum design, each of these systems will be considered. Sections \ref{sec:uniDesign}, \ref{sec:critDesign}, \ref{sec:symmDesign} and \ref{sec:octDesign} present the design of the uniform, critical-like, symmetric and $1/3$ octave filter banks with similar design consideration discussed in Section \ref{sec:numFreqBands}...XXX. These designs will also be compared to the ANSIXXX specification presented in Section \ref{sec:ansi}.
+
+Mention stuff about uniform and non-uniform filter banks
 
 \subsection{Audiogram}
 \label{sec:audiogram}
@@ -152,6 +162,7 @@ State the factors that contribute to the optimisation
 \noindent The filter bank aims match the conductive hearing loss patients audiogram to the normal hearing audiogram.
 
 \subsection{Insertion Gain}
+\label{sec:insertGain}
 
 \noindent The filter bank corrects the audiogram by applying gain to particular frequencies. This is defined as insertion gain. In this design, the insertion gain is calculated using the NAL-R formulas given in equation \ref{eqn:nalRp}.
 
@@ -160,23 +171,104 @@ State the factors that contribute to the optimisation
 \begin{aligned}
 H_{3FA} &= (H_{500} + H_{1k} + H_{2k})/3 \\
 X &= 0.15 \times H_{3FA} \\ 
-IG_I &= X + (0.31\times H_i) + k_i
+IG_i &= X + (0.31\times H_i) + k_i
 \end{aligned}
 \end{equation}
 
-\noindent Where $H_{3FA} = (H_{500} + H_{1k} + H_{2k})/3$, X is XXXXXX, $IG_i$ is the insertion gain, $H_i$ is the audiogram value at the $i^{th}$ sampled frequency and $k_i$ is a constant given by Table \ref{tab:kiVal} in Appendix \ref{app:insertGainParam}.
+\noindent Where X is XXXXXX, $IG_i$ is the insertion gain, $H_i$ is the audiogram value at the $i^{th}$ sampled frequency and $k_i$ is a constant at the $i^{th}$ sampled frequency given by Table \ref{tab:kiVal} in Appendix \ref{app:insertGainParam}. Similarly to the audiogram, the insertion gain values were interpolated using \texttt{MATLAB's} \texttt{pchip} function. The insertion gains for the full frequency range is illustrated in Figure \ref{fig:igFreqRange}.
 
-Mention the standard and put the equation in. 
-Talk about using interpolation to get the insertion gain for the entire frequency range. Put a graph.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\linewidth]{igFreqRange.PNG}
+\caption{Interpolated Insertion Gain for Full Frequency Range}
+\label{fig:igFreqRange}
+\end{figure}  
 
-\subsection{Number of Frequency Sub-Bands} 
+\subsection{Number of Filters} 
 \label{sec:numFreqBands}
 
-\noindent As stated above, the filter bank consists of multiple bandpass filters, each with a specific sub-band. Therefore, the number of filters used must be investigated, particularly for the uniform, critical-like, symmetric and $1/3$ octave filter banks designs. A uniform filter bank was used to investigate the effect that increasing the number of filters has on matching error and computational complexity. Appendix \ref{app:numFilt} provides the details of the filters used in this investigation. Figure XXX and XXX illustrate the matching error for each band across the frequency range and the mean error for each number of frequency bands respectively.
+\noindent As stated above, the filter bank consists of multiple bandpass filters, each with a specific sub-band. Therefore, the number of filters used must be investigated, particularly for the uniform, critical-like, symmetric and $1/3$ octave filter banks designs. A uniform filter bank was used to investigate the effect that increasing the number of filters has on matching error and computational complexity. Appendix \ref{app:numFilt} provides the details of the filters used in this investigation. Figure \ref{fig:numBandsErrorFreq} and \ref{fig:numBandsErrorBand} illustrate the matching error for each band across the frequency range and the mean error for each number of frequency bands respectively.
 
-put the graphs in
+\begin{figure}
+\centering
+\begin{minipage}{.45\linewidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{numBandsErrorFreq.png}
+  \captionof{figure}{Matching Error Across Frequency Spectrum per Filter Bank}
+  \label{fig:numBandsErrorFreq}
+\end{minipage}%
+\begin{minipage}{.45\linewidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{numBandErrorBand.png}
+  \captionof{figure}{Mean Matching Error per Filter Bank}
+  \label{fig:numBandsErrorBand}
+\end{minipage}
+\end{figure}
+
+\noindent This section investigates the effect of increases the number of filters in the filter bank. The large errors therefore, are not a concern at this point. Figure \ref{fig:numBandsErrorBand} illustrates that increasing the number of bands, decreases the mean matching error. Therefore, the design should aim to maximise the number of filters.
+
+the number of filters emphasises the frequency bands that need to be adjusted.
+
+\section{Uniform, Critical-like, Symmetric and Octave Filter Bank Design}
+
+\noindent This section aims to optimise the structure of the filter bank's frequency bands. Therefore, a comparison between a uniform (Section \ref{sec:uniDesign}), critical-like (Section \ref{sec:critDesign}), symmetric (Section \ref{sec:symmDesign}) and octave (Section \ref{sec:octDesign}) filter banks will be made. The best performing filter bank will then be compared to the ANSIXXX designed in Section \ref{sec:ansi}. To draw a fair comparison, all of the filters will be design with the parameters given in Table \ref{tab:numFilt_FiltSpec} in Appendix \ref{app:numFilt}. Each filter bank will consist of $8$ bandpass filters. Furthermore, since a comparison is being drawn, the same insertion gain method as in Section \ref{sec:insertGain} will be used.
+
+\subsection{Uniform Filter Bank Design}
+\label{sec:uniDesign}
+
+\noindent A uniform filter bank consist of an array of evenly spaced, filters with equal bandwidths \cite{chang}. Uniform filter banks are simple and easy to implement. However, for a sufficient resolution, uniform filter banks requires more bands than non-uniform filter banks for a good fit. The additional filters implies that more computations are required and thus, the filter bank's group delay is potentially increased \cite{brennan}. Section \ref{sec:numFreqBands}'s simulation utilised a uniform filter bank which yielded a mean matching error of $30.78dB$.
 
 
+\subsection{Critical-like Filter Bank Design}
+\label{sec:critDesign}
+
+\noindent This filter is forms part of the non-uniform filter bank category. This filter design attempts to account for the psychoacoustic characteristics using the critical bands of the Bark Scale \cite{chong}. Table \ref{tab:bark} in Appendix \ref{app:bark} provides the Bark scale's critical frequency band information. In this investigation, we are limited to using $8$ filters and a maximum frequency of $8kHz$. Therefore, the filters will correspond to the frequency bands in Table \ref{tab:critFiltFreqBand} of Appendix \ref{app:critFiltFreqBand}.	This design achieved an average and maximum matching error of $0.8957dB$ and $11.4dB$ respectively. The matching error for the full frequency spectrum is illustrated in Figure \ref{fig:critMatErr}.
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\linewidth]{critMatErr.PNG}
+\caption{Matching Error for Critical-Like Filter Bank}
+\label{fig:critMatErr}
+\end{figure}  
+
+
+\subsection{Symmetric Filter Bank Design}
+\label{sec:symmDesign}
+
+\noindent Symmetric filter banks provde an improvement on the uniform filter bank. The non-uniform sub-bands are symmetric about the center frequency of the frequency spectrum, in this case $4kHz$. Symmetric filter banks have the ability of enhancing the matching error of low and high, or mid frequencies \cite{sebastian}. Figure \ref{fig:normCondAudio} illustrates that the threshold of a conductive hearing loss patient is worse at the low and high frequencies. Therefore, the frequency bands will be chosen such that these frequencies are emphasised. Table \ref{tab:symFreqBand} in Appendix \ref{app:symFreqBands} illustrates the bands used in this investigation. Simulation illustrated that the symmetric filter bank acheived an average error of $0.795dB$ with a maximum matching error of $6.44dB$.  The matching error for the full frequency spectrum is illustrated in Figure \ref{fig:symMatErr}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\linewidth]{symMatErr.PNG}
+\caption{Matching Error for Symmetric Filter Bank}
+\label{fig:symMatErr}
+\end{figure}  
+
+
+
+\subsection{Octave Filter Bank Design}
+\label{sec:octDesign}
+
+\noindent As stated above, separating a frequency spectrum into octaves allows for the quality of sound to be measure and by derivative, improved \cite{octave}. It is therefore natural for a filter bank to be designed using this principle. Each filter bank sub-band will have a center frequency relative to the reference sub-band center frequency $f_c [0] = 1000Hz$ \cite{octFreqCalc}. The center frequency of each sub-band is calculated using equation \ref{eqn:octCentFreq}. The corresponding upper $(f_{cu})$ and lower $(f_{cl})$ passband frequencies are calculated using equation \ref{eqn:octFreqEdge} \cite{octFreqCalc}.
+%
+\begin{equation}
+\label{eqn:octCentFreq}
+f_c[k-1] = f[k]/2 
+\end{equation}
+\begin{equation}
+\begin{aligned}
+\label{eqn:octFreqEdge}
+f_{cu}[k] &= \frac{f_c[k] }{2^{1/2}}\\
+f_{cl}[k] &= 2^{1/2}\times f_c[k]
+\end{aligned}
+\end{equation}
+%
+
+\noindent The center frequencies for this filter bank are chosen to be $63Hz$, $125Hz$, $250Hz$, $500Hz$, $1kHz$, $2kHz$, $4kHz$ and $8kHz$ which results in the filter specifications given in Table \ref{tab:octFreqBands} of Appendix \ref{app:octFreqBands}.
+
+\section{ANSIXXXX Design}
+\label{sec:ansi}
 
 \section{Dynamic Compression Design}
 
@@ -185,7 +277,7 @@ put the graphs in
 
 \section{Critical Evaluation of Results}
 
-\
+
 
 \subsection{Socioeconomic Impacts of Design}
 
@@ -205,7 +297,7 @@ put the graphs in
 \section{Insertion Gain Parameters}
 \label{app:insertGainParam}
 
-\noindent The values of $k_i$ and $PC$ is determined by Table \ref{tab:kiVal} and Table XXX respectively.
+\noindent The values of $k_i$ is determined by Table \ref{tab:kiVal}.
 
 % Table generated by Excel2LaTeX from sheet 'Insertion Gain ParametersFre'
 \begin{table}[htbp]
@@ -462,7 +554,194 @@ put the graphs in
   \label{tab:filtPara8Band}%
 \end{table}%
 
+\section{Bark-Scale}
+\label{app:bark}
 
+\noindent Table \ref{tab:bark} provides the critical frequency bands of the Bark-scale \cite{bark}.
+
+% Table generated by Excel2LaTeX from sheet 'Bark Scale'
+\begin{table}[htbp]
+  \centering
+  \caption{Bark-scale Critical Frequency Bands}
+    \begin{tabular}{|r|r|r|r|}
+    \hline
+    \multicolumn{1}{|l|}{\textbf{Number}} & \multicolumn{1}{l|}{\textbf{Center Frequency (Hz) }} & \multicolumn{1}{l|}{\textbf{Cut-Off Frequency (Hz)}} & \multicolumn{1}{l|}{\textbf{Bandwidth (Hz)}} \\
+    \hline
+          &       & 20    &  \\
+    \hline
+    1     & 60    & 100   & 80 \\
+    \hline
+    2     & 150   & 200   & 100 \\
+    \hline
+    3     & 250   & 300   & 100 \\
+    \hline
+    4     & 350   & 400   & 100 \\
+    \hline
+    5     & 450   & 510   & 110 \\
+    \hline
+    6     & 570   & 630   & 120 \\
+    \hline
+    7     & 700   & 770   & 140 \\
+    \hline
+    8     & 840   & 920   & 150 \\
+    \hline
+    9     & 1000  & 1080  & 160 \\
+    \hline
+    10    & 1170  & 1270  & 190 \\
+    \hline
+    11    & 1370  & 1480  & 210 \\
+    \hline
+    12    & 1600  & 1720  & 240 \\
+    \hline
+    13    & 1850  & 2000  & 280 \\
+    \hline
+    14    & 2150  & 2320  & 320 \\
+    \hline
+    15    & 2500  & 2700  & 380 \\
+    \hline
+    16    & 2900  & 3150  & 450 \\
+    \hline
+    17    & 3400  & 3700  & 550 \\
+    \hline
+    18    & 4000  & 4400  & 700 \\
+    \hline
+    19    & 4800  & 5300  & 900 \\
+    \hline
+    20    & 5800  & 6400  & 1100 \\
+    \hline
+    21    & 7000  & 7700  & 1300 \\
+    \hline
+    22    & 8500  & 9500  & 1800 \\
+    \hline
+    23    & 10500 & 12000 & 2500 \\
+    \hline
+    24    & 13500 & 15500 & 3500 \\
+    \hline
+    \end{tabular}%
+  \label{tab:bark}%
+\end{table}%
+
+
+\section{Critical-Like Filter Bank Frequency Bands}
+
+\label{app:critFiltFreqBand}
+
+\noindent Within the Bark range, bands 22,23 and 24 fall outside of the $8kHz$ constraint and are therefore, ignored. The remaining 21 bands are divided into 8 sub-bands by grouping together 2 or 3 sub-bands. According to the audiogram used in this design, the greatest hearing loss occurs within the $1kHz$ to $3kHz$ range. Therefore, a greater resolution is required within this frequency range. The frequency bands used in this investigation are therefore given in Table \ref{tab:critFiltFreqBand}.
+
+% Table generated by Excel2LaTeX from sheet 'Bark Scale'
+\begin{table}[htbp]
+  \centering
+  \caption{Frequency Range per Sub-band for Critical-Like Filter Bank}
+  \begin{adjustbox}{width=0.9\linewidth}
+    \begin{tabular}{|c|r|r|r|r|}
+    \hline
+    \multicolumn{1}{|l|}{\textbf{Band}} & \multicolumn{1}{l|}{\textbf{Number}} & \multicolumn{1}{l|}{\textbf{Center Frequency (Hz) }} & \multicolumn{1}{l|}{\textbf{Cut-Off Frequency (Hz)}} & \multicolumn{1}{l|}{\textbf{Bandwidth (Hz)}} \\
+    \hline
+          &       &       & 20    &  \\
+    \hline
+    \multirow{3}[6]{*}{1} & 1     & 60    & 100   & 80 \\
+\cline{2-5}          & 2     & 150   & 200   & 100 \\
+\cline{2-5}          & 3     & 250   & 300   & 100 \\
+    \hline
+    \multirow{3}[6]{*}{2} & 4     & 350   & 400   & 100 \\
+\cline{2-5}          & 5     & 450   & 510   & 110 \\
+\cline{2-5}          & 6     & 570   & 630   & 120 \\
+    \hline
+    \multirow{3}[6]{*}{3} & 7     & 700   & 770   & 140 \\
+\cline{2-5}          & 8     & 840   & 920   & 150 \\
+\cline{2-5}          & 9     & 1000  & 1080  & 160 \\
+    \hline
+    \multirow{2}[4]{*}{4} & 10    & 1170  & 1270  & 190 \\
+\cline{2-5}          & 11    & 1370  & 1480  & 210 \\
+    \hline
+    \multirow{2}[4]{*}{5} & 12    & 1600  & 1720  & 240 \\
+\cline{2-5}          & 13    & 1850  & 2000  & 280 \\
+    \hline
+    \multirow{2}[4]{*}{6} & 14    & 2150  & 2320  & 320 \\
+\cline{2-5}          & 15    & 2500  & 2700  & 380 \\
+    \hline
+    \multirow{3}[6]{*}{7} & 16    & 2900  & 3150  & 450 \\
+\cline{2-5}          & 17    & 3400  & 3700  & 550 \\
+\cline{2-5}          & 18    & 4000  & 4400  & 700 \\
+    \hline
+    \multirow{3}[6]{*}{8} & 19    & 4800  & 5300  & 900 \\
+\cline{2-5}          & 20    & 5800  & 6400  & 1100 \\
+\cline{2-5}          & 21    & 7000  & 7700  & 1300 \\
+    \hline
+    \end{tabular}%
+    \end{adjustbox}
+  \label{tab:critFiltFreqBand}%
+\end{table}%
+
+\section{Symmetric Filter Bank Frequency Bands} 
+\label{app:symFreqBands}
+
+\noindent Table \ref{tab:symFreqBand} summarises the frequency bands used to investigate the performance of the symmetric filter bank design. Because the human hearing frequency spectrum begins at $20Hz$, the first sub-band is not symmetric to the last sub-band. However, there is only a $4\%$ difference which is negligible. The transition bandwidth for the first sub-band however, will be $20Hz$. Since only the transition bandwidth of the first sub-band is affected, this affect is also ignored.
+
+% Table generated by Excel2LaTeX from sheet 'Symmetric'
+\begin{table}[htbp]
+  \centering
+  \caption{Symmetric Filter Bank Frequency Bands}
+  \begin{adjustbox}{width=0.9\linewidth}
+    \begin{tabular}{|r|r|r|r|}
+    \hline
+    \multicolumn{1}{|l|}{\textbf{Band Number}} & \multicolumn{1}{l|}{\textbf{Lower Passband Frequency $(Hz)$}} & \multicolumn{1}{l|}{\textbf{Upper Passband Frequency $(Hz)$}} & \multicolumn{1}{l|}{\textbf{Bandwidth $(Hz)$}} \\
+    \hline
+    1     & 20    & 500   & 480 \\
+    \hline
+    2     & 500   & 1000  & 500 \\
+    \hline
+    3     & 1000  & 2000  & 1000 \\
+    \hline
+    4     & 2000  & 4000  & 2000 \\
+    \hline
+    5     & 4000  & 6000  & 2000 \\
+    \hline
+    6     & 6000  & 7000  & 1000 \\
+    \hline
+    7     & 7000  & 7500  & 500 \\
+    \hline
+    8     & 7500  & 8000  & 500 \\
+    \hline
+    \end{tabular}%
+    \end{adjustbox}
+  \label{tab:symFreqBand}%
+\end{table}%
+
+\section{Octave Filter Bank Frequency Bands}
+\label{app:octFreqBands}
+
+\noindent Table \ref{tab:octFreqBands} illustrates the frequency bands used in the octave filter bank design. Within the audio range, there exists bands at $16Hz$, $31.25Hz$ and $16kHz$. However, these bands are ignored as this design is restricted to using $8$ bands and, $16kHz$ violates the Nyquist sampling criteria.
+
+% Table generated by Excel2LaTeX from sheet 'Octave'
+\begin{table}[htbp]
+  \centering
+  \caption{Octave Filter Bank Frequency Bands}
+  \begin{adjustbox}{width=\linewidth}
+    \begin{tabular}{|r|r|r|r|}
+    \hline
+    \multicolumn{1}{|l|}{\textbf{Band}} & \multicolumn{1}{l|}{\textbf{Center Frequency (Hz)}} & \multicolumn{1}{l|}{\textbf{Lower Passband Frequency (Hz)}} & \multicolumn{1}{l|}{\textbf{Upper Passband Frequency (Hz)}} \\
+    \hline
+    1     & 63    & 45    & 89 \\
+    \hline
+    2     & 125   & 88    & 177 \\
+    \hline
+    3     & 250   & 177   & 354 \\
+    \hline
+    4     & 500   & 354   & 707 \\
+    \hline
+    5     & 1000  & 707   & 1414 \\
+    \hline
+    6     & 2000  & 1414  & 2828 \\
+    \hline
+    7     & 4000  & 2828  & 5657 \\
+    \hline
+    8     & 8000  & 5657  & 11314 \\
+    \hline
+    \end{tabular}%
+    \end{adjustbox}
+  \label{tab:octFreqBands}%
+\end{table}%
 
 
 \end{appendices}

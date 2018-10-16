@@ -4,47 +4,64 @@ clear all;
 %Set up audiogram
 Fh = 8000;
 steps = 50;
-audioX = [125 250 500 1000 2000 4000 8000];
-audioConY = [-50 -50 -45 -45 -60 -50 -60];
+audioX = [250 500 1000 2000 4000 8000];
+audioConY = [-50 -45 -45 -60 -50 -60];
 xq = 0:50:8000;
 pCond = pchip(audioX, audioConY, xq);
 
-audioNormY = [0 0 -8 -5 0 -10 0];
+audioNormY = [0 -8 -5 0 -10 0];
 pNorm = pchip(audioX, audioNormY, xq);
+% 
+% figure;
+% plot(xq, pNorm);
+% hold on;
+% plot(xq, pCond);
+% xlabel('Frequency (Hz)');
+% ylabel('Hearing Loss (dB)');
+% legend('Normal', 'Conductive');
 
-figure;
-plot(xq, pNorm);
-hold on;
-plot(xq, pCond);
-xlabel('Frequency (Hz)');
-ylabel('Hearing Loss (dB)');
-legend('Normal', 'Conductive');
+audioConY = -1*audioConY;
 
+H3FA = (audioConY(2) + audioConY(3) + audioConY(4))/3;
+X = 0.15*H3FA;
+ki = [-17 -8 1 -1 -2 -2 -2];
+
+IG = 1:length(audioConY);
+for i=1:length(audioConY)
+   IG(i) = X + (0.31*H3FA) + ki(i);
+end
+
+pIG = pchip(audioX, IG, xq);
+
+% figure;
+% plot(xq, pIG);
+% xlabel('Frequency (Hz)');
+% ylabel('Insertion Gain (dB)');
 
 filtX = [250 500 1000 1500 2000 2500 3000 3500 4000 4500 5000 5500 6000 6500 7000 7500 8000];
 
-band1 = [65.65 66.67 67.55 67.34 67.36 67.35 67.43 67.35 67.3 67.5 67.2 67.4 67.5 67.1 67.56 67.4 65.7];
+band1 = [20 20.8 20.9 21.04 21 20.76 20.8 21 21.05 20.84 20.75 20.96 21.04 20.9 20.82 21.05 20.2];
 pb1 = pchip(filtX, band1, xq);
 
-band2 = [57.6 57.89 58.84 58.6 57.2 56.5 59.04 61.25 73.5 75.9 75.9 75.85 75.85 75.86 75.88 75.92 75];
+band2 = [19.3 20.9 20.85 20.93 20.9 20.8 20.95 20.95 22.1 21.14 21 20.9 20.98 21.04 20.98 20.95 20.2];
 pb2 = pchip(filtX, band2, xq);
 
-band3 = [59.08 56.8 58.4 59.2 59.65 69.45 71.35 71 70.85 71.5 71.85 71.88 78.25 78.15 78.1 78.21 76];
+band3 = [19.8 20.85 20.8 20.5 20.58 21.2 23.5 21.15 20.9 20.95 21.1 21.05 20.9 21.02 20.8 21 20.4];
 pb3 = pchip(filtX, band3, xq);
 
-band4 = [61.65 61.6 61.7 62 65.2 66.3 65.75 64.75 70.7 72.94 73.7 73.5 75.5 78.52 78.5 78.46 77.6];
+band4 = [19.8 20.34 20.3 20.35 20.95 21.35 21.36 21.43 22.8 21.15 21.05 21 22.85 21.05 21.1 21 21.35];
 pb4 = pchip(filtX, band4, xq);
 
-band5 = [52.9 52.65 63 55.54 63.77 63.5 63.85 67.8 71.4 71.85 69.15 76 76.65 75.9 78.1 79.76 79];
+band5 = [18.95 20.1 20.27 20.3 20.95 21.7 21.65 23 21 20.95 20.9 20.95 20.92 20.9 21.3 20.95 20.1];
 pb5 = pchip(filtX, band5, xq);
 
-band6 = [54 54.5 54.1 58 61.95 60.5 67.5 68.78 69 72.4 74.54 74.54 76.96 78.4 77.5 70.5 78.5];
+band6 = [18.95 19.5 19.6 21.3 21.9 22.05 23.4 21.2 21.19 22.05 20.9 21.2 22.5 21 20.95 21.2 20.3];
 pb6 = pchip(filtX, band6, xq);
 
-band7 = [50.02 51.86 52.05 59.43 58.85 64.5 66.32 65.3 70.8 71.1 74.05 74.65 77.2 78.2 76.44 79.8 78.3];
+band7 = [18.2 19.25 19.3 21 22.3 23.95 21.2 21.8 21 21 21.2 21.1 22.9 21.1 21.3 20.9 20];
 pb7 = pchip(filtX, band7, xq);
 
-band8 = [41.5 41.7 44.5 45.1 48.85 46.9 67.65 69.05 69.4 72.8 72.3 74.35 77.5 77.25 78.73 77.61 75.5];
+band8 = [18.7 17.5 21.8 23.5 23.5 21.9 21.5 21.3 22.8 21 23 20.9 22.5 20.8 23.3 21.2 20.9];
 pb8 = pchip(filtX, band8, xq);
 
 matchError1 = abs(plus(pb1,  pCond));
@@ -88,13 +105,13 @@ meanErrors(8) = mean(matchError8);
 
 figure;
 plot(meanErrors);
-xlabel('Number of Bands');
-ylabel('Mean Error (dB)');
+xlabel('Number of Filters');
+ylabel('Mean Matching Error (dB)');
 
 %plot(xq, pb1);
 
 %plot(xq, p);
 
-%mean(p(138:161))
+mean(pIG(81:101))
     
 
