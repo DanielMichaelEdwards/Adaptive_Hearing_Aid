@@ -6,7 +6,7 @@ Fh = 8000;
 steps = 50;
 audioX = [250 500 1000 2000 4000 8000];
 audioConY = [-50 -45 -45 -60 -50 -60];
-xq = 0:50:8000;
+xq = 0:25:8000;
 pCond = pchip(audioX, audioConY, xq);
 
 audioNormY = [0 -8 -5 0 -10 0];

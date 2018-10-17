@@ -787,6 +787,37 @@
       \verb https://ccrma.stanford.edu/realsimple/aud_fb/Third_Octave_Filter_Banks.html
       \endverb
     \endentry
+    \entry{ansiDoc}{book}{}
+      \name{author}{2}{}{%
+        {{hash=452781c4074d46f949f8af7a9e6ab5a9}{%
+           family={Federal\bibnamedelima Register},
+           familyi={F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={The\bibnamedelimb Executive\bibnamedelimb Director\bibnamedelima Office},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim O\bibinitperiod},
+           prefix={of\bibnamedelima the},
+           prefixi={o\bibinitperiod\bibinitdelim t\bibinitperiod}}}%
+        {{hash=31d2d8bee9be7639541424f56435b222}{%
+           family={Accredited\bibnamedelimb Standards\bibnamedelimb Institute\bibnamedelimb Committee\bibnamedelima S1},
+           familyi={A\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Acoustics},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Acoustical Society of America (ASA)}%
+      }
+      \strng{namehash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \strng{fullhash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \strng{bibnamehash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \strng{authorbibnamehash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \strng{authornamehash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \strng{authorfullhash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American National Standard Specification for Octave-Band and Fractional-Octave-Band Analog and Digital Filters}
+      \field{title}{American National Standard Specification for Octave-Band and Fractional-Octave-Band Analog and Digital Filters}
+    \endentry
     \entry{bark}{misc}{}
       \name{author}{1}{}{%
         {{hash=438418c7ecd91754acabbd3bb4378361}{%

@@ -2009,15 +2009,19 @@
     <bcf:citekey order="32">munir</bcf:citekey>
     <bcf:citekey order="33">audioMaxFreq</bcf:citekey>
     <bcf:citekey order="34">mccowan</bcf:citekey>
-    <bcf:citekey order="35">mahmoud</bcf:citekey>
-    <bcf:citekey order="36">chang</bcf:citekey>
-    <bcf:citekey order="37">brennan</bcf:citekey>
-    <bcf:citekey order="38">chong</bcf:citekey>
-    <bcf:citekey order="39">sebastian</bcf:citekey>
-    <bcf:citekey order="40">octave</bcf:citekey>
-    <bcf:citekey order="41">octFreqCalc</bcf:citekey>
-    <bcf:citekey order="42">octFreqCalc</bcf:citekey>
-    <bcf:citekey order="43">bark</bcf:citekey>
+    <bcf:citekey order="35">ansiDoc</bcf:citekey>
+    <bcf:citekey order="36">ansiDoc</bcf:citekey>
+    <bcf:citekey order="37">mahmoud</bcf:citekey>
+    <bcf:citekey order="38">chang</bcf:citekey>
+    <bcf:citekey order="39">brennan</bcf:citekey>
+    <bcf:citekey order="40">chong</bcf:citekey>
+    <bcf:citekey order="41">sebastian</bcf:citekey>
+    <bcf:citekey order="42">octave</bcf:citekey>
+    <bcf:citekey order="43">octFreqCalc</bcf:citekey>
+    <bcf:citekey order="44">octFreqCalc</bcf:citekey>
+    <bcf:citekey order="45">ansiDoc</bcf:citekey>
+    <bcf:citekey order="46">ansiDoc</bcf:citekey>
+    <bcf:citekey order="47">bark</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

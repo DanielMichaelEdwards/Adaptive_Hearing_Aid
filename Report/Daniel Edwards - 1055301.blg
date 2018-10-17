@@ -1,30 +1,30 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'Daniel Edwards - 1055301.blg'
-[39] biber-MSWIN64:313> INFO - === 
-[74] Biber.pm:371> INFO - Reading 'Daniel Edwards - 1055301.bcf'
-[184] Biber.pm:857> INFO - Found 26 citekeys in bib section 0
-[202] Biber.pm:3976> INFO - Processing section 0
-[218] Biber.pm:4136> INFO - Looking for bibtex format file 'ref.bib' for section 0
-[223] bibtex.pm:1500> INFO - LaTeX decoding ...
-[262] bibtex.pm:1316> INFO - Found BibTeX data source 'ref.bib'
-[277] Utils.pm:193> WARN - month field 'Jun' in entry 'qualityOfLife' is not an integer - this will probably not sort properly.
-[289] Utils.pm:193> WARN - month field 'Feb' in entry 'atlantic' is not an integer - this will probably not sort properly.
-[297] Utils.pm:193> WARN - month field 'Oct' in entry 'carroll' is not an integer - this will probably not sort properly.
-[301] Utils.pm:193> WARN - month field 'Apr' in entry 'woodford' is not an integer - this will probably not sort properly.
-[311] Utils.pm:193> WARN - month field 'Apr' in entry 'audiogram' is not an integer - this will probably not sort properly.
-[322] Utils.pm:193> WARN - month field 'Aug' in entry 'chang' is not an integer - this will probably not sort properly.
-[326] Utils.pm:193> WARN - month field 'Apr' in entry 'octave' is not an integer - this will probably not sort properly.
-[339] Utils.pm:193> WARN - month field 'Mar' in entry 'tillman' is not an integer - this will probably not sort properly.
-[355] Utils.pm:193> WARN - month field 'Mar' in entry 'munir' is not an integer - this will probably not sort properly.
-[359] Utils.pm:193> WARN - month field 'Jun' in entry 'mahmoud' is not an integer - this will probably not sort properly.
-[365] Utils.pm:193> WARN - month field 'Aug' in entry 'brennan' is not an integer - this will probably not sort properly.
-[370] Utils.pm:193> WARN - month field 'Sep' in entry 'chong' is not an integer - this will probably not sort properly.
-[375] Utils.pm:193> WARN - month field 'Jun' in entry 'octFreqCalc' is not an integer - this will probably not sort properly.
-[379] Utils.pm:193> WARN - month field 'Feb' in entry 'bark' is not an integer - this will probably not sort properly.
-[406] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[406] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[406] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[406] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[459] bbl.pm:617> INFO - Writing 'Daniel Edwards - 1055301.bbl' with encoding 'UTF-8'
-[482] bbl.pm:720> INFO - Output to Daniel Edwards - 1055301.bbl
-[491] Biber.pm:110> INFO - WARNINGS: 14
+[73] biber-MSWIN64:313> INFO - === 
+[129] Biber.pm:371> INFO - Reading 'Daniel Edwards - 1055301.bcf'
+[324] Biber.pm:857> INFO - Found 27 citekeys in bib section 0
+[354] Biber.pm:3976> INFO - Processing section 0
+[381] Biber.pm:4136> INFO - Looking for bibtex format file 'ref.bib' for section 0
+[384] bibtex.pm:1500> INFO - LaTeX decoding ...
+[435] bibtex.pm:1316> INFO - Found BibTeX data source 'ref.bib'
+[459] Utils.pm:193> WARN - month field 'Jun' in entry 'qualityOfLife' is not an integer - this will probably not sort properly.
+[476] Utils.pm:193> WARN - month field 'Feb' in entry 'atlantic' is not an integer - this will probably not sort properly.
+[486] Utils.pm:193> WARN - month field 'Oct' in entry 'carroll' is not an integer - this will probably not sort properly.
+[493] Utils.pm:193> WARN - month field 'Apr' in entry 'woodford' is not an integer - this will probably not sort properly.
+[506] Utils.pm:193> WARN - month field 'Apr' in entry 'audiogram' is not an integer - this will probably not sort properly.
+[519] Utils.pm:193> WARN - month field 'Aug' in entry 'chang' is not an integer - this will probably not sort properly.
+[524] Utils.pm:193> WARN - month field 'Apr' in entry 'octave' is not an integer - this will probably not sort properly.
+[545] Utils.pm:193> WARN - month field 'Mar' in entry 'tillman' is not an integer - this will probably not sort properly.
+[562] Utils.pm:193> WARN - month field 'Mar' in entry 'munir' is not an integer - this will probably not sort properly.
+[569] Utils.pm:193> WARN - month field 'Jun' in entry 'mahmoud' is not an integer - this will probably not sort properly.
+[578] Utils.pm:193> WARN - month field 'Aug' in entry 'brennan' is not an integer - this will probably not sort properly.
+[585] Utils.pm:193> WARN - month field 'Sep' in entry 'chong' is not an integer - this will probably not sort properly.
+[593] Utils.pm:193> WARN - month field 'Jun' in entry 'octFreqCalc' is not an integer - this will probably not sort properly.
+[613] Utils.pm:193> WARN - month field 'Feb' in entry 'bark' is not an integer - this will probably not sort properly.
+[652] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[652] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[652] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[653] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[710] bbl.pm:617> INFO - Writing 'Daniel Edwards - 1055301.bbl' with encoding 'UTF-8'
+[731] bbl.pm:720> INFO - Output to Daniel Edwards - 1055301.bbl
+[733] Biber.pm:110> INFO - WARNINGS: 14

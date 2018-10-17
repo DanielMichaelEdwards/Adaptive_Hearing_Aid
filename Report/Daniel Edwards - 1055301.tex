@@ -99,7 +99,9 @@ put something in about Ricketts and avoiding noise - isolation, say something ab
 \newline
 \noindent Munir \cite{munir} states that in telephony systems, a frequency range of $300Hz$ to $3.4kHz$ is used because this is the frequency range of voice. The human ear however, can detect a frequency range of $20Hz$ to $20kHz$. Audiograms however, typically test upto a maximum frequency of $8kHz$ \cite{audioMaxFreq}. Since this system aims to correct audiograms, this frequency range must be considered.\\
 \newline
-\noindent McCowan \cite{mccowan} provides a comprehensive explanation of the wave propagation and various algorithms to determine directivity. This paper evaluates the performance of these algorithms within this context to determine the optimum solution.
+\noindent McCowan \cite{mccowan} provides a comprehensive explanation of the wave propagation and various algorithms to determine directivity. This paper evaluates the performance of these algorithms within this context to determine the optimum solution.\\
+\newline
+\noindent ANSI S1.11 is a standardised set of performance requirements for designing octave and fractional octave filters for both analog and digital domains \cite{ansiDoc}. These requirements were developed by the Acoustical Society of America specifically for audio applications \cite{ansiDoc}. \\
 
 Put something in about the number of bands that increases the matching error
 Put the stuff about the audiogram gain factor thingy\\
@@ -137,6 +139,10 @@ find the best one\\
 choose DSP and stuff from there\\
 digital filters\\
 ideal filter bank
+
+\section{System Overview}
+
+
 
 \section{Adaptive Filter Design}
 
@@ -187,7 +193,7 @@ IG_i &= X + (0.31\times H_i) + k_i
 \subsection{Number of Filters} 
 \label{sec:numFreqBands}
 
-\noindent As stated above, the filter bank consists of multiple bandpass filters, each with a specific sub-band. Therefore, the number of filters used must be investigated, particularly for the uniform, critical-like, symmetric and $1/3$ octave filter banks designs. A uniform filter bank was used to investigate the effect that increasing the number of filters has on matching error and computational complexity. Appendix \ref{app:numFilt} provides the details of the filters used in this investigation. Figure \ref{fig:numBandsErrorFreq} and \ref{fig:numBandsErrorBand} illustrate the matching error for each band across the frequency range and the mean error for each number of frequency bands respectively.
+\noindent As stated above, the filter bank consists of multiple bandpass filters, each with a specific sub-band. Therefore, the number of filters used must be investigated, particularly for the uniform, critical-like, symmetric and octave filter banks designs. A uniform filter bank was used to investigate the effect that increasing the number of filters has on matching error and computational complexity. Appendix \ref{app:numFilt} provides the details of the filters used in this investigation. Figure \ref{fig:numBandsErrorFreq} and \ref{fig:numBandsErrorBand} illustrate the matching error for each band across the frequency range and the mean error for each number of frequency bands respectively.
 
 \begin{figure}
 \centering
@@ -209,45 +215,29 @@ IG_i &= X + (0.31\times H_i) + k_i
 
 the number of filters emphasises the frequency bands that need to be adjusted.
 
-\section{Uniform, Critical-like, Symmetric and Octave Filter Bank Design}
+\subsection{Uniform, Critical-like, Symmetric and Octave Filter Bank Design}
 
-\noindent This section aims to optimise the structure of the filter bank's frequency bands. Therefore, a comparison between a uniform (Section \ref{sec:uniDesign}), critical-like (Section \ref{sec:critDesign}), symmetric (Section \ref{sec:symmDesign}) and octave (Section \ref{sec:octDesign}) filter banks will be made. The best performing filter bank will then be compared to the ANSIXXX designed in Section \ref{sec:ansi}. To draw a fair comparison, all of the filters will be design with the parameters given in Table \ref{tab:numFilt_FiltSpec} in Appendix \ref{app:numFilt}. Each filter bank will consist of $8$ bandpass filters. Furthermore, since a comparison is being drawn, the same insertion gain method as in Section \ref{sec:insertGain} will be used.
+\noindent This section aims to optimise the structure of the filter bank's frequency bands. Therefore, a comparison between a uniform (Section \ref{sec:uniDesign}), critical-like (Section \ref{sec:critDesign}), symmetric (Section \ref{sec:symmDesign}) and octave (Section \ref{sec:octDesign}) filter banks will be made. The best performing filter bank will then be compared to the ANSI S1.11 designed in Section \ref{sec:ansi}. To draw a fair comparison, all of the filters will be design with the parameters given in Table \ref{tab:numFilt_FiltSpec} in Appendix \ref{app:numFilt}. Each filter bank will consist of $8$ bandpass filters. Initially, the transition band per sub-band was set to $10\%$ of the sub-band's bandwidth. However, through simulation, it was found that adjusting the transition bandwidth significantly affected the performance. Therefore, each sub-band's transition bandwidth is iteratively adjusted to achieve the optimal performance. This allows for the best performing filter banks to be compared. Therefore, concrete performance decisions can be made. Since a comparison is being drawn, the same insertion gain method as in Section \ref{sec:insertGain} will be used.
 
-\subsection{Uniform Filter Bank Design}
+\subsubsection{Uniform Filter Bank Design}
 \label{sec:uniDesign}
 
-\noindent A uniform filter bank consist of an array of evenly spaced, filters with equal bandwidths \cite{chang}. Uniform filter banks are simple and easy to implement. However, for a sufficient resolution, uniform filter banks requires more bands than non-uniform filter banks for a good fit. The additional filters implies that more computations are required and thus, the filter bank's group delay is potentially increased \cite{brennan}. Section \ref{sec:numFreqBands}'s simulation utilised a uniform filter bank which yielded a mean matching error of $30.78dB$.
+\noindent A uniform filter bank consist of an array of evenly spaced, filters with equal bandwidths \cite{chang}. Uniform filter banks are simple and easy to implement. However, for a sufficient resolution, uniform filter banks requires more bands than non-uniform filter banks for a good fit. The additional filters implies that more computations are required and thus, the filter bank's group delay is potentially increased \cite{brennan}. This design optimised  Section \ref{sec:numFreqBands}'s $8$ sub-band design by utilising the filter characteristics in Table \ref{tab:uniFiltSpec} of Appendix \ref{app:uniFreqBand}. This design acheived and average and maximum matching error of $1.36dB$ and $11.25dB$ respectively. The matching error across the full frequency spectrum can be seen in Figure \ref{fig:uniMatErr} of Appendix \ref{app:uniFreqBand}.
 
 
-\subsection{Critical-like Filter Bank Design}
+\subsubsection{Critical-like Filter Bank Design}
 \label{sec:critDesign}
 
-\noindent This filter is forms part of the non-uniform filter bank category. This filter design attempts to account for the psychoacoustic characteristics using the critical bands of the Bark Scale \cite{chong}. Table \ref{tab:bark} in Appendix \ref{app:bark} provides the Bark scale's critical frequency band information. In this investigation, we are limited to using $8$ filters and a maximum frequency of $8kHz$. Therefore, the filters will correspond to the frequency bands in Table \ref{tab:critFiltFreqBand} of Appendix \ref{app:critFiltFreqBand}.	This design achieved an average and maximum matching error of $0.8957dB$ and $11.4dB$ respectively. The matching error for the full frequency spectrum is illustrated in Figure \ref{fig:critMatErr}.
+\noindent This filter is forms part of the non-uniform filter bank category. This filter design attempts to account for the psychoacoustic characteristics using the critical bands of the Bark Scale \cite{chong}. Table \ref{tab:bark} in Appendix \ref{app:bark} provides the Bark scale's critical frequency band information. This investigation is limited to using $8$ filters and a maximum frequency of $8kHz$. Therefore, the sub-bands are set as shown in Table \ref{tab:critFiltFreqBand} of Appendix \ref{app:critFiltFreqBand}.	This design achieved an average and maximum matching error of $0.87dB$ and $8.15dB$ respectively. The matching error for the full frequency spectrum is illustrated in Figure \ref{fig:critMatErr} of Appendix \ref{app:critFiltFreqBand}.
 
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.6\linewidth]{critMatErr.PNG}
-\caption{Matching Error for Critical-Like Filter Bank}
-\label{fig:critMatErr}
-\end{figure}  
-
-
-\subsection{Symmetric Filter Bank Design}
+\subsubsection{Symmetric Filter Bank Design}
 \label{sec:symmDesign}
 
-\noindent Symmetric filter banks provde an improvement on the uniform filter bank. The non-uniform sub-bands are symmetric about the center frequency of the frequency spectrum, in this case $4kHz$. Symmetric filter banks have the ability of enhancing the matching error of low and high, or mid frequencies \cite{sebastian}. Figure \ref{fig:normCondAudio} illustrates that the threshold of a conductive hearing loss patient is worse at the low and high frequencies. Therefore, the frequency bands will be chosen such that these frequencies are emphasised. Table \ref{tab:symFreqBand} in Appendix \ref{app:symFreqBands} illustrates the bands used in this investigation. Simulation illustrated that the symmetric filter bank acheived an average error of $0.795dB$ with a maximum matching error of $6.44dB$.  The matching error for the full frequency spectrum is illustrated in Figure \ref{fig:symMatErr}.
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.6\linewidth]{symMatErr.PNG}
-\caption{Matching Error for Symmetric Filter Bank}
-\label{fig:symMatErr}
-\end{figure}  
+\noindent Symmetric filter banks provde an improvement on the uniform filter bank. The non-uniform sub-bands are symmetric about the center frequency of the frequency spectrum, in this case $4kHz$. Symmetric filter banks have the ability of enhancing the matching error of low and high, or mid frequencies \cite{sebastian}. Figure \ref{fig:normCondAudio} illustrates that the threshold of a conductive hearing loss patient is worse at the low and high frequencies. Therefore, the frequency bands will be chosen such that these frequencies are emphasised. Table \ref{tab:symFreqBand} in Appendix \ref{app:symFreqBands} illustrates the bands used in this investigation. Simulation illustrated that the symmetric filter bank achieved an average error of $1.34dB$ with a maximum matching error of $9.4dB$. The matching error for the full frequency spectrum is illustrated in Figure \ref{fig:symMatErr} in Appendix \ref{app:symFreqBands}.
 
 
-
-\subsection{Octave Filter Bank Design}
+\subsubsection{Octave Filter Bank Design}
 \label{sec:octDesign}
 
 \noindent As stated above, separating a frequency spectrum into octaves allows for the quality of sound to be measure and by derivative, improved \cite{octave}. It is therefore natural for a filter bank to be designed using this principle. Each filter bank sub-band will have a center frequency relative to the reference sub-band center frequency $f_c [0] = 1000Hz$ \cite{octFreqCalc}. The center frequency of each sub-band is calculated using equation \ref{eqn:octCentFreq}. The corresponding upper $(f_{cu})$ and lower $(f_{cl})$ passband frequencies are calculated using equation \ref{eqn:octFreqEdge} \cite{octFreqCalc}.
@@ -265,10 +255,15 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
 \end{equation}
 %
 
-\noindent The center frequencies for this filter bank are chosen to be $63Hz$, $125Hz$, $250Hz$, $500Hz$, $1kHz$, $2kHz$, $4kHz$ and $8kHz$ which results in the filter specifications given in Table \ref{tab:octFreqBands} of Appendix \ref{app:octFreqBands}.
+\noindent The center frequencies for this filter bank are chosen to be $63Hz$, $125Hz$, $250Hz$, $500Hz$, $1kHz$, $2kHz$, $4kHz$ and $8kHz$ which results in the filter specifications given in Table \ref{tab:octFreqBands} of Appendix \ref{app:octFreqBands}. Simulations demonstrated that this filter bank achieved an average and maximum matching error of $0.72dB$ and $10.44dB$ respectively. Figure \ref{fig:octMatErr} in Appendix \ref{app:octFreqBands} illustrates the matching error across the full frequency spectrum.
 
-\section{ANSIXXXX Design}
+\subsection{ANSI S1.11 Design}
 \label{sec:ansi}
+
+\noindent 
+
+\subsection{Filter Design Selection}
+
 
 \section{Dynamic Compression Design}
 
@@ -621,9 +616,46 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
   \label{tab:bark}%
 \end{table}%
 
+\section{Uniform Filter Bank Specifications and Results}
+\label{app:uniFreqBand}
 
-\section{Critical-Like Filter Bank Frequency Bands}
+\noindent Table \ref{tab:uniFiltSpec} provides the specifications for each sub-band in the uniform filter bank.
 
+% Table generated by Excel2LaTeX from sheet 'Uniform'
+\begin{table}[htbp]
+  \centering
+  \caption{Uniform Filter Bank Frequency Bands}
+  \begin{adjustbox}{width=0.9\linewidth}
+    \begin{tabular}{|l|r|r|r|r|r|r|r|r|}
+    \hline
+          & \multicolumn{1}{l|}{\textbf{Filter 1}} & \multicolumn{1}{l|}{\textbf{Filter 2}} & \multicolumn{1}{l|}{\textbf{Filter 3}} & \multicolumn{1}{l|}{\textbf{Filter 4}} & \multicolumn{1}{l|}{\textbf{Filter 5}} & \multicolumn{1}{l|}{\textbf{Filter 6}} & \multicolumn{1}{l|}{\textbf{Filter 7}} & \multicolumn{1}{l|}{\textbf{Filter 8}} \\
+    \hline
+    \textbf{$f_{s1} (Hz)$} & 120   & 900   & 1900  & 2900  & 3900  & 4900  & 5900  & 6900 \\
+    \hline
+    \textbf{$f_{p1} (Hz)$} & 200   & 1000  & 2000  & 3000  & 4000  & 5000  & 6000  & 7000 \\
+    \hline
+    \textbf{$f_{p2} (Hz)$} & 1000  & 2000  & 3000  & 4000  & 5000  & 6000  & 7000  & 8000 \\
+    \hline
+    \textbf{$f_{s2} (Hz)$} & 1080  & 2100  & 3100  & 4100  & 5100  & 6100  & 7100  & 8100 \\
+    \hline
+    \textbf{$Gain (dB)$} & 17,16 & 23,07 & 21,62 & 21,1  & 21    & 21    & 21    & 21 \\
+    \hline
+    \end{tabular}%
+    \end{adjustbox}
+  \label{tab:uniFiltSpec}%
+\end{table}%
+
+\noindent Figure \ref{fig:uniMatErr} illustrates the matching error of the uniform filter bank across the full frequency spectrum.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\linewidth]{uniMatErr.PNG}
+\caption{Matching Error for Symmetric Filter Bank}
+\label{fig:uniMatErr}
+\end{figure}  
+
+
+\section{Critical-Like Filter Bank Specifications and Results}
 \label{app:critFiltFreqBand}
 
 \noindent Within the Bark range, bands 22,23 and 24 fall outside of the $8kHz$ constraint and are therefore, ignored. The remaining 21 bands are divided into 8 sub-bands by grouping together 2 or 3 sub-bands. According to the audiogram used in this design, the greatest hearing loss occurs within the $1kHz$ to $3kHz$ range. Therefore, a greater resolution is required within this frequency range. The frequency bands used in this investigation are therefore given in Table \ref{tab:critFiltFreqBand}.
@@ -673,7 +705,16 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
   \label{tab:critFiltFreqBand}%
 \end{table}%
 
-\section{Symmetric Filter Bank Frequency Bands} 
+\noindent Figure \ref{fig:critMatErr} provides the matching error of the critical-like filter bank across the full frequency spectrum.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\linewidth]{critMatErr.PNG}
+\caption{Matching Error for Critical-Like Filter Bank}
+\label{fig:critMatErr}
+\end{figure}  
+
+\section{Symmetric Filter Bank Specifications and Results} 
 \label{app:symFreqBands}
 
 \noindent Table \ref{tab:symFreqBand} summarises the frequency bands used to investigate the performance of the symmetric filter bank design. Because the human hearing frequency spectrum begins at $20Hz$, the first sub-band is not symmetric to the last sub-band. However, there is only a $4\%$ difference which is negligible. The transition bandwidth for the first sub-band however, will be $20Hz$. Since only the transition bandwidth of the first sub-band is affected, this affect is also ignored.
@@ -708,10 +749,20 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
   \label{tab:symFreqBand}%
 \end{table}%
 
-\section{Octave Filter Bank Frequency Bands}
+\noindent Figure \ref{fig:symMatErr} illustrates the matching error for the full frequency spectrum of the symmetric filter bank.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\linewidth]{symMatErr.PNG}
+\caption{Matching Error for Symmetric Filter Bank}
+\label{fig:symMatErr}
+\end{figure}  
+
+
+\section{Octave Filter Bank Specifications and Results}
 \label{app:octFreqBands}
 
-\noindent Table \ref{tab:octFreqBands} illustrates the frequency bands used in the octave filter bank design. Within the audio range, there exists bands at $16Hz$, $31.25Hz$ and $16kHz$. However, these bands are ignored as this design is restricted to using $8$ bands and, $16kHz$ violates the Nyquist sampling criteria.
+\noindent Table \ref{tab:octFreqBands} illustrates the frequency bands used in the octave filter bank design. Within the audio range, there exists bands at $16Hz$, $31.25Hz$ and $16kHz$. However, the $16Hz$ and $31.25Hz$ sub-bands are ignored as this design is restricted to using $8$ bands and, $16kHz$ violates the Nyquist sampling criteria.
 
 % Table generated by Excel2LaTeX from sheet 'Octave'
 \begin{table}[htbp]
@@ -743,6 +794,14 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
   \label{tab:octFreqBands}%
 \end{table}%
 
+\noindent Figure \ref{fig:octMatErr} illustrates the matching error of the octave filter bank across the full frequency spectrum.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\linewidth]{octMatErr.PNG}
+\caption{Matching Error for Symmetric Filter Bank}
+\label{fig:octMatErr}
+\end{figure}  
 
 \end{appendices}
 \end{document}
