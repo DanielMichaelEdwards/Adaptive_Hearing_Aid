@@ -28,7 +28,6 @@
 \begin{titlepage}
 \begin{center}   
 
-
 \vspace{3 cm}
 
 
@@ -152,6 +151,7 @@ State the factors that contribute to the optimisation\\
 \noindent \textbf{Approach:} Research proved that there are multiple filter bank types used to rectifying a patients audiogram. To determine the optimum design, each of these systems will be considered. Sections \ref{sec:uniDesign}, \ref{sec:critDesign}, \ref{sec:symmDesign} and \ref{sec:octDesign} present the design of the uniform, critical-like, symmetric and $1/3$ octave filter banks with similar design consideration discussed in Section \ref{sec:numFreqBands}...XXX. These designs will also be compared to the ANSIXXX specification presented in Section \ref{sec:ansi}.
 
 Mention stuff about uniform and non-uniform filter banks
+FIR vs IIR
 
 \subsection{Audiogram}
 \label{sec:audiogram}
@@ -216,6 +216,7 @@ IG_i &= X + (0.31\times H_i) + k_i
 the number of filters emphasises the frequency bands that need to be adjusted.
 
 \subsection{Uniform, Critical-like, Symmetric and Octave Filter Bank Design}
+\label{sec:uniCritSymOct}
 
 \noindent This section aims to optimise the structure of the filter bank's frequency bands. Therefore, a comparison between a uniform (Section \ref{sec:uniDesign}), critical-like (Section \ref{sec:critDesign}), symmetric (Section \ref{sec:symmDesign}) and octave (Section \ref{sec:octDesign}) filter banks will be made. The best performing filter bank will then be compared to the ANSI S1.11 designed in Section \ref{sec:ansi}. To draw a fair comparison, all of the filters will be design with the parameters given in Table \ref{tab:numFilt_FiltSpec} in Appendix \ref{app:numFilt}. Each filter bank will consist of $8$ bandpass filters. Initially, the transition band per sub-band was set to $10\%$ of the sub-band's bandwidth. However, through simulation, it was found that adjusting the transition bandwidth significantly affected the performance. Therefore, each sub-band's transition bandwidth is iteratively adjusted to achieve the optimal performance. This allows for the best performing filter banks to be compared. Therefore, concrete performance decisions can be made. Since a comparison is being drawn, the same insertion gain method as in Section \ref{sec:insertGain} will be used.
 
@@ -260,9 +261,16 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
 \subsection{ANSI S1.11 Design}
 \label{sec:ansi}
 
-\noindent 
+\noindent Liturature extensive utilised the $1/3$-octave ANSI S1.11 as opposed to the octave ANSI S1.11 design. The $1/3$-octave design contains more sub-bands than the octave design. Therefore, according to the results found in Section \ref{sec:numFreqBands}, a $1/3$-octave ANSI S1.11 filter bank will be design. This standard utilises $29$ sub-bands. However, with the $8kHz$ maximum frequency constraint on this design, only $25$ sub-bands are required. The class $2$ attenuation specification is chosen as it allows a $1dB$ ripple which allows for an accurate comparison with the aforementioned filter banks. The stop band attenuation is set to $60dB$. This is considered to be sufficient for hearing loss applications \cite{ansiAtten}. ANSI S1.11 compliant filter banks are typically implemented using $IIR$ filters. However, for an accurate comparison, this investigation implements the ANSI S1.11 standard using $FIR$ filters. The frequency specifications are calculated as shown in Appendix \ref{app:ansiSpec} with the resulting specifications summarised in Table \ref{tab:ansiFreqSpec} of Appendix \ref{app:ansiSpec}.
+
+
+mention stuff about ANSI \\
+multirate filter
+
 
 \subsection{Filter Design Selection}
+
+\noindent From the several investigated filter bank designs, the optimal design must be chosen. This decision is based on two metrics; namely matching error performance and computational complexity. 
 
 
 \section{Dynamic Compression Design}
@@ -331,7 +339,7 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
     \hline
     Passband ripple & $1dB$ \\
     \hline
-    Transition Band & $200Hz$ \\
+    Transition Bandwidth & $200Hz$ \\
     \hline
     Design Method & Equiripple \\
     \hline
@@ -351,13 +359,13 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
     \hline
     \textbf{Parameter} & \textbf{Filter 1} \\
     \hline
-    $f_{s1} (Hz)$   & \multicolumn{1}{r|}{$20Hz$} \\
+    $f_{s1} (Hz)$   & \multicolumn{1}{r|}{$20$} \\
     \hline
-    $f_{p1} (Hz)$   & \multicolumn{1}{r|}{$250Hz$} \\
+    $f_{p1} (Hz)$   & \multicolumn{1}{r|}{$250$} \\
     \hline
-    $f_{p2} (Hz)$   & \multicolumn{1}{r|}{$8000Hz$} \\
+    $f_{p2} (Hz)$   & \multicolumn{1}{r|}{$8000$} \\
     \hline
-    $f_{s2} (Hz)$   & \multicolumn{1}{r|}{$8200Hz$} \\
+    $f_{s2} (Hz)$   & \multicolumn{1}{r|}{$8200$} \\
     \hline
     $A_{s1} (dB)$   & $G1dB + 3$ \\
     \hline
@@ -802,6 +810,90 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
 \caption{Matching Error for Symmetric Filter Bank}
 \label{fig:octMatErr}
 \end{figure}  
+
+
+\section{ANSI S1.11 Filter Bank Specifications and Results}
+\label{app:ansiSpec}
+
+\noindent Table \ref{tab:ansiFreqSpec} provides the filter specifications for the ANSI S1.11 filter bank. The lower $(f_l)$ and upper $(f_u)$ edge band frequencies are calculated as per equation \ref{eqn:ansiFreqEdge}.
+
+\begin{equation}
+\label{eqn:ansiFreqEdge}
+\begin{aligned}
+f_l &= (G^{-\frac{1}{2b}}) \times f_m \\
+f_u &= (G^{\frac{1}{2b}}) \times f_m
+\end{aligned}
+\end{equation}
+
+\noindent Where $G = 10^{3/10}$ is the octave ratio, $b$ is the bandwidth designator and $f_m$ is the center frequency of the band. Since class $2$ is chosen, the attenuation can range from $-0.5dB$ to $+0.5dB$. An iterative approach is taken to calculating the lower and upper stop band frequencies to achieve the most accurate frequency response.	
+
+% Table generated by Excel2LaTeX from sheet 'ANSI'
+\begin{table}[htbp]
+  \centering
+  \caption{ANSI S1.11 Filter Bank Frequency Bands}
+  \begin{adjustbox}{width=0.9\linewidth}
+    \begin{tabular}{|r|r|r|r|}
+    \hline
+    \multicolumn{1}{|l|}{\textbf{Band Number}} & \multicolumn{1}{l|}{\textbf{Lower Passband Frequency $(Hz)$ }} & \multicolumn{1}{l|}{\textbf{Midband Frequency $(Hz)$}} & \multicolumn{1}{l|}{\textbf{Upper Passband Frequency $(Hz)$}} \\
+    \hline
+    14    & 22    & 25    & 28 \\
+    \hline
+    15    & 28    & 31,5  & 35 \\
+    \hline
+    16    & 36    & 40    & 45 \\
+    \hline
+    17    & 45    & 50    & 56 \\
+    \hline
+    18    & 56    & 63    & 71 \\
+    \hline
+    19    & 71    & 80    & 90 \\
+    \hline
+    20    & 89    & 100   & 112 \\
+    \hline
+    21    & 111   & 125   & 140 \\
+    \hline
+    22    & 143   & 160   & 180 \\
+    \hline
+    23    & 178   & 200   & 224 \\
+    \hline
+    24    & 223   & 250   & 281 \\
+    \hline
+    25    & 281   & 315   & 353 \\
+    \hline
+    26    & 357   & 400   & 449 \\
+    \hline
+    27    & 446   & 500   & 561 \\
+    \hline
+    28    & 561   & 630   & 707 \\
+    \hline
+    29    & 713   & 800   & 898 \\
+    \hline
+    30    & 891   & 1000  & 1122 \\
+    \hline
+    31    & 1114  & 1250  & 1403 \\
+    \hline
+    32    & 1426  & 1600  & 1795 \\
+    \hline
+    33    & 1783  & 2000  & 2244 \\
+    \hline
+    34    & 2228  & 2500  & 2805 \\
+    \hline
+    35    & 2807  & 3150  & 3534 \\
+    \hline
+    36    & 3565  & 4000  & 4488 \\
+    \hline
+    37    & 4456  & 5000  & 5610 \\
+    \hline
+    38    & 5615  & 6300  & 7069 \\
+    \hline
+    39    & 7130  & 8000  & 8976 \\
+    \hline
+    \end{tabular}%
+    \end{adjustbox}
+  \label{tab:ansiFreqSpec}%
+\end{table}%
+
+
 
 \end{appendices}
 \end{document}

@@ -21,7 +21,7 @@
 \contentsline {subsubsection}{\numberline {9.4.3}Symmetric Filter Bank Design}{9}{subsubsection.9.4.3}
 \contentsline {subsubsection}{\numberline {9.4.4}Octave Filter Bank Design}{10}{subsubsection.9.4.4}
 \contentsline {subsection}{\numberline {9.5}ANSI S1.11 Design}{10}{subsection.9.5}
-\contentsline {subsection}{\numberline {9.6}Filter Design Selection}{11}{subsection.9.6}
+\contentsline {subsection}{\numberline {9.6}Filter Design Selection}{10}{subsection.9.6}
 \contentsline {section}{\numberline {10}Dynamic Compression Design}{11}{section.10}
 \contentsline {section}{\numberline {11}Success Criterion}{11}{section.11}
 \contentsline {section}{\numberline {12}Critical Evaluation of Results}{11}{section.12}
@@ -36,3 +36,4 @@
 \contentsline {section}{\numberline {F}Critical-Like Filter Bank Specifications and Results}{16}{Appendix.a.F}
 \contentsline {section}{\numberline {G}Symmetric Filter Bank Specifications and Results}{16}{Appendix.a.G}
 \contentsline {section}{\numberline {H}Octave Filter Bank Specifications and Results}{19}{Appendix.a.H}
+\contentsline {section}{\numberline {I}ANSI S1.11 Filter Bank Specifications and Results}{19}{Appendix.a.I}

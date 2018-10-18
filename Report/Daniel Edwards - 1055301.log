@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.8.29)  17 OCT 2018 11:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.8.29)  18 OCT 2018 11:19
 entering extended mode
 **"./Daniel Edwards - 1055301.tex"
 ("Daniel Edwards - 1055301.tex"
@@ -1719,19 +1719,19 @@ Package biblatex Info: ... file '"Daniel Edwards - 1055301".bbl' found.
 Package biblatex Info: Reference section=0 on input line 26.
 Package biblatex Info: Reference segment=0 on input line 26.
 
-Overfull \hbox (30.24498pt too wide) in paragraph at lines 35--35
+Overfull \hbox (30.24498pt too wide) in paragraph at lines 34--34
  [] 
  []
 
 
-Overfull \hbox (30.24498pt too wide) in paragraph at lines 37--38
+Overfull \hbox (30.24498pt too wide) in paragraph at lines 36--37
  [] 
  []
 
-<schoolLogo.png, id=154, 281.55188pt x 281.55188pt>
+<schoolLogo.png, id=158, 281.55188pt x 281.55188pt>
 File: schoolLogo.png Graphic file (type png)
 <use schoolLogo.png>
-Package pdftex.def Info: schoolLogo.png  used on input line 46.
+Package pdftex.def Info: schoolLogo.png  used on input line 45.
 (pdftex.def)             Requested size: 113.81102pt x 113.80878pt.
 [1
 
@@ -1746,82 +1746,82 @@ l.34 ...umberline {D}Bark-Scale}{14}{Appendix.a.D}
 \openout7 = `"Daniel Edwards - 1055301.toc"'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 77--80
+Underfull \hbox (badness 10000) in paragraph at lines 76--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--80
+Underfull \hbox (badness 10000) in paragraph at lines 76--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--105
+Underfull \hbox (badness 10000) in paragraph at lines 85--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--105
+Underfull \hbox (badness 10000) in paragraph at lines 85--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--105
+Underfull \hbox (badness 10000) in paragraph at lines 85--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--105
+Underfull \hbox (badness 10000) in paragraph at lines 85--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--105
+Underfull \hbox (badness 10000) in paragraph at lines 85--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--105
+Underfull \hbox (badness 10000) in paragraph at lines 85--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--105
+Underfull \hbox (badness 10000) in paragraph at lines 85--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--105
+Underfull \hbox (badness 10000) in paragraph at lines 85--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--105
+Underfull \hbox (badness 10000) in paragraph at lines 85--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--105
+Underfull \hbox (badness 10000) in paragraph at lines 85--104
 
  []
 
 [3] [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 131--134
+Underfull \hbox (badness 10000) in paragraph at lines 130--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--151
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
 
  []
 
 [6]
-<normCondAudiogram.PNG, id=303, 421.575pt x 316.18124pt>
+<normCondAudiogram.PNG, id=308, 421.575pt x 316.18124pt>
 File: normCondAudiogram.PNG Graphic file (type png)
 <use normCondAudiogram.PNG>
 Package pdftex.def Info: normCondAudiogram.PNG  used on input line 163.
 (pdftex.def)             Requested size: 281.85587pt x 211.39647pt.
-<igFreqRange.PNG, id=308, 421.575pt x 316.18124pt>
+<igFreqRange.PNG, id=313, 421.575pt x 316.18124pt>
 File: igFreqRange.PNG Graphic file (type png)
 <use igFreqRange.PNG>
 Package pdftex.def Info: igFreqRange.PNG  used on input line 188.
@@ -1831,12 +1831,12 @@ Package pdftex.def Info: igFreqRange.PNG  used on input line 188.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [7 <./normCondAudiogram.PNG (PNG copy)>]
-<numBandsErrorFreq.png, id=323, 421.575pt x 316.18124pt>
+<numBandsErrorFreq.png, id=328, 421.575pt x 316.18124pt>
 File: numBandsErrorFreq.png Graphic file (type png)
 <use numBandsErrorFreq.png>
 Package pdftex.def Info: numBandsErrorFreq.png  used on input line 202.
 (pdftex.def)             Requested size: 190.24818pt x 142.6855pt.
-<numBandErrorBand.png, id=324, 421.575pt x 316.18124pt>
+<numBandErrorBand.png, id=329, 421.575pt x 316.18124pt>
 File: numBandErrorBand.png Graphic file (type png)
 <use numBandErrorBand.png>
 Package pdftex.def Info: numBandErrorBand.png  used on input line 208.
@@ -1844,85 +1844,84 @@ Package pdftex.def Info: numBandErrorBand.png  used on input line 208.
  [8 <./igFreqRange.PNG (PNG copy)> <./numBandsErrorFreq.png (PNG copy)> <./numB
 andErrorBand.png (PNG copy)>] [9]
 [10]
-Overfull \hbox (34.04272pt too wide) in paragraph at lines 285--285
+Overfull \hbox (34.04272pt too wide) in paragraph at lines 292--292
 []\OT1/cmr/m/it/12 Audiometry test, hear-ing test\OT1/cmr/m/n/12 , Apr. 2018. [
 On-line]. Avail-able: []$\OT1/cmtt/m/n/12 https : / / www . mayfieldclinic .
  []
 
 [11]
-Overfull \hbox (4.12386pt too wide) in paragraph at lines 285--285
+Overfull \hbox (4.12386pt too wide) in paragraph at lines 292--292
 []\OT1/cmr/m/n/12 I. Mc-Cowan, ``Ro-bust speech recog-ni-tion us-ing mi-cro-pho
 ne ar-rays,'' PhD the-sis, Queens-
  []
 
 [12] [13]
-Overfull \hbox (1.88544pt too wide) in paragraph at lines 315--316
+Overfull \hbox (1.88544pt too wide) in paragraph at lines 322--323
 \OT1/cmr/m/n/12 In this in-ves-ti-ga-tion, a fil-ter bank was con-structed. Eac
 h fil-ter was de-signed us-ing \OT1/cmtt/m/n/12 Simulink's
  []
 
 
-Overfull \hbox (3.16173pt too wide) in paragraph at lines 561--617
+Overfull \hbox (3.16173pt too wide) in paragraph at lines 568--624
  [][][] 
  []
 
-<uniMatErr.PNG, id=453, 421.575pt x 316.18124pt>
+<uniMatErr.PNG, id=465, 421.575pt x 316.18124pt>
 File: uniMatErr.PNG Graphic file (type png)
 <use uniMatErr.PNG>
-Package pdftex.def Info: uniMatErr.PNG  used on input line 652.
+Package pdftex.def Info: uniMatErr.PNG  used on input line 659.
 (pdftex.def)             Requested size: 281.85587pt x 211.39647pt.
 [14] [15]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<critMatErr.PNG, id=471, 421.575pt x 316.18124pt>
+<critMatErr.PNG, id=483, 421.575pt x 316.18124pt>
 File: critMatErr.PNG Graphic file (type png)
 <use critMatErr.PNG>
-Package pdftex.def Info: critMatErr.PNG  used on input line 712.
+Package pdftex.def Info: critMatErr.PNG  used on input line 719.
 (pdftex.def)             Requested size: 281.85587pt x 211.39647pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<symMatErr.PNG, id=474, 421.575pt x 316.18124pt>
+<symMatErr.PNG, id=486, 421.575pt x 316.18124pt>
 File: symMatErr.PNG Graphic file (type png)
 <use symMatErr.PNG>
-Package pdftex.def Info: symMatErr.PNG  used on input line 756.
+Package pdftex.def Info: symMatErr.PNG  used on input line 763.
 (pdftex.def)             Requested size: 281.85587pt x 211.39647pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [16] [17] [18]
-<octMatErr.PNG, id=492, 421.575pt x 316.18124pt>
+<octMatErr.PNG, id=504, 421.575pt x 316.18124pt>
 File: octMatErr.PNG Graphic file (type png)
 <use octMatErr.PNG>
-Package pdftex.def Info: octMatErr.PNG  used on input line 801.
+Package pdftex.def Info: octMatErr.PNG  used on input line 808.
 (pdftex.def)             Requested size: 281.85587pt x 211.39647pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19 <./uniMatErr.PNG (PNG copy)>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 807.
- [20 <./critMatErr.PNG (PNG copy)> <./symMatErr.PNG (PNG copy)>] [21 <./octMatE
-rr.PNG (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 807.
+[19 <./uniMatErr.PNG (PNG copy)>] [20 <./critMatErr.PNG (PNG copy)>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 898.
+ [21 <./symMatErr.PNG (PNG copy)> <./octMatErr.PNG (PNG copy)>] [22]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 898.
 
 ("Daniel Edwards - 1055301.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 807.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 807.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 898.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 898.
 Package rerunfilecheck Info: File `"Daniel Edwards - 1055301".out' has not chan
 ged.
-(rerunfilecheck)             Checksum: EE47AFF474CF36D15F8C7A5AC88A27A4;2543.
+(rerunfilecheck)             Checksum: 7BD38DB26C5472D958D8FBF5395BB76C;2632.
 Package logreq Info: Writing requests to '"Daniel Edwards - 1055301".run.xml'.
 \openout1 = `"Daniel Edwards - 1055301.run.xml"'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 807.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 898.
  ) 
 Here is how much of TeX's memory you used:
- 48409 strings out of 492973
- 1094050 string characters out of 3126249
- 1617593 words of memory out of 3000000
- 51560 multiletter control sequences out of 15000+200000
+ 48420 strings out of 492973
+ 1094263 string characters out of 3126249
+ 1617850 words of memory out of 3000000
+ 51566 multiletter control sequences out of 15000+200000
  541496 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,11n,98p,1250b,1713s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1930,18 +1929,22 @@ Here is how much of TeX's memory you used:
 s/cm/cmbx12.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmcsc10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Daniel/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Daniel/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/User
-s/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Daniel/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/User
+s/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10
 .pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmr7.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr8.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Daniel/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on "Daniel Edwards - 1055301.pdf" (22 pages, 464144 bytes).
+onts/cm/cmr12.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr6.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Daniel/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Daniel/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/D
+aniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmti12.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmtt12.pfb>
+Output written on "Daniel Edwards - 1055301.pdf" (23 pages, 495952 bytes).
 PDF statistics:
- 567 PDF objects out of 1000 (max. 8388607)
- 117 named destinations out of 1000 (max. 500000)
- 354 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 599 PDF objects out of 1000 (max. 8388607)
+ 122 named destinations out of 1000 (max. 500000)
+ 362 words of extra memory for PDF output out of 10000 (max. 10000000)
 

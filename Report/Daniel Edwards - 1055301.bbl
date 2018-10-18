@@ -643,6 +643,37 @@
       \verb https://www.asha.org/public/hearing/audiogram/
       \endverb
     \endentry
+    \entry{ansiDoc}{book}{}
+      \name{author}{2}{}{%
+        {{hash=452781c4074d46f949f8af7a9e6ab5a9}{%
+           family={Federal\bibnamedelima Register},
+           familyi={F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={The\bibnamedelimb Executive\bibnamedelimb Director\bibnamedelima Office},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim O\bibinitperiod},
+           prefix={of\bibnamedelima the},
+           prefixi={o\bibinitperiod\bibinitdelim t\bibinitperiod}}}%
+        {{hash=31d2d8bee9be7639541424f56435b222}{%
+           family={Accredited\bibnamedelimb Standards\bibnamedelimb Institute\bibnamedelimb Committee\bibnamedelima S1},
+           familyi={A\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Acoustics},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Acoustical Society of America (ASA)}%
+      }
+      \strng{namehash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \strng{fullhash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \strng{bibnamehash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \strng{authorbibnamehash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \strng{authornamehash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \strng{authorfullhash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American National Standard Specification for Octave-Band and Fractional-Octave-Band Analog and Digital Filters}
+      \field{title}{American National Standard Specification for Octave-Band and Fractional-Octave-Band Analog and Digital Filters}
+    \endentry
     \entry{mahmoud}{misc}{}
       \name{author}{1}{}{%
         {{hash=9cf5516e174d4dcaf3fdb9ea8ec640a9}{%
@@ -734,8 +765,8 @@
       \strng{authorbibnamehash}{330d7f8ed56cbc02681df8dc25e4022f}
       \strng{authornamehash}{330d7f8ed56cbc02681df8dc25e4022f}
       \strng{authorfullhash}{330d7f8ed56cbc02681df8dc25e4022f}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: EXPRESS BRIEFS}
@@ -787,36 +818,46 @@
       \verb https://ccrma.stanford.edu/realsimple/aud_fb/Third_Octave_Filter_Banks.html
       \endverb
     \endentry
-    \entry{ansiDoc}{book}{}
+    \entry{ansiAtten}{article}{}
       \name{author}{2}{}{%
-        {{hash=452781c4074d46f949f8af7a9e6ab5a9}{%
-           family={Federal\bibnamedelima Register},
-           familyi={F\bibinitperiod\bibinitdelim R\bibinitperiod},
-           given={The\bibnamedelimb Executive\bibnamedelimb Director\bibnamedelima Office},
-           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim O\bibinitperiod},
-           prefix={of\bibnamedelima the},
-           prefixi={o\bibinitperiod\bibinitdelim t\bibinitperiod}}}%
-        {{hash=31d2d8bee9be7639541424f56435b222}{%
-           family={Accredited\bibnamedelimb Standards\bibnamedelimb Institute\bibnamedelimb Committee\bibnamedelima S1},
-           familyi={A\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod},
-           given={Acoustics},
-           giveni={A\bibinitperiod}}}%
+        {{hash=280ad250e50a9f0a4d80a48678d7fdbc}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Cheng-Yen},
+           giveni={C\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=618869a05a65789024ea0dca04c9002c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Chih-Wei},
+           giveni={C\bibinithyphendelim W\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Acoustical Society of America (ASA)}%
-      }
-      \strng{namehash}{1482a261a8544f32d1886bb4c4e1f89c}
-      \strng{fullhash}{1482a261a8544f32d1886bb4c4e1f89c}
-      \strng{bibnamehash}{1482a261a8544f32d1886bb4c4e1f89c}
-      \strng{authorbibnamehash}{1482a261a8544f32d1886bb4c4e1f89c}
-      \strng{authornamehash}{1482a261a8544f32d1886bb4c4e1f89c}
-      \strng{authorfullhash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \strng{namehash}{0d792e100510e385ea837ceedbdb55fc}
+      \strng{fullhash}{0d792e100510e385ea837ceedbdb55fc}
+      \strng{bibnamehash}{0d792e100510e385ea837ceedbdb55fc}
+      \strng{authorbibnamehash}{0d792e100510e385ea837ceedbdb55fc}
+      \strng{authornamehash}{0d792e100510e385ea837ceedbdb55fc}
+      \strng{authorfullhash}{0d792e100510e385ea837ceedbdb55fc}
       \field{sortinit}{4}
       \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{American National Standard Specification for Octave-Band and Fractional-Octave-Band Analog and Digital Filters}
-      \field{title}{American National Standard Specification for Octave-Band and Fractional-Octave-Band Analog and Digital Filters}
+      \field{journaltitle}{IEEE/ACM TRANSACTIONS ON AUDIO, SPEECH, AND LANGUAGE PROCESSING}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{A Systematic ANSI S1.11 Filter Bank Specification Relaxation and Its Efficient Multirate Architecture for Hearing-Aid Systems}
+      \field{volume}{24}
+      \field{year}{2016}
+      \field{pages}{1380\bibrangedash 1392}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TASLP.2016.2556422
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7457341
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7457341
+      \endverb
     \endentry
     \entry{bark}{misc}{}
       \name{author}{1}{}{%

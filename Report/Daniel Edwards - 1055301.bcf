@@ -2019,9 +2019,8 @@
     <bcf:citekey order="42">octave</bcf:citekey>
     <bcf:citekey order="43">octFreqCalc</bcf:citekey>
     <bcf:citekey order="44">octFreqCalc</bcf:citekey>
-    <bcf:citekey order="45">ansiDoc</bcf:citekey>
-    <bcf:citekey order="46">ansiDoc</bcf:citekey>
-    <bcf:citekey order="47">bark</bcf:citekey>
+    <bcf:citekey order="45">ansiAtten</bcf:citekey>
+    <bcf:citekey order="46">bark</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
