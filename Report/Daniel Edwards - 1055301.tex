@@ -69,9 +69,10 @@ define what adaptive means
 
 ****Talk about conductive hearing loss
 
-\noindent Many factors contribute to hearing loss. A common type is conductive hearing loss \cite{earinfo}. This is a result of age, excessive noise or various diseases \cite{hearIt}. This is a permanent form of hearing loss which can be treated with hearing assisting devices \cite{hearIt}. This section presents an analysis of existing solutions to this problem and a literature review.
+\noindent Many factors contribute to hearing loss. A common type is conductive hearing loss \cite{earinfo}. This is a result of age, excessive noise or various diseases \cite{hearIt}. This is a permanent form of hearing loss which can be treated with hearing assisting devices \cite{hearIt}. This section presents an analysis of existing solutions to this problem (Section \ref{sec:existSoln} and a literature review (Section \ref{sec:litReview}).
 
 \subsection{Existing Solutions}
+\label{sec:existSoln}
 
 \noindent Two main hearing assisting devices exist for sensorineural hearing impairments namely; hearing aids and cochlear implants \cite{atlantic}. Cochlear implants are typically used in cases of extreme sensorineural hearing loss. These devices work well in quiet environments \cite{carroll}. However, cochlear implant users battle to perceive speech in noisy environments \cite{carroll} and thus, the individuals quality of life is not improved. Therefore, this design will make use of hearing aid technology.\\
 \newline
@@ -148,15 +149,15 @@ ideal filter bank
 State the factors that contribute to the optimisation\\
 \noindent The adaptive filter is a filter bank which consists of an array of bandpass filters. Each of the bandpass filters operate with a particular frequency range and gain. This design subsection aims to utilise this frequency bank rectify a patients audiogram. This audiogram is presented in Section \ref{sec:audiogram}.\\
 
-\noindent \textbf{Approach:} Research proved that there are multiple filter bank types used to rectifying a patients audiogram. To determine the optimum design, each of these systems will be considered. Sections \ref{sec:uniDesign}, \ref{sec:critDesign}, \ref{sec:symmDesign} and \ref{sec:octDesign} present the design of the uniform, critical-like, symmetric and $1/3$ octave filter banks with similar design consideration discussed in Section \ref{sec:numFreqBands}...XXX. These designs will also be compared to the ANSIXXX specification presented in Section \ref{sec:ansi}.
+\noindent \textbf{Approach:} Research proved that there are multiple filter bank types used to rectifying a patients audiogram, typically categorised as uniform and non-uniform. To determine the optimum design, each of these systems will be considered. Sections \ref{sec:uniDesign}, \ref{sec:critDesign}, \ref{sec:symmDesign} and \ref{sec:octDesign} present the design of the uniform, critical-like, symmetric and octave filter banks. These designs will also be compared to the ANSIXXX specification presented in Section \ref{sec:ansi}.
 
-Mention stuff about uniform and non-uniform filter banks
+
 FIR vs IIR
 
 \subsection{Audiogram}
 \label{sec:audiogram}
 
-\noindent The audiogram considered in this design corresponds to a patient with conductive hearing loss. Audiologists measure a patients hearing typically at $125Hz$, $250Hz$, $500Hz$, $1kHz$, $2kHz$, $4kHz$ and $8kHz$ REF. MATLAB's \texttt{pchip} function was used to interpolate these values to provide hearing threshold values for the full $125Hz$ to $8kHz$ range. Reference \cite{mahmoud} provides audiograms for normal hearing and conductive hearing loss. Figure \ref{fig:normCondAudio} illustrates these audiograms.
+\noindent The audiogram considered in this design corresponds to a patient with conductive hearing loss. Audiologists typically measure a patients hearing at $125Hz$, $250Hz$, $500Hz$, $1kHz$, $2kHz$, $4kHz$ and $8kHz$ REF. MATLAB's \texttt{pchip} function was used to interpolate these values to provide hearing threshold values for the full $125Hz$ to $8kHz$ range. Reference \cite{mahmoud} provides audiograms for normal hearing and conductive hearing loss. Figure \ref{fig:normCondAudio} illustrates these audiograms.
 
 \begin{figure}[h]
 \centering
@@ -170,7 +171,7 @@ FIR vs IIR
 \subsection{Insertion Gain}
 \label{sec:insertGain}
 
-\noindent The filter bank corrects the audiogram by applying gain to particular frequencies. This is defined as insertion gain. In this design, the insertion gain is calculated using the NAL-R formulas given in equation \ref{eqn:nalRp}.
+\noindent The filter bank corrects the audiogram by applying gain to particular frequencies bands. Each sub-band gain is defined as insertion gain. In this design, the insertion gain is calculated using the NAL-R formulas given in equation \ref{eqn:nalRp}.
 
 \begin{equation}
 \label{eqn:nalRp}
@@ -193,7 +194,7 @@ IG_i &= X + (0.31\times H_i) + k_i
 \subsection{Number of Filters} 
 \label{sec:numFreqBands}
 
-\noindent As stated above, the filter bank consists of multiple bandpass filters, each with a specific sub-band. Therefore, the number of filters used must be investigated, particularly for the uniform, critical-like, symmetric and octave filter banks designs. A uniform filter bank was used to investigate the effect that increasing the number of filters has on matching error and computational complexity. Appendix \ref{app:numFilt} provides the details of the filters used in this investigation. Figure \ref{fig:numBandsErrorFreq} and \ref{fig:numBandsErrorBand} illustrate the matching error for each band across the frequency range and the mean error for each number of frequency bands respectively.
+\noindent As stated above, the filter bank consists of multiple bandpass filters, each operating over a specific sub-band. Therefore, the number of filters used must be investigated; particularly for the uniform, critical-like, symmetric and octave filter banks designs. A uniform filter bank was used to investigate the effect that increasing the number of filters has on matching error and computational complexity. Appendix \ref{app:numFilt} provides the details of the filter banks used in this investigation. Figure \ref{fig:numBandsErrorFreq} and \ref{fig:numBandsErrorBand} illustrate the matching error for each band across the frequency range and the mean error for each number of frequency bands respectively.
 
 \begin{figure}
 \centering
@@ -211,14 +212,12 @@ IG_i &= X + (0.31\times H_i) + k_i
 \end{minipage}
 \end{figure}
 
-\noindent This section investigates the effect of increases the number of filters in the filter bank. The large errors therefore, are not a concern at this point. Figure \ref{fig:numBandsErrorBand} illustrates that increasing the number of bands, decreases the mean matching error. Therefore, the design should aim to maximise the number of filters.
-
-the number of filters emphasises the frequency bands that need to be adjusted.
+\noindent Figure \ref{fig:numBandsErrorBand} illustrates that increasing the number of bands, decreases the mean matching error. This is because increasing the number of filters emphasises the frequency sub-bands that need to be adjusted. Therefore, the design should aim to maximise the number of filters.
 
 \subsection{Uniform, Critical-like, Symmetric and Octave Filter Bank Design}
 \label{sec:uniCritSymOct}
 
-\noindent This section aims to optimise the structure of the filter bank's frequency bands. Therefore, a comparison between a uniform (Section \ref{sec:uniDesign}), critical-like (Section \ref{sec:critDesign}), symmetric (Section \ref{sec:symmDesign}) and octave (Section \ref{sec:octDesign}) filter banks will be made. The best performing filter bank will then be compared to the ANSI S1.11 designed in Section \ref{sec:ansi}. To draw a fair comparison, all of the filters will be design with the parameters given in Table \ref{tab:numFilt_FiltSpec} in Appendix \ref{app:numFilt}. Each filter bank will consist of $8$ bandpass filters. Initially, the transition band per sub-band was set to $10\%$ of the sub-band's bandwidth. However, through simulation, it was found that adjusting the transition bandwidth significantly affected the performance. Therefore, each sub-band's transition bandwidth is iteratively adjusted to achieve the optimal performance. This allows for the best performing filter banks to be compared. Therefore, concrete performance decisions can be made. Since a comparison is being drawn, the same insertion gain method as in Section \ref{sec:insertGain} will be used.
+\noindent This section aims to optimise the structure of the filter bank's frequency bands. Therefore, a comparison between a uniform (Section \ref{sec:uniDesign}), critical-like (Section \ref{sec:critDesign}), symmetric (Section \ref{sec:symmDesign}) and octave (Section \ref{sec:octDesign}) filter banks will be made. The best performing filter bank will then be compared to the ANSI S1.11 (Section \ref{sec:ansi}). To draw a fair comparison, all of the filters will be design with the parameters given in Table \ref{tab:numFilt_FiltSpec} in Appendix \ref{app:numFilt}. Each filter bank will consist of $8$ bandpass filters. Initially, the transition band per sub-band is set to $10\%$ of the sub-band's bandwidth. However, through simulation, it was found that adjusting the transition bandwidth significantly affected the performance. Therefore, each sub-band's transition bandwidth is iteratively adjusted to achieve the optimal performance. This allows for the best performing filter banks to be compared. Therefore, concrete performance decisions can be made. The same insertion gain method as in Section \ref{sec:insertGain} will be used.
 
 \subsubsection{Uniform Filter Bank Design}
 \label{sec:uniDesign}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.8.29)  18 OCT 2018 11:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.8.29)  18 OCT 2018 13:27
 entering extended mode
 **"./Daniel Edwards - 1055301.tex"
 ("Daniel Edwards - 1055301.tex"
@@ -1746,72 +1746,76 @@ l.34 ...umberline {D}Bark-Scale}{14}{Appendix.a.D}
 \openout7 = `"Daniel Edwards - 1055301.toc"'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 76--79
+
+LaTeX Warning: Reference `sec:existSoln' on page 3 undefined on input line 72.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--79
+Underfull \hbox (badness 10000) in paragraph at lines 77--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--104
+Underfull \hbox (badness 10000) in paragraph at lines 86--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--104
+Underfull \hbox (badness 10000) in paragraph at lines 86--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--104
+Underfull \hbox (badness 10000) in paragraph at lines 86--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--104
+Underfull \hbox (badness 10000) in paragraph at lines 86--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--104
+Underfull \hbox (badness 10000) in paragraph at lines 86--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--104
+Underfull \hbox (badness 10000) in paragraph at lines 86--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--104
+Underfull \hbox (badness 10000) in paragraph at lines 86--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--104
+Underfull \hbox (badness 10000) in paragraph at lines 86--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--104
+Underfull \hbox (badness 10000) in paragraph at lines 86--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--104
+Underfull \hbox (badness 10000) in paragraph at lines 86--105
 
  []
 
 [3] [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 130--133
+Underfull \hbox (badness 10000) in paragraph at lines 131--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--150
+Underfull \hbox (badness 10000) in paragraph at lines 149--151
 
  []
 
@@ -1819,12 +1823,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--150
 <normCondAudiogram.PNG, id=308, 421.575pt x 316.18124pt>
 File: normCondAudiogram.PNG Graphic file (type png)
 <use normCondAudiogram.PNG>
-Package pdftex.def Info: normCondAudiogram.PNG  used on input line 163.
+Package pdftex.def Info: normCondAudiogram.PNG  used on input line 164.
 (pdftex.def)             Requested size: 281.85587pt x 211.39647pt.
 <igFreqRange.PNG, id=313, 421.575pt x 316.18124pt>
 File: igFreqRange.PNG Graphic file (type png)
 <use igFreqRange.PNG>
-Package pdftex.def Info: igFreqRange.PNG  used on input line 188.
+Package pdftex.def Info: igFreqRange.PNG  used on input line 189.
 (pdftex.def)             Requested size: 281.85587pt x 211.39647pt.
 
 
@@ -1834,12 +1838,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <numBandsErrorFreq.png, id=328, 421.575pt x 316.18124pt>
 File: numBandsErrorFreq.png Graphic file (type png)
 <use numBandsErrorFreq.png>
-Package pdftex.def Info: numBandsErrorFreq.png  used on input line 202.
+Package pdftex.def Info: numBandsErrorFreq.png  used on input line 203.
 (pdftex.def)             Requested size: 190.24818pt x 142.6855pt.
 <numBandErrorBand.png, id=329, 421.575pt x 316.18124pt>
 File: numBandErrorBand.png Graphic file (type png)
 <use numBandErrorBand.png>
-Package pdftex.def Info: numBandErrorBand.png  used on input line 208.
+Package pdftex.def Info: numBandErrorBand.png  used on input line 209.
 (pdftex.def)             Requested size: 190.24818pt x 142.6855pt.
  [8 <./igFreqRange.PNG (PNG copy)> <./numBandsErrorFreq.png (PNG copy)> <./numB
 andErrorBand.png (PNG copy)>] [9]
@@ -1912,19 +1916,26 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 898.
 Package rerunfilecheck Info: File `"Daniel Edwards - 1055301".out' has not chan
 ged.
 (rerunfilecheck)             Checksum: 7BD38DB26C5472D958D8FBF5395BB76C;2632.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to '"Daniel Edwards - 1055301".run.xml'.
 \openout1 = `"Daniel Edwards - 1055301.run.xml"'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 898.
  ) 
 Here is how much of TeX's memory you used:
- 48420 strings out of 492973
- 1094263 string characters out of 3126249
- 1617850 words of memory out of 3000000
- 51566 multiletter control sequences out of 15000+200000
+ 48422 strings out of 492973
+ 1094297 string characters out of 3126249
+ 1617943 words of memory out of 3000000
+ 51568 multiletter control sequences out of 15000+200000
  541496 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,11n,98p,1250b,1713s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,11n,98p,1210b,1713s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx12.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmcsc10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2
@@ -1942,7 +1953,7 @@ aniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pf
 b><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmti12.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmtt12.pfb>
-Output written on "Daniel Edwards - 1055301.pdf" (23 pages, 495952 bytes).
+Output written on "Daniel Edwards - 1055301.pdf" (23 pages, 496029 bytes).
 PDF statistics:
  599 PDF objects out of 1000 (max. 8388607)
  122 named destinations out of 1000 (max. 500000)

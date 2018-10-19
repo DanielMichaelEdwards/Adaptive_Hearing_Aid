@@ -1,7 +1,7 @@
 clear all;
 clc;
 %Simulink Variables
-Fs = 440000;
+Fs = 20000;
 T = 1/Fs;
 order = 16;
 ripple = 1;
@@ -73,7 +73,7 @@ G22dB = 21.21;
 G22 = 10^(G22dB/10);
 
 G23dB = 21.01;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
-G8 = 10^(G8dB/10);
+G23 = 10^(G23dB/10);
 
 G24dB = 21;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 G24 = 10^(G24dB/10);
