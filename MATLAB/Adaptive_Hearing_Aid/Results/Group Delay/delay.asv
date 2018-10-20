@@ -1,0 +1,18 @@
+clc;
+close all;
+%% Calculate the group delay for each design
+
+Fs = 20000;
+order = [219 597 647 1498 1891];
+grpDelay = 1:length(order);
+
+for i=1:length(order)
+   grpDelay(i) = order(i)/Fs;
+end
+
+matError = [1.36 1.34 0.87 0.72];
+
+
+figure;
+yyaxis left;
+plot(

@@ -437,6 +437,78 @@
       \verb https://www.edn.com/electronics-news/4382916/Analyze-signals-octave-by-octave
       \endverb
     \endentry
+    \entry{ansiAtten}{article}{}
+      \name{author}{2}{}{%
+        {{hash=280ad250e50a9f0a4d80a48678d7fdbc}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Cheng-Yen},
+           giveni={C\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=618869a05a65789024ea0dca04c9002c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Chih-Wei},
+           giveni={C\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d792e100510e385ea837ceedbdb55fc}
+      \strng{fullhash}{0d792e100510e385ea837ceedbdb55fc}
+      \strng{bibnamehash}{0d792e100510e385ea837ceedbdb55fc}
+      \strng{authorbibnamehash}{0d792e100510e385ea837ceedbdb55fc}
+      \strng{authornamehash}{0d792e100510e385ea837ceedbdb55fc}
+      \strng{authorfullhash}{0d792e100510e385ea837ceedbdb55fc}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE/ACM TRANSACTIONS ON AUDIO, SPEECH, AND LANGUAGE PROCESSING}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{A Systematic ANSI S1.11 Filter Bank Specification Relaxation and Its Efficient Multirate Architecture for Hearing-Aid Systems}
+      \field{volume}{24}
+      \field{year}{2016}
+      \field{pages}{1380\bibrangedash 1392}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TASLP.2016.2556422
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7457341
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7457341
+      \endverb
+    \endentry
+    \entry{ansiDoc}{book}{}
+      \name{author}{2}{}{%
+        {{hash=452781c4074d46f949f8af7a9e6ab5a9}{%
+           family={Federal\bibnamedelima Register},
+           familyi={F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={The\bibnamedelimb Executive\bibnamedelimb Director\bibnamedelima Office},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim O\bibinitperiod},
+           prefix={of\bibnamedelima the},
+           prefixi={o\bibinitperiod\bibinitdelim t\bibinitperiod}}}%
+        {{hash=31d2d8bee9be7639541424f56435b222}{%
+           family={Accredited\bibnamedelimb Standards\bibnamedelimb Institute\bibnamedelimb Committee\bibnamedelima S1},
+           familyi={A\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Acoustics},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Acoustical Society of America (ASA)}%
+      }
+      \strng{namehash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \strng{fullhash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \strng{bibnamehash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \strng{authorbibnamehash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \strng{authornamehash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \strng{authorfullhash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American National Standard Specification for Octave-Band and Fractional-Octave-Band Analog and Digital Filters}
+      \field{title}{American National Standard Specification for Octave-Band and Fractional-Octave-Band Analog and Digital Filters}
+    \endentry
     \entry{dhawan}{inbook}{}
       \name{author}{2}{}{%
         {{hash=2471b63e8d27658d2631db7f8e0389fd}{%
@@ -512,8 +584,8 @@
       \strng{authorbibnamehash}{a093b016a26929d34d634eee8e100027}
       \strng{authornamehash}{a093b016a26929d34d634eee8e100027}
       \strng{authorfullhash}{a093b016a26929d34d634eee8e100027}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Archives of Otolaryngology}
@@ -544,8 +616,8 @@
       \strng{authorbibnamehash}{15bd4af9a259ca500d32d383e1640141}
       \strng{authornamehash}{15bd4af9a259ca500d32d383e1640141}
       \strng{authorfullhash}{15bd4af9a259ca500d32d383e1640141}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Design and Implementation of Small Microphone Arrays}
@@ -563,8 +635,8 @@
       \strng{authorbibnamehash}{caeafad43f6537996beee940a7e1fac2}
       \strng{authornamehash}{caeafad43f6537996beee940a7e1fac2}
       \strng{authorfullhash}{caeafad43f6537996beee940a7e1fac2}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Microphone Array Beamforming}
@@ -643,36 +715,45 @@
       \verb https://www.asha.org/public/hearing/audiogram/
       \endverb
     \endentry
-    \entry{ansiDoc}{book}{}
+    \entry{brennan}{article}{}
       \name{author}{2}{}{%
-        {{hash=452781c4074d46f949f8af7a9e6ab5a9}{%
-           family={Federal\bibnamedelima Register},
-           familyi={F\bibinitperiod\bibinitdelim R\bibinitperiod},
-           given={The\bibnamedelimb Executive\bibnamedelimb Director\bibnamedelima Office},
-           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim O\bibinitperiod},
-           prefix={of\bibnamedelima the},
-           prefixi={o\bibinitperiod\bibinitdelim t\bibinitperiod}}}%
-        {{hash=31d2d8bee9be7639541424f56435b222}{%
-           family={Accredited\bibnamedelimb Standards\bibnamedelimb Institute\bibnamedelimb Committee\bibnamedelima S1},
-           familyi={A\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod},
-           given={Acoustics},
-           giveni={A\bibinitperiod}}}%
+        {{hash=354fda3d16537e06409637fcb0fb9ec9}{%
+           family={Brennan},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=dd2a3ef4cdc633e872eb4a41cbc67e53}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Todd},
+           giveni={T\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Acoustical Society of America (ASA)}%
-      }
-      \strng{namehash}{1482a261a8544f32d1886bb4c4e1f89c}
-      \strng{fullhash}{1482a261a8544f32d1886bb4c4e1f89c}
-      \strng{bibnamehash}{1482a261a8544f32d1886bb4c4e1f89c}
-      \strng{authorbibnamehash}{1482a261a8544f32d1886bb4c4e1f89c}
-      \strng{authornamehash}{1482a261a8544f32d1886bb4c4e1f89c}
-      \strng{authorfullhash}{1482a261a8544f32d1886bb4c4e1f89c}
+      \strng{namehash}{908776d50e631ee8038380629004eb82}
+      \strng{fullhash}{908776d50e631ee8038380629004eb82}
+      \strng{bibnamehash}{908776d50e631ee8038380629004eb82}
+      \strng{authorbibnamehash}{908776d50e631ee8038380629004eb82}
+      \strng{authornamehash}{908776d50e631ee8038380629004eb82}
+      \strng{authorfullhash}{908776d50e631ee8038380629004eb82}
       \field{sortinit}{3}
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{American National Standard Specification for Octave-Band and Fractional-Octave-Band Analog and Digital Filters}
-      \field{title}{American National Standard Specification for Octave-Band and Fractional-Octave-Band Analog and Digital Filters}
+      \field{journaltitle}{ISCAS '98. Proceedings of the 1998 IEEE International Symposium on Circuits and Systems}
+      \field{month}{8}
+      \field{title}{A FLEXIBLE FILTERBANK STRUCTURE FOR EXTENSIVE SIGNAL MANIPULATIONS IN IDIGITAL HEARING AIDS}
+      \field{volume}{6}
+      \field{year}{2002}
+      \field{pages}{569\bibrangedash 572}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 0.1109/ISCAS.1998.705338
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/705338
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/705338
+      \endverb
     \endentry
     \entry{mahmoud}{misc}{}
       \name{author}{1}{}{%
@@ -691,8 +772,8 @@
       \strng{authorbibnamehash}{9cf5516e174d4dcaf3fdb9ea8ec640a9}
       \strng{authornamehash}{9cf5516e174d4dcaf3fdb9ea8ec640a9}
       \strng{authorfullhash}{9cf5516e174d4dcaf3fdb9ea8ec640a9}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{LinkedIn SlideShare}
@@ -704,46 +785,6 @@
       \endverb
       \verb{url}
       \verb https://www.slideshare.net/amirmah/reading-an-audiogram
-      \endverb
-    \endentry
-    \entry{brennan}{article}{}
-      \name{author}{2}{}{%
-        {{hash=5a8c476f799ad56301d00cf89b58224d}{%
-           family={Brennan},
-           familyi={B\bibinitperiod},
-           given={R},
-           giveni={R\bibinitperiod}}}%
-        {{hash=01b495b14bccd0bd55d60645140ddb87}{%
-           family={Schneider},
-           familyi={S\bibinitperiod},
-           given={T},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{4fd19a1403269c797050916f0300217a}
-      \strng{fullhash}{4fd19a1403269c797050916f0300217a}
-      \strng{bibnamehash}{4fd19a1403269c797050916f0300217a}
-      \strng{authorbibnamehash}{4fd19a1403269c797050916f0300217a}
-      \strng{authornamehash}{4fd19a1403269c797050916f0300217a}
-      \strng{authorfullhash}{4fd19a1403269c797050916f0300217a}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{ISCAS '98. Proceedings of the 1998 IEEE International Symposium on Circuits and Systems}
-      \field{month}{8}
-      \field{title}{ISCAS '98. Proceedings of the 1998 IEEE International Symposium on Circuits and Systems}
-      \field{volume}{6}
-      \field{year}{2002}
-      \field{pages}{569\bibrangedash 572}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1109/ISCAS.1998.705338
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/705338
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/705338
       \endverb
     \endentry
     \entry{chong}{article}{}
@@ -818,8 +859,8 @@
       \verb https://ccrma.stanford.edu/realsimple/aud_fb/Third_Octave_Filter_Banks.html
       \endverb
     \endentry
-    \entry{ansiAtten}{article}{}
-      \name{author}{2}{}{%
+    \entry{yang}{article}{}
+      \name{author}{3}{}{%
         {{hash=280ad250e50a9f0a4d80a48678d7fdbc}{%
            family={Yang},
            familyi={Y\bibinitperiod},
@@ -830,15 +871,20 @@
            familyi={L\bibinitperiod},
            given={Chih-Wei},
            giveni={C\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=b44283c8b371f2fe5c9ccceb237b50b0}{%
+           family={Jou},
+           familyi={J\bibinitperiod},
+           given={Shyh-Jye},
+           giveni={S\bibinithyphendelim J\bibinitperiod}}}%
       }
-      \strng{namehash}{0d792e100510e385ea837ceedbdb55fc}
-      \strng{fullhash}{0d792e100510e385ea837ceedbdb55fc}
-      \strng{bibnamehash}{0d792e100510e385ea837ceedbdb55fc}
-      \strng{authorbibnamehash}{0d792e100510e385ea837ceedbdb55fc}
-      \strng{authornamehash}{0d792e100510e385ea837ceedbdb55fc}
-      \strng{authorfullhash}{0d792e100510e385ea837ceedbdb55fc}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \strng{namehash}{498c174e0785bf5907258977b9970a1d}
+      \strng{fullhash}{498c174e0785bf5907258977b9970a1d}
+      \strng{bibnamehash}{498c174e0785bf5907258977b9970a1d}
+      \strng{authorbibnamehash}{498c174e0785bf5907258977b9970a1d}
+      \strng{authornamehash}{498c174e0785bf5907258977b9970a1d}
+      \strng{authorfullhash}{498c174e0785bf5907258977b9970a1d}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE/ACM TRANSACTIONS ON AUDIO, SPEECH, AND LANGUAGE PROCESSING}
@@ -853,10 +899,10 @@
       \verb 10.1109/TASLP.2016.2556422
       \endverb
       \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7457341
+      \verb https://0-ieeexplore-ieee-org.innopac.wits.ac.za/document/7457341
       \endverb
       \verb{url}
-      \verb https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7457341
+      \verb https://0-ieeexplore-ieee-org.innopac.wits.ac.za/document/7457341
       \endverb
     \endentry
     \entry{bark}{misc}{}
@@ -876,8 +922,8 @@
       \strng{authorbibnamehash}{438418c7ecd91754acabbd3bb4378361}
       \strng{authornamehash}{438418c7ecd91754acabbd3bb4378361}
       \strng{authorfullhash}{438418c7ecd91754acabbd3bb4378361}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Bark Frequency Scale}

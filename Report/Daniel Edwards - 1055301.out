@@ -21,18 +21,20 @@
 \BOOKMARK [3][-]{subsubsection.9.4.4}{Octave Filter Bank Design}{subsection.9.4}% 21
 \BOOKMARK [2][-]{subsection.9.5}{ANSI S1.11 Design}{section.9}% 22
 \BOOKMARK [2][-]{subsection.9.6}{Filter Design Selection}{section.9}% 23
-\BOOKMARK [1][-]{section.10}{Dynamic Compression Design}{}% 24
-\BOOKMARK [1][-]{section.11}{Success Criterion}{}% 25
-\BOOKMARK [1][-]{section.12}{Critical Evaluation of Results}{}% 26
-\BOOKMARK [2][-]{subsection.12.1}{Socioeconomic Impacts of Design}{section.12}% 27
-\BOOKMARK [1][-]{section.13}{Future Recommendations}{}% 28
-\BOOKMARK [1][-]{section.14}{Conclusion}{}% 29
-\BOOKMARK [1][-]{Appendix.a.A}{Impact Appendix - Non-Technical thing}{}% 30
-\BOOKMARK [1][-]{Appendix.a.B}{Insertion Gain Parameters}{}% 31
-\BOOKMARK [1][-]{Appendix.a.C}{Number of Filters Investigation}{}% 32
-\BOOKMARK [1][-]{Appendix.a.D}{Bark-Scale}{}% 33
-\BOOKMARK [1][-]{Appendix.a.E}{Uniform Filter Bank Specifications and Results}{}% 34
-\BOOKMARK [1][-]{Appendix.a.F}{Critical-Like Filter Bank Specifications and Results}{}% 35
-\BOOKMARK [1][-]{Appendix.a.G}{Symmetric Filter Bank Specifications and Results}{}% 36
-\BOOKMARK [1][-]{Appendix.a.H}{Octave Filter Bank Specifications and Results}{}% 37
-\BOOKMARK [1][-]{Appendix.a.I}{ANSI S1.11 Filter Bank Specifications and Results}{}% 38
+\BOOKMARK [2][-]{subsection.9.7}{Filter Bank Optimisation}{section.9}% 24
+\BOOKMARK [1][-]{section.10}{Dynamic Compression Design}{}% 25
+\BOOKMARK [1][-]{section.11}{System Realisation}{}% 26
+\BOOKMARK [1][-]{section.12}{Success Criterion}{}% 27
+\BOOKMARK [1][-]{section.13}{Critical Evaluation of Results}{}% 28
+\BOOKMARK [2][-]{subsection.13.1}{Socioeconomic Impacts of Design}{section.13}% 29
+\BOOKMARK [1][-]{section.14}{Future Recommendations}{}% 30
+\BOOKMARK [1][-]{section.15}{Conclusion}{}% 31
+\BOOKMARK [1][-]{Appendix.a.A}{Impact Appendix - Non-Technical thing}{}% 32
+\BOOKMARK [1][-]{Appendix.a.B}{Insertion Gain Parameters}{}% 33
+\BOOKMARK [1][-]{Appendix.a.C}{Number of Filters Investigation}{}% 34
+\BOOKMARK [1][-]{Appendix.a.D}{Bark-Scale}{}% 35
+\BOOKMARK [1][-]{Appendix.a.E}{Uniform Filter Bank Specifications and Results}{}% 36
+\BOOKMARK [1][-]{Appendix.a.F}{Critical-Like Filter Bank Specifications and Results}{}% 37
+\BOOKMARK [1][-]{Appendix.a.G}{Symmetric Filter Bank Specifications and Results}{}% 38
+\BOOKMARK [1][-]{Appendix.a.H}{Octave Filter Bank Specifications and Results}{}% 39
+\BOOKMARK [1][-]{Appendix.a.I}{ANSI S1.11 Filter Bank Specifications and Results}{}% 40
