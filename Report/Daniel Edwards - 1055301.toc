@@ -1,41 +1,41 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
-\contentsline {section}{\numberline {2}Background}{3}{section.2}
-\contentsline {section}{\numberline {3}Design Research}{3}{section.3}
+\contentsline {section}{\numberline {1.}Introduction}{3}{section.1}
+\contentsline {section}{\numberline {2.}Background}{3}{section.2}
+\contentsline {section}{\numberline {3.}Design Research}{3}{section.3}
 \contentsline {subsection}{\numberline {3.1}Existing Solutions}{3}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Literature Review}{4}{subsection.3.2}
-\contentsline {section}{\numberline {4}Design Objectives}{5}{section.4}
-\contentsline {section}{\numberline {5}Design Requirements}{6}{section.5}
-\contentsline {section}{\numberline {6}Design Assumptions and Constrains}{6}{section.6}
-\contentsline {subsection}{\numberline {6.1}Assumptions}{6}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Constraints}{6}{subsection.6.2}
-\contentsline {section}{\numberline {7}Design Methodology}{6}{section.7}
-\contentsline {section}{\numberline {8}System Overview}{7}{section.8}
-\contentsline {section}{\numberline {9}Adaptive Filter Design}{7}{section.9}
-\contentsline {subsection}{\numberline {9.1}Audiogram}{8}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Insertion Gain}{8}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Number of Filters}{9}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Uniform, Critical-like, Symmetric and Octave Filter Bank Design}{10}{subsection.9.4}
-\contentsline {subsubsection}{\numberline {9.4.1}Uniform Filter Bank Design}{10}{subsubsection.9.4.1}
-\contentsline {subsubsection}{\numberline {9.4.2}Critical-like Filter Bank Design}{10}{subsubsection.9.4.2}
-\contentsline {subsubsection}{\numberline {9.4.3}Symmetric Filter Bank Design}{10}{subsubsection.9.4.3}
-\contentsline {subsubsection}{\numberline {9.4.4}Octave Filter Bank Design}{11}{subsubsection.9.4.4}
-\contentsline {subsection}{\numberline {9.5}ANSI S1.11 Design}{11}{subsection.9.5}
-\contentsline {subsection}{\numberline {9.6}Filter Design Selection}{11}{subsection.9.6}
-\contentsline {subsection}{\numberline {9.7}Filter Bank Optimisation}{12}{subsection.9.7}
-\contentsline {section}{\numberline {10}Dynamic Compression Design}{13}{section.10}
-\contentsline {section}{\numberline {11}System Realisation}{13}{section.11}
-\contentsline {section}{\numberline {12}Success Criterion}{13}{section.12}
-\contentsline {section}{\numberline {13}Critical Evaluation of Results}{13}{section.13}
-\contentsline {subsection}{\numberline {13.1}Socioeconomic Impacts of Design}{13}{subsection.13.1}
-\contentsline {section}{\numberline {14}Future Recommendations}{13}{section.14}
-\contentsline {section}{\numberline {15}Conclusion}{13}{section.15}
-\contentsline {section}{\numberline {A}Impact Appendix - Non-Technical thing}{16}{Appendix.a.A}
-\contentsline {section}{\numberline {B}Insertion Gain Parameters}{16}{Appendix.a.B}
-\contentsline {section}{\numberline {C}Number of Filters Investigation}{16}{Appendix.a.C}
-\contentsline {section}{\numberline {D}Bark-Scale}{16}{Appendix.a.D}
-\contentsline {section}{\numberline {E}Uniform Filter Bank Specifications and Results}{16}{Appendix.a.E}
-\contentsline {section}{\numberline {F}Critical-Like Filter Bank Specifications and Results}{18}{Appendix.a.F}
-\contentsline {section}{\numberline {G}Symmetric Filter Bank Specifications and Results}{18}{Appendix.a.G}
-\contentsline {section}{\numberline {H}Octave Filter Bank Specifications and Results}{21}{Appendix.a.H}
-\contentsline {section}{\numberline {I}ANSI S1.11 Filter Bank Specifications and Results}{21}{Appendix.a.I}
+\contentsline {subsection}{\numberline {3.2}Literature Review}{3}{subsection.3.2}
+\contentsline {section}{\numberline {4.}Design Objectives}{5}{section.4}
+\contentsline {section}{\numberline {5.}Design Requirements}{5}{section.5}
+\contentsline {section}{\numberline {6.}Design Assumptions and Constrains}{5}{section.6}
+\contentsline {subsection}{\numberline {6.1}Assumptions}{5}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Constraints}{5}{subsection.6.2}
+\contentsline {section}{\numberline {7.}Design Methodology}{5}{section.7}
+\contentsline {section}{\numberline {8.}System Overview}{6}{section.8}
+\contentsline {section}{\numberline {9.}Adaptive Filter Design}{6}{section.9}
+\contentsline {subsection}{\numberline {9.1}Audiogram}{7}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Insertion Gain}{7}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Number of Filters}{8}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Uniform, Critical-like, Symmetric and Octave Filter Bank Design}{8}{subsection.9.4}
+\contentsline {subsubsection}{\numberline {9.4.1}Uniform Filter Bank Design}{9}{subsubsection.9.4.1}
+\contentsline {subsubsection}{\numberline {9.4.2}Critical-like Filter Bank Design}{9}{subsubsection.9.4.2}
+\contentsline {subsubsection}{\numberline {9.4.3}Symmetric Filter Bank Design}{9}{subsubsection.9.4.3}
+\contentsline {subsubsection}{\numberline {9.4.4}Octave Filter Bank Design}{9}{subsubsection.9.4.4}
+\contentsline {subsection}{\numberline {9.5}ANSI S1.11 Design}{10}{subsection.9.5}
+\contentsline {subsection}{\numberline {9.6}Filter Design Selection}{10}{subsection.9.6}
+\contentsline {subsection}{\numberline {9.7}Filter Bank Optimisation}{11}{subsection.9.7}
+\contentsline {section}{\numberline {10.}Dynamic Compression Design}{11}{section.10}
+\contentsline {section}{\numberline {11.}System Realisation}{11}{section.11}
+\contentsline {section}{\numberline {12.}Success Criterion}{11}{section.12}
+\contentsline {section}{\numberline {13.}Critical Evaluation of Results}{11}{section.13}
+\contentsline {subsection}{\numberline {13.1}Socioeconomic Impacts of Design}{11}{subsection.13.1}
+\contentsline {section}{\numberline {14.}Future Recommendations}{11}{section.14}
+\contentsline {section}{\numberline {15.}Conclusion}{11}{section.15}
+\contentsline {section}{\numberline {A}Impact Appendix - Non-Technical thing}{14}{section.1}
+\contentsline {section}{\numberline {B}Insertion Gain Parameters}{14}{section.2}
+\contentsline {section}{\numberline {C}Number of Filters Investigation}{14}{section.3}
+\contentsline {section}{\numberline {D}Bark-Scale}{14}{section.4}
+\contentsline {section}{\numberline {E}Uniform Filter Bank Specifications and Results}{14}{section.5}
+\contentsline {section}{\numberline {F}Critical-Like Filter Bank Specifications and Results}{17}{section.6}
+\contentsline {section}{\numberline {G}Symmetric Filter Bank Specifications and Results}{17}{section.7}
+\contentsline {section}{\numberline {H}Octave Filter Bank Specifications and Results}{18}{section.8}
+\contentsline {section}{\numberline {I}ANSI S1.11 Filter Bank Specifications and Results}{19}{section.9}

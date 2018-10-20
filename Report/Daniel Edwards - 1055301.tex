@@ -1,13 +1,13 @@
-\documentclass[12pt, onecolumn]{article}
+\documentclass[11pt,onecolumn]{witseiepaper}
+\usepackage{KJN}
 \usepackage{graphicx}
-\usepackage{appendix}
 \usepackage{placeins}
 \usepackage{siunitx}
 \usepackage{amsmath}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{tcolorbox}
 \usepackage{adjustbox}
-\usepackage[margin=1in]{geometry}
 \usepackage{pgfplotstable}
 \usepackage{pgfplots}
 \usepackage{multirow}
@@ -19,6 +19,12 @@
 \usepackage{tikz}
 \usepackage{placeins}
 \usepackage{listings}
+\usepackage[framemethod=TikZ]{mdframed}
+\definecolor{blue(ryb)}{rgb}{0.19, 0.286, 0.6}
+\usepackage{breakurl}
+\usepackage{tikzpagenodes}
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\newcommand{\cmark}{\ding{51}}%
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 \usepackage[style=ieee, sorting=none]{biblatex}
 \addbibresource{ref.bib}
@@ -26,26 +32,40 @@
 \begin{document}
 
 \begin{titlepage}
-\begin{center}   
+\begin{center}
+ 
 
-\vspace{3 cm}
-
-
-\rule{500pt}{1pt}\\
-\vspace{0.5cm}
-\textbf{\LARGE Design of an Adaptive Hearing Aid}
-\rule{500pt}{1pt}\\
-\vspace{1cm}
-\textit{Daniel Edwards - 1055301 \\ 23/10/2018}
-
-
-
-\begin{figure}[h]
+%\includegraphics[width=0.4\textwidth]{EIE_Logo_Full_Colour.pdf}
+ 
+\begin{minipage}{0.30\linewidth}
 \centering
-\includegraphics[width=4cm]{schoolLogo.png}
-\end{figure}
-\textit{School of Electrical \& Information Engineering, University of the
-Witwatersrand, Private Bag 3, 2050, Johannesburg, South Africa}
+\includegraphics[height=8\baselineskip]{EIE_better.pdf}
+\end{minipage}
+\begin{minipage}{0.6\linewidth}
+\centering
+{\Large School of Electrical \& Information Engineering} \\
+{\large University of the Witwatersrand, Johannesburg \\
+Private Bag 3, 2050, South Africa}
+\end{minipage}
+
+\vspace{0.5cm}
+\centering
+\begin{tcolorbox}[width=\linewidth, colframe=blue(ryb), colback=blue(ryb), sharp corners=east,sharp corners= west]
+\centering
+{\color{white} {\large ELEN4011 - Design Project}\\
+Biomedical Engineering - Design of an Adaptive Hearing Aid\\
+23 October 2018}
+\end{tcolorbox}
+
+\vspace{3cm}
+
+{\bf Supervisor:} Prof. D. Rubin 
+
+\vspace{3cm}
+
+\textit{Daniel Edwards\\
+1055301}
+
 
 \end{center}
 \end{titlepage}
