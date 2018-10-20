@@ -229,19 +229,19 @@ IG_i &= X + (0.31\times H_i) + k_i
 \subsubsection{Uniform Filter Bank Design}
 \label{sec:uniDesign}
 
-\noindent A uniform filter bank consist of an array of evenly spaced, filters with equal bandwidths \cite{chang}. Uniform filter banks are simple and easy to implement. However, for a sufficient resolution, uniform filter banks requires more bands than non-uniform filter banks for a good fit. The additional filters implies that more computations are required and thus, the filter bank's group delay is potentially increased \cite{brennan}. This design optimised  Section \ref{sec:numFreqBands}'s $8$ sub-band design by utilising the filter characteristics in Table \ref{tab:uniFiltSpec} of Appendix \ref{app:uniFreqBand}. This design acheived and average and maximum matching error of $1.36dB$ and $11.25dB$ respectively with a group delay of $10.95ms$. The matching error across the full frequency spectrum can be seen in Figure \ref{fig:uniMatErr} of Appendix \ref{app:uniFreqBand}.
+\noindent A uniform filter bank consist of an array of evenly spaced, filters with equal bandwidths \cite{chang}. Uniform filter banks are simple and easy to implement. However, for a sufficient resolution, uniform filter banks requires more bands than non-uniform filter banks for a good fit. The additional filters implies that more computations are required and thus, the filter bank's group delay is potentially increased \cite{brennan}. This design optimised  Section \ref{sec:numFreqBands}'s $8$ sub-band design by utilising the filter characteristics in Table \ref{tab:uniFiltSpec} of Appendix \ref{app:uniFreqBand}. This design acheived and average and maximum matching error of $1.36dB$ and $11.25dB$ respectively with a group delay of $5.48ms$. The matching error across the full frequency spectrum can be seen in Figure \ref{fig:uniMatErr} of Appendix \ref{app:uniFreqBand}.
 
 
 \subsubsection{Critical-like Filter Bank Design}
 \label{sec:critDesign}
 
-\noindent This filter is forms part of the non-uniform filter bank category. This filter design attempts to account for the psychoacoustic characteristics using the critical bands of the Bark Scale \cite{chong}. Table \ref{tab:bark} in Appendix \ref{app:bark} provides the Bark scale's critical frequency band information. This investigation is limited to using $8$ filters and a maximum frequency of $8kHz$. Therefore, the sub-bands are set as shown in Table \ref{tab:critFiltFreqBand} of Appendix \ref{app:critFiltFreqBand}.	This design achieved an average and maximum matching error of $0.87dB$ and $8.15dB$ respectively and a group delay of $32.35ms$. The matching error for the full frequency spectrum is illustrated in Figure \ref{fig:critMatErr} of Appendix \ref{app:critFiltFreqBand}.
+\noindent This filter is forms part of the non-uniform filter bank category. This filter design attempts to account for the psychoacoustic characteristics using the critical bands of the Bark Scale \cite{chong}. Table \ref{tab:bark} in Appendix \ref{app:bark} provides the Bark scale's critical frequency band information. This investigation is limited to using $8$ filters and a maximum frequency of $8kHz$. Therefore, the sub-bands are set as shown in Table \ref{tab:critFiltFreqBand} of Appendix \ref{app:critFiltFreqBand}.	This design achieved an average and maximum matching error of $0.87dB$ and $8.15dB$ respectively and a group delay of $16.18ms$. The matching error for the full frequency spectrum is illustrated in Figure \ref{fig:critMatErr} of Appendix \ref{app:critFiltFreqBand}.
 
 
 \subsubsection{Symmetric Filter Bank Design}
 \label{sec:symmDesign}
 
-\noindent Symmetric filter banks provde an improvement on the uniform filter bank. The non-uniform sub-bands are symmetric about the center frequency of the frequency spectrum, in this case $4kHz$. Symmetric filter banks have the ability of enhancing the matching error of low and high, or mid frequencies \cite{sebastian}. Figure \ref{fig:normCondAudio} illustrates that the threshold of a conductive hearing loss patient is worse at the low and high frequencies. Therefore, the frequency bands will be chosen such that these frequencies are emphasised. Table \ref{tab:symFreqBand} in Appendix \ref{app:symFreqBands} illustrates the bands used in this investigation. Simulation illustrated that the symmetric filter bank achieved an average error of $1.34dB$ with a maximum matching error of $9.4dB$. This filter bank achieved a group delay of $29.85ms$. The matching error for the full frequency spectrum is illustrated in Figure \ref{fig:symMatErr} in Appendix \ref{app:symFreqBands}.
+\noindent Symmetric filter banks provde an improvement on the uniform filter bank. The non-uniform sub-bands are symmetric about the center frequency of the frequency spectrum, in this case $4kHz$. Symmetric filter banks have the ability of enhancing the matching error of low and high, or mid frequencies \cite{sebastian}. Figure \ref{fig:normCondAudio} illustrates that the threshold of a conductive hearing loss patient is worse at the low and high frequencies. Therefore, the frequency bands will be chosen such that these frequencies are emphasised. Table \ref{tab:symFreqBand} in Appendix \ref{app:symFreqBands} illustrates the bands used in this investigation. Simulation illustrated that the symmetric filter bank achieved an average error of $1.34dB$ with a maximum matching error of $9.4dB$. This filter bank achieved a group delay of $14.92ms$. The matching error for the full frequency spectrum is illustrated in Figure \ref{fig:symMatErr} in Appendix \ref{app:symFreqBands}.
 
 
 \subsubsection{Octave Filter Bank Design}
@@ -262,16 +262,17 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
 \end{equation}
 %
 
-\noindent The center frequencies for this filter bank are chosen to be $63Hz$, $125Hz$, $250Hz$, $500Hz$, $1kHz$, $2kHz$, $4kHz$ and $8kHz$ which results in the filter specifications given in Table \ref{tab:octFreqBands} of Appendix \ref{app:octFreqBands}. Simulations demonstrated that this filter bank achieved an average and maximum matching error of $0.72dB$ and $10.44dB$ respectively. Figure \ref{fig:octMatErr} in Appendix \ref{app:octFreqBands} illustrates the matching error across the full frequency spectrum. The group delay for this filter was $74.9ms$.
+\noindent The center frequencies for this filter bank are chosen to be $63Hz$, $125Hz$, $250Hz$, $500Hz$, $1kHz$, $2kHz$, $4kHz$ and $8kHz$ which results in the filter specifications given in Table \ref{tab:octFreqBands} of Appendix \ref{app:octFreqBands}. Simulations demonstrated that this filter bank achieved an average and maximum matching error of $0.72dB$ and $10.44dB$ respectively. Figure \ref{fig:octMatErr} in Appendix \ref{app:octFreqBands} illustrates the matching error across the full frequency spectrum. The group delay for this filter was $37.45ms$.
 
 \subsection{ANSI S1.11 Design}
 \label{sec:ansi}
 
-\noindent A octave filter bank was designed using the ANSI S1.11 specficiations. The class $2$ attenuation specification is chosen for two reasons. The first being that as it allows a $1dB$ ripple which allows for an accurate comparison with the aforementioned filter banks. Secondly, the larger ripple decreases the delay \cite{yang}. The stop band attenuation is set to $60dB$. This is considered to be sufficient for hearing loss applications \cite{ansiAtten}. ANSI S1.11 compliant filter banks are typically implemented using $IIR$ filters. However, for an accurate comparison, this investigation implements the ANSI S1.11 standard using $FIR$ filters. The frequency specifications are calculated as shown in Appendix \ref{app:ansiSpec} with the resulting specifications summarised in Table \ref{tab:ansiFreqSpec} of Appendix \ref{app:ansiSpec}. Through simulation, the mean matching error was $0.25dB$ and the maximum error was $2.3dB$. The ANSI S1.11 filter bank achieved a group delay of $94.55ms$. Figure \ref{fig:ansiOctMatErr} in Appendix \ref{app:ansiSpec} illustrates the matching error across the full frequency spectrum.
+\noindent A octave filter bank was designed using the ANSI S1.11 specficiations. The class $2$ attenuation specification is chosen for two reasons. The first being that as it allows a $1dB$ ripple which allows for an accurate comparison with the aforementioned filter banks. Secondly, the larger ripple decreases the delay \cite{yang}. The stop band attenuation is set to $60dB$. This is considered to be sufficient for hearing loss applications \cite{ansiAtten}. ANSI S1.11 compliant filter banks are typically implemented using $IIR$ filters. However, for an accurate comparison, this investigation implements the ANSI S1.11 standard using $FIR$ filters. The frequency specifications are calculated as shown in Appendix \ref{app:ansiSpec} with the resulting specifications summarised in Table \ref{tab:ansiFreqSpec} of Appendix \ref{app:ansiSpec}. Through simulation, the mean matching error was $0.25dB$ and the maximum error was $2.3dB$. The ANSI S1.11 filter bank achieved a group delay of $47.28ms$. Figure \ref{fig:ansiOctMatErr} in Appendix \ref{app:ansiSpec} illustrates the matching error across the full frequency spectrum.
 
 
 
 \subsection{Filter Design Selection}
+\label{sec:filtSelect}
 
 \noindent From the several investigated filter bank designs, the optimal design must be chosen. This decision is based on two metrics; namely matching error performance and computational complexity. Figure \ref{fig:matErrDelay} illustrates the matching error and computational complexity of each design.
 
@@ -282,12 +283,14 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
 \label{fig:matErrDelay}
 \end{figure}
 
-\noindent From Figure \ref{fig:matErrDelay}, the critical-like and octave filter banks provide the best balance between matching error and group delay. However, experimentation found that only slight optimisations can be applied to these filter banks. The ANSI S1.11 has a significantly lower matching error compared to the other filter banks. Furthermore, the group delay of the ANSI S1.11 filter bank can be significantly optimised by using multi-rate filtering techniques and transition bandwidth relaxation \cite{chang}. Therefore, the ANSI S1.11 filter bank is chosen as the adaptive filter bank in this design. The optimisations applied to this filter bank are presented in Section \ref{sec:filtBankOpt}.
+\noindent From Figure \ref{fig:matErrDelay}, the critical-like and octave filter banks provide the best balance between matching error and group delay. However, experimentation found that only slight optimisations can be applied to these filter banks. The ANSI S1.11 has a significantly lower matching error compared to the other filter banks. Furthermore, the group delay of the ANSI S1.11 filter bank can be significantly optimised by using multi-rate filtering techniques and transition bandwidth relaxation \cite{chang}. Therefore, the ANSI S1.11 filter bank design technique is chosen to design the adaptive filter bank. The optimisations applied to this filter bank are presented in Section \ref{sec:filtBankOpt}.
 
 \subsection{Filter Bank Optimisation}
 \label{sec:filtBankOpt}
 
-\noindent In the previous section, the investigations were constrained to using 8 filters. ANSI S1.11 provides specifications for $1/3$-octave filter banks, meaning there are $3$ sub-bands per octave. As shown in Section \ref{sec:numFreqBands}, increasing the number of sub-bands decreases the matching error. Therefore, a $1/3$-octave ANSI S1.11 filter bank will be designed. The filter bank will be constained to a $10ms$ group delay and matching error less than $3dB$ \cite{chang}.
+\noindent In the previous section, the investigations were constrained to using 8 filters. ANSI S1.11 provides specifications for $1/3$-octave filter banks, meaning there are $3$ sub-bands per octave. As shown in Section \ref{sec:numFreqBands}, increasing the number of sub-bands decreases the matching error. A design was simulated using the frequency sub-bands $F_{14} \rightarrow F_{39}$. Simulations performed resulted in extensive aliasing affects and a maximum group delay of $107.7ms$. This is unacceptable. Relaxation techniques exist to reduce rigidity of the ANSI S1.11 specification. However, the lowest frequency sub-band $(F_{14})$ has a lower passband frequency of $23Hz$. It is impossible to make the lower transition bandwidth large enough to reduce the order without reducing the attenuation. Therefore, the octave filter bank is chosen over the $1/3$-octave filter bank. As shown in Section \ref{sec:filtSelect}, the ANSI S1.11 octave filter bank is highly accurate, but has an unacceptably large group delay. Therefore, the ANSI S1.11 octave filter bank will be optimised to meet the $10ms$ group delay requirement. As seen in equation \ref{eqn:grpDelay}, the group delay is dependant on the filter order. The maximum filter order to achieve a group delay of $10ms$ is therefore, $P = (10ms)\times (2f_s) = 400$. Using \texttt{MATLAB's} Park-McClennan algorithm function \texttt{firpmord}, it was found that the first, second and third sub-band filters did not meet this requirement with filter orders of $1350$, $1890$ and $945$ respectively.\\
+\newline
+\noindent To reduce the complexity (order) of an \textit{FIR} filter, multirate filters can be used. This involves operating different parts of the filter bank at different sampling frequencies. This increases the efficiency of the filter bank by reducing the number of multiplications required.
 
 
 
@@ -297,14 +300,21 @@ adjust interatively to get rid of aliasing affects
 
 \section{Dynamic Compression Design}
 
+\noindent 
+
 \section{System Realisation}
 
-what defines success. Look at the requirements. matching error, group delay
+\noindent This subsystem consists of an input, an analysis and synthesis stage and finally an output. The hardware required to realise this system consists of a DSP, DAC, anti-imaging filter and speaker. TALK ABOUT THE INPUT. The Analog Devices, \textit{ADAU1463 Sigma Digital Audio Processor} is chosen as the DSP for this system.
+
 
 talk about the DSP, DAC, anti-imaging filter, speaker
 
+
+
+
 \section{Success Criterion}
 
+what defines success. Look at the requirements. matching error, group delay
 
 \section{Critical Evaluation of Results}
 

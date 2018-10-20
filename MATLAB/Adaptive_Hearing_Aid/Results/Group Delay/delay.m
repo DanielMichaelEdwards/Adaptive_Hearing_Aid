@@ -7,9 +7,9 @@ order = [219 597 647 1498 1891];
 grpDelay = 1:length(order);
 
 for i=1:length(order)
-   grpDelay(i) = order(i)/Fs;
+   grpDelay(i) = order(i)/(2*Fs);
 end
-grpDelay = 1000.*grpDelay;
+grpDelay = 1000.*grpDelay
 
 matError = [1.36 1.34 0.87 0.72 0.23];
 xaxis = 1:length(order);
