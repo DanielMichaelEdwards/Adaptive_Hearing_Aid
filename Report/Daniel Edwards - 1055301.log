@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.8.29)  21 OCT 2018 18:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.8.29)  22 OCT 2018 00:43
 entering extended mode
 **"./Daniel Edwards - 1055301.tex"
 ("Daniel Edwards - 1055301.tex"
@@ -239,6 +239,61 @@ This is texnames.sty, Version 1.09 <16 March 1993>
 )
 \c@thrm=\count97
 )
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpages
+.sty"
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count98
+\calc@Bcount=\count99
+\calc@Adimen=\dimen110
+\calc@Bdimen=\dimen111
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count100
+\calc@Cskip=\skip45
+)
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.s
+ty"
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\colo
+r.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen112
+\AM@pageheight=\dimen113
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex
+.def"
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box26
+\AM@global@opts=\toks15
+\AM@toc@title=\toks16
+\c@AM@survey=\count101
+\AM@templatesizebox=\box27
+)
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\placeins\placeins
 .sty"
 Package: placeins 2005/04/18  v 2.2
@@ -252,164 +307,164 @@ Package: expl3 2018-08-23 L3 programming layer (loader)
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3-co
 de.tex"
 Package: expl3 2018-08-23 L3 programming layer (code)
-\c_max_int=\count98
-\l_tmpa_int=\count99
-\l_tmpb_int=\count100
-\g_tmpa_int=\count101
-\g_tmpb_int=\count102
-\g__kernel_prg_map_int=\count103
-\c_log_iow=\count104
-\l_iow_line_count_int=\count105
-\l__iow_line_target_int=\count106
-\l__iow_one_indent_int=\count107
-\l__iow_indent_int=\count108
-\c_zero_dim=\dimen110
-\c_max_dim=\dimen111
-\l_tmpa_dim=\dimen112
-\l_tmpb_dim=\dimen113
-\g_tmpa_dim=\dimen114
-\g_tmpb_dim=\dimen115
-\c_zero_skip=\skip43
-\c_max_skip=\skip44
-\l_tmpa_skip=\skip45
-\l_tmpb_skip=\skip46
-\g_tmpa_skip=\skip47
-\g_tmpb_skip=\skip48
+\c_max_int=\count102
+\l_tmpa_int=\count103
+\l_tmpb_int=\count104
+\g_tmpa_int=\count105
+\g_tmpb_int=\count106
+\g__kernel_prg_map_int=\count107
+\c_log_iow=\count108
+\l_iow_line_count_int=\count109
+\l__iow_line_target_int=\count110
+\l__iow_one_indent_int=\count111
+\l__iow_indent_int=\count112
+\c_zero_dim=\dimen114
+\c_max_dim=\dimen115
+\l_tmpa_dim=\dimen116
+\l_tmpb_dim=\dimen117
+\g_tmpa_dim=\dimen118
+\g_tmpb_dim=\dimen119
+\c_zero_skip=\skip46
+\c_max_skip=\skip47
+\l_tmpa_skip=\skip48
+\l_tmpb_skip=\skip49
+\g_tmpa_skip=\skip50
+\g_tmpb_skip=\skip51
 \c_zero_muskip=\muskip11
 \c_max_muskip=\muskip12
 \l_tmpa_muskip=\muskip13
 \l_tmpb_muskip=\muskip14
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count109
-\l__intarray_loop_int=\count110
-\c__intarray_sp_dim=\dimen116
-\g__intarray_font_int=\count111
-\c__fp_leading_shift_int=\count112
-\c__fp_middle_shift_int=\count113
-\c__fp_trailing_shift_int=\count114
-\c__fp_big_leading_shift_int=\count115
-\c__fp_big_middle_shift_int=\count116
-\c__fp_big_trailing_shift_int=\count117
-\c__fp_Bigg_leading_shift_int=\count118
-\c__fp_Bigg_middle_shift_int=\count119
-\c__fp_Bigg_trailing_shift_int=\count120
-\c__kernel_randint_max_int=\count121
-\g__fp_array_int=\count122
-\l__fp_array_loop_int=\count123
-\l__sort_length_int=\count124
-\l__sort_min_int=\count125
-\l__sort_top_int=\count126
-\l__sort_max_int=\count127
-\l__sort_true_max_int=\count128
-\l__sort_block_int=\count129
-\l__sort_begin_int=\count130
-\l__sort_end_int=\count131
-\l__sort_A_int=\count132
-\l__sort_B_int=\count133
-\l__sort_C_int=\count134
-\l__tl_analysis_normal_int=\count135
-\l__tl_analysis_index_int=\count136
-\l__tl_analysis_nesting_int=\count137
-\l__tl_analysis_type_int=\count138
-\l__regex_internal_a_int=\count139
-\l__regex_internal_b_int=\count140
-\l__regex_internal_c_int=\count141
-\l__regex_balance_int=\count142
-\l__regex_group_level_int=\count143
-\l__regex_mode_int=\count144
-\c__regex_cs_in_class_mode_int=\count145
-\c__regex_cs_mode_int=\count146
-\l__regex_catcodes_int=\count147
-\l__regex_default_catcodes_int=\count148
-\c__regex_catcode_D_int=\count149
-\c__regex_catcode_S_int=\count150
-\c__regex_catcode_L_int=\count151
-\c__regex_catcode_O_int=\count152
-\c__regex_catcode_A_int=\count153
-\c__regex_all_catcodes_int=\count154
-\l__regex_show_lines_int=\count155
-\l__regex_min_state_int=\count156
-\l__regex_max_state_int=\count157
-\l__regex_left_state_int=\count158
-\l__regex_right_state_int=\count159
-\l__regex_capturing_group_int=\count160
-\l__regex_min_pos_int=\count161
-\l__regex_max_pos_int=\count162
-\l__regex_curr_pos_int=\count163
-\l__regex_start_pos_int=\count164
-\l__regex_success_pos_int=\count165
-\l__regex_curr_char_int=\count166
-\l__regex_curr_catcode_int=\count167
-\l__regex_last_char_int=\count168
-\l__regex_case_changed_char_int=\count169
-\l__regex_curr_state_int=\count170
-\l__regex_step_int=\count171
-\l__regex_min_active_int=\count172
-\l__regex_max_active_int=\count173
-\l__regex_replacement_csnames_int=\count174
-\l__regex_match_count_int=\count175
-\l__regex_min_submatch_int=\count176
-\l__regex_submatch_int=\count177
-\l__regex_zeroth_submatch_int=\count178
-\g__regex_trace_regex_int=\count179
-\c_empty_box=\box26
-\l_tmpa_box=\box27
-\l_tmpb_box=\box28
-\g_tmpa_box=\box29
-\g_tmpb_box=\box30
-\l__box_top_dim=\dimen117
-\l__box_bottom_dim=\dimen118
-\l__box_left_dim=\dimen119
-\l__box_right_dim=\dimen120
-\l__box_top_new_dim=\dimen121
-\l__box_bottom_new_dim=\dimen122
-\l__box_left_new_dim=\dimen123
-\l__box_right_new_dim=\dimen124
-\l__box_internal_box=\box31
-\l__coffin_internal_box=\box32
-\l__coffin_internal_dim=\dimen125
-\l__coffin_offset_x_dim=\dimen126
-\l__coffin_offset_y_dim=\dimen127
-\l__coffin_x_dim=\dimen128
-\l__coffin_y_dim=\dimen129
-\l__coffin_x_prime_dim=\dimen130
-\l__coffin_y_prime_dim=\dimen131
-\c_empty_coffin=\box33
-\l__coffin_aligned_coffin=\box34
-\l__coffin_aligned_internal_coffin=\box35
-\l_tmpa_coffin=\box36
-\l_tmpb_coffin=\box37
-\l__coffin_display_coffin=\box38
-\l__coffin_display_coord_coffin=\box39
-\l__coffin_display_pole_coffin=\box40
-\l__coffin_display_offset_dim=\dimen132
-\l__coffin_display_x_dim=\dimen133
-\l__coffin_display_y_dim=\dimen134
+\l_keys_choice_int=\count113
+\l__intarray_loop_int=\count114
+\c__intarray_sp_dim=\dimen120
+\g__intarray_font_int=\count115
+\c__fp_leading_shift_int=\count116
+\c__fp_middle_shift_int=\count117
+\c__fp_trailing_shift_int=\count118
+\c__fp_big_leading_shift_int=\count119
+\c__fp_big_middle_shift_int=\count120
+\c__fp_big_trailing_shift_int=\count121
+\c__fp_Bigg_leading_shift_int=\count122
+\c__fp_Bigg_middle_shift_int=\count123
+\c__fp_Bigg_trailing_shift_int=\count124
+\c__kernel_randint_max_int=\count125
+\g__fp_array_int=\count126
+\l__fp_array_loop_int=\count127
+\l__sort_length_int=\count128
+\l__sort_min_int=\count129
+\l__sort_top_int=\count130
+\l__sort_max_int=\count131
+\l__sort_true_max_int=\count132
+\l__sort_block_int=\count133
+\l__sort_begin_int=\count134
+\l__sort_end_int=\count135
+\l__sort_A_int=\count136
+\l__sort_B_int=\count137
+\l__sort_C_int=\count138
+\l__tl_analysis_normal_int=\count139
+\l__tl_analysis_index_int=\count140
+\l__tl_analysis_nesting_int=\count141
+\l__tl_analysis_type_int=\count142
+\l__regex_internal_a_int=\count143
+\l__regex_internal_b_int=\count144
+\l__regex_internal_c_int=\count145
+\l__regex_balance_int=\count146
+\l__regex_group_level_int=\count147
+\l__regex_mode_int=\count148
+\c__regex_cs_in_class_mode_int=\count149
+\c__regex_cs_mode_int=\count150
+\l__regex_catcodes_int=\count151
+\l__regex_default_catcodes_int=\count152
+\c__regex_catcode_D_int=\count153
+\c__regex_catcode_S_int=\count154
+\c__regex_catcode_L_int=\count155
+\c__regex_catcode_O_int=\count156
+\c__regex_catcode_A_int=\count157
+\c__regex_all_catcodes_int=\count158
+\l__regex_show_lines_int=\count159
+\l__regex_min_state_int=\count160
+\l__regex_max_state_int=\count161
+\l__regex_left_state_int=\count162
+\l__regex_right_state_int=\count163
+\l__regex_capturing_group_int=\count164
+\l__regex_min_pos_int=\count165
+\l__regex_max_pos_int=\count166
+\l__regex_curr_pos_int=\count167
+\l__regex_start_pos_int=\count168
+\l__regex_success_pos_int=\count169
+\l__regex_curr_char_int=\count170
+\l__regex_curr_catcode_int=\count171
+\l__regex_last_char_int=\count172
+\l__regex_case_changed_char_int=\count173
+\l__regex_curr_state_int=\count174
+\l__regex_step_int=\count175
+\l__regex_min_active_int=\count176
+\l__regex_max_active_int=\count177
+\l__regex_replacement_csnames_int=\count178
+\l__regex_match_count_int=\count179
+\l__regex_min_submatch_int=\count180
+\l__regex_submatch_int=\count181
+\l__regex_zeroth_submatch_int=\count182
+\g__regex_trace_regex_int=\count183
+\c_empty_box=\box28
+\l_tmpa_box=\box29
+\l_tmpb_box=\box30
+\g_tmpa_box=\box31
+\g_tmpb_box=\box32
+\l__box_top_dim=\dimen121
+\l__box_bottom_dim=\dimen122
+\l__box_left_dim=\dimen123
+\l__box_right_dim=\dimen124
+\l__box_top_new_dim=\dimen125
+\l__box_bottom_new_dim=\dimen126
+\l__box_left_new_dim=\dimen127
+\l__box_right_new_dim=\dimen128
+\l__box_internal_box=\box33
+\l__coffin_internal_box=\box34
+\l__coffin_internal_dim=\dimen129
+\l__coffin_offset_x_dim=\dimen130
+\l__coffin_offset_y_dim=\dimen131
+\l__coffin_x_dim=\dimen132
+\l__coffin_y_dim=\dimen133
+\l__coffin_x_prime_dim=\dimen134
+\l__coffin_y_prime_dim=\dimen135
+\c_empty_coffin=\box35
+\l__coffin_aligned_coffin=\box36
+\l__coffin_aligned_internal_coffin=\box37
+\l_tmpa_coffin=\box38
+\l_tmpb_coffin=\box39
+\l__coffin_display_coffin=\box40
+\l__coffin_display_coord_coffin=\box41
+\l__coffin_display_pole_coffin=\box42
+\l__coffin_display_offset_dim=\dimen136
+\l__coffin_display_x_dim=\dimen137
+\l__coffin_display_y_dim=\dimen138
 \g__file_internal_ior=\read1
-\l__coffin_bounding_shift_dim=\dimen135
-\l__coffin_left_corner_dim=\dimen136
-\l__coffin_right_corner_dim=\dimen137
-\l__coffin_bottom_corner_dim=\dimen138
-\l__coffin_top_corner_dim=\dimen139
-\l__coffin_scaled_total_height_dim=\dimen140
-\l__coffin_scaled_width_dim=\dimen141
-\l__seq_internal_a_int=\count180
-\l__seq_internal_b_int=\count181
+\l__coffin_bounding_shift_dim=\dimen139
+\l__coffin_left_corner_dim=\dimen140
+\l__coffin_right_corner_dim=\dimen141
+\l__coffin_bottom_corner_dim=\dimen142
+\l__coffin_top_corner_dim=\dimen143
+\l__coffin_scaled_total_height_dim=\dimen144
+\l__coffin_scaled_width_dim=\dimen145
+\l__seq_internal_a_int=\count184
+\l__seq_internal_b_int=\count185
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmod
 e.def"
 File: l3pdfmode.def 2018-08-23 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count182
+\l__driver_color_stack_int=\count186
 ))
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse
 \xparse.sty"
 Package: xparse 2018-08-23 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count183
-\g__xparse_grabber_int=\count184
-\l__xparse_m_args_int=\count185
-\l__xparse_mandatory_args_int=\count186
-\l__xparse_v_nesting_int=\count187
+\l__xparse_current_arg_int=\count187
+\g__xparse_grabber_int=\count188
+\l__xparse_m_args_int=\count189
+\l__xparse_mandatory_args_int=\count190
+\l__xparse_v_nesting_int=\count191
 )
 Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
 
@@ -420,63 +475,63 @@ Package: amstext 2000/06/29 v2.01 AMS text
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.st
 y"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks15
-\ex@=\dimen142
+\@emptytoks=\toks17
+\ex@=\dimen146
 ))
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
-\col@sep=\dimen143
-\ar@mcellbox=\box41
-\extrarowheight=\dimen144
-\NC@list=\toks16
-\extratabsurround=\skip49
-\backup@length=\skip50
-\ar@cellbox=\box42
+\col@sep=\dimen147
+\ar@mcellbox=\box43
+\extrarowheight=\dimen148
+\NC@list=\toks18
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box44
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\l3keys
 2e\l3keys2e.sty"
 Package: l3keys2e 2018-08-23 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box43
-\l__siunitx_tmp_dim=\dimen145
-\l__siunitx_tmp_int=\count188
-\l__siunitx_number_mantissa_length_int=\count189
-\l__siunitx_number_uncert_length_int=\count190
-\l__siunitx_round_int=\count191
-\l__siunitx_process_decimal_int=\count192
-\l__siunitx_process_uncertainty_int=\count193
-\l__siunitx_process_fixed_int=\count194
-\l__siunitx_process_integer_min_int=\count195
-\l__siunitx_process_precision_int=\count196
-\l__siunitx_group_min_int=\count197
-\l__siunitx_angle_marker_box=\box44
-\l__siunitx_angle_unit_box=\box45
-\l__siunitx_angle_marker_dim=\dimen146
-\l__siunitx_angle_unit_dim=\dimen147
-\l__siunitx_unit_int=\count198
-\l__siunitx_unit_denominator_int=\count199
-\l__siunitx_unit_numerator_int=\count266
-\l__siunitx_unit_prefix_int=\count267
-\l__siunitx_unit_prefix_base_int=\count268
-\l__siunitx_unit_prefix_gram_int=\count269
-\l__siunitx_number_product_int=\count270
-\c__siunitx_one_fill_skip=\skip51
-\l__siunitx_table_unit_align_skip=\skip52
-\l__siunitx_table_exponent_dim=\dimen148
-\l__siunitx_table_integer_dim=\dimen149
-\l__siunitx_table_mantissa_dim=\dimen150
-\l__siunitx_table_marker_dim=\dimen151
-\l__siunitx_table_result_dim=\dimen152
-\l__siunitx_table_uncert_dim=\dimen153
-\l__siunitx_table_fill_pre_dim=\dimen154
-\l__siunitx_table_fill_post_dim=\dimen155
-\l__siunitx_table_fill_mid_dim=\dimen156
-\l__siunitx_table_pre_box=\box46
-\l__siunitx_table_post_box=\box47
-\l__siunitx_table_mantissa_box=\box48
-\l__siunitx_table_result_box=\box49
-\l__siunitx_table_number_align_skip=\skip53
-\l__siunitx_table_text_align_skip=\skip54
+\l__siunitx_tmp_box=\box45
+\l__siunitx_tmp_dim=\dimen149
+\l__siunitx_tmp_int=\count192
+\l__siunitx_number_mantissa_length_int=\count193
+\l__siunitx_number_uncert_length_int=\count194
+\l__siunitx_round_int=\count195
+\l__siunitx_process_decimal_int=\count196
+\l__siunitx_process_uncertainty_int=\count197
+\l__siunitx_process_fixed_int=\count198
+\l__siunitx_process_integer_min_int=\count199
+\l__siunitx_process_precision_int=\count266
+\l__siunitx_group_min_int=\count267
+\l__siunitx_angle_marker_box=\box46
+\l__siunitx_angle_unit_box=\box47
+\l__siunitx_angle_marker_dim=\dimen150
+\l__siunitx_angle_unit_dim=\dimen151
+\l__siunitx_unit_int=\count268
+\l__siunitx_unit_denominator_int=\count269
+\l__siunitx_unit_numerator_int=\count270
+\l__siunitx_unit_prefix_int=\count271
+\l__siunitx_unit_prefix_base_int=\count272
+\l__siunitx_unit_prefix_gram_int=\count273
+\l__siunitx_number_product_int=\count274
+\c__siunitx_one_fill_skip=\skip54
+\l__siunitx_table_unit_align_skip=\skip55
+\l__siunitx_table_exponent_dim=\dimen152
+\l__siunitx_table_integer_dim=\dimen153
+\l__siunitx_table_mantissa_dim=\dimen154
+\l__siunitx_table_marker_dim=\dimen155
+\l__siunitx_table_result_dim=\dimen156
+\l__siunitx_table_uncert_dim=\dimen157
+\l__siunitx_table_fill_pre_dim=\dimen158
+\l__siunitx_table_fill_post_dim=\dimen159
+\l__siunitx_table_fill_mid_dim=\dimen160
+\l__siunitx_table_pre_box=\box48
+\l__siunitx_table_post_box=\box49
+\l__siunitx_table_mantissa_box=\box50
+\l__siunitx_table_result_box=\box51
+\l__siunitx_table_number_align_skip=\skip56
+\l__siunitx_table_text_align_skip=\skip57
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -600,54 +655,54 @@ Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.s
 ty"
 Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip55
+\@mathmargin=\skip58
 
 For additional information on amsmath, use the `?' option.
 
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.st
 y"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen157
+\pmbraise@=\dimen161
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.st
 y"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count271
+\inf@bad=\count275
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count272
-\leftroot@=\count273
+\uproot@=\count276
+\leftroot@=\count277
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count274
-\DOTSCASE@=\count275
+\classnum@=\count278
+\DOTSCASE@=\count279
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box50
-\strutbox@=\box51
-\big@size=\dimen158
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+\big@size=\dimen162
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count276
-\c@MaxMatrixCols=\count277
+\macc@depth=\count280
+\c@MaxMatrixCols=\count281
 \dotsspace@=\muskip17
-\c@parentequation=\count278
-\dspbrk@lvl=\count279
-\tag@help=\toks17
-\row@=\count280
-\column@=\count281
-\maxfields@=\count282
-\andhelp@=\toks18
-\eqnshift@=\dimen159
-\alignsep@=\dimen160
-\tagshift@=\dimen161
-\tagwidth@=\dimen162
-\totwidth@=\dimen163
-\lineht@=\dimen164
-\@envbody=\toks19
-\multlinegap=\skip56
-\multlinetaggap=\skip57
-\mathdisplay@stack=\toks20
+\c@parentequation=\count282
+\dspbrk@lvl=\count283
+\tag@help=\toks19
+\row@=\count284
+\column@=\count285
+\maxfields@=\count286
+\andhelp@=\toks20
+\eqnshift@=\dimen163
+\alignsep@=\dimen164
+\tagshift@=\dimen165
+\tagwidth@=\dimen166
+\totwidth@=\dimen167
+\lineht@=\dimen168
+\@envbody=\toks21
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -659,15 +714,15 @@ Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 sty"
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen165
-\captionmargin@=\dimen166
-\captionwidth=\dimen167
-\caption@tempdima=\dimen168
-\caption@indent=\dimen169
-\caption@parindent=\dimen170
-\caption@hangindent=\dimen171
-\abovecaptionskip=\skip58
-\belowcaptionskip=\skip59
+\captionmargin=\dimen169
+\captionmargin@=\dimen170
+\captionwidth=\dimen171
+\caption@tempdima=\dimen172
+\caption@indent=\dimen173
+\caption@parindent=\dimen174
+\caption@hangindent=\dimen175
+\abovecaptionskip=\skip61
+\belowcaptionskip=\skip62
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
@@ -686,15 +741,15 @@ a >\hsize \setbox \@tempboxa \hbox {#1~:~} \setlength \captionindent {\wd \@tem
 pboxa } \divide \captionindent by 1 \parbox [t]{\hsize }{\hangindent \captionin
 dent \hangafter =1\unhbox \@tempboxa #2} \else \hbox to\hsize {\hfil \box \@tem
 pboxa \hfil } \fi \vskip 8pt \fi .
-\c@caption@flags=\count283
-\c@ContinuedFloat=\count284
+\c@caption@flags=\count287
+\c@ContinuedFloat=\count288
 Package caption Info: hyperref package is loaded.
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcaptio
 n.sty"
 Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
-\c@subfigure=\count285
-\c@subtable=\count286
+\c@subfigure=\count289
+\c@subtable=\count290
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcolorb
 ox.sty"
@@ -706,15 +761,15 @@ f.sty"
 rcs.sty"
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
 gfutil-common.tex"
-\pgfutil@everybye=\toks21
-\pgfutil@tempdima=\dimen172
-\pgfutil@tempdimb=\dimen173
+\pgfutil@everybye=\toks23
+\pgfutil@tempdima=\dimen176
+\pgfutil@tempdimb=\dimen177
 
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
 gfutil-common-lists.tex"))
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
 gfutil-latex.def"
-\pgfutil@abb=\box52
+\pgfutil@abb=\box54
 
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
@@ -735,30 +790,30 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
 gfkeys.code.tex"
-\pgfkeys@pathtoks=\toks22
-\pgfkeys@temptoks=\toks23
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
 
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\p
 gfkeysfiltered.code.tex"
-\pgfkeys@tmptoks=\toks24
+\pgfkeys@tmptoks=\toks26
 ))
-\pgf@x=\dimen174
-\pgf@y=\dimen175
-\pgf@xa=\dimen176
-\pgf@ya=\dimen177
-\pgf@xb=\dimen178
-\pgf@yb=\dimen179
-\pgf@xc=\dimen180
-\pgf@yc=\dimen181
+\pgf@x=\dimen178
+\pgf@y=\dimen179
+\pgf@xa=\dimen180
+\pgf@ya=\dimen181
+\pgf@xb=\dimen182
+\pgf@yb=\dimen183
+\pgf@xc=\dimen184
+\pgf@yc=\dimen185
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count287
-\c@pgf@countb=\count288
-\c@pgf@countc=\count289
-\c@pgf@countd=\count290
-\t@pgf@toka=\toks25
-\t@pgf@tokb=\toks26
-\t@pgf@tokc=\toks27
+\c@pgf@counta=\count291
+\c@pgf@countb=\count292
+\c@pgf@countc=\count293
+\c@pgf@countd=\count294
+\t@pgf@toka=\toks27
+\t@pgf@tokb=\toks28
+\t@pgf@tokc=\toks29
 
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
 \pgf.cfg"
@@ -777,32 +832,13 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
 \pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count291
-\pgfsyssoftpath@bigbuffer@items=\count292
+\pgfsyssoftpath@smallbuffer@items=\count295
+\pgfsyssoftpath@bigbuffer@items=\count296
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer
 \pgfsysprotocol.code.tex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
-"
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\colo
-r.cfg"
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
 pgfcore.code.tex"
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
@@ -815,12 +851,12 @@ hcalc.code.tex"
 hutil.code.tex")
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
 hparser.code.tex"
-\pgfmath@dimen=\dimen182
-\pgfmath@count=\count293
-\pgfmath@box=\box53
-\pgfmath@toks=\toks28
-\pgfmath@stack@operand=\toks29
-\pgfmath@stack@operation=\toks30
+\pgfmath@dimen=\dimen186
+\pgfmath@count=\count297
+\pgfmath@box=\box55
+\pgfmath@toks=\toks30
+\pgfmath@stack@operand=\toks31
+\pgfmath@stack@operation=\toks32
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
 hfunctions.code.tex"
@@ -842,57 +878,57 @@ hfunctions.misc.code.tex")
 hfunctions.integerarithmetics.code.tex")))
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
 hfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count294
+\c@pgfmathroundto@lastzeros=\count298
 ))
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
 pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen183
-\pgf@picmaxx=\dimen184
-\pgf@picminy=\dimen185
-\pgf@picmaxy=\dimen186
-\pgf@pathminx=\dimen187
-\pgf@pathmaxx=\dimen188
-\pgf@pathminy=\dimen189
-\pgf@pathmaxy=\dimen190
-\pgf@xx=\dimen191
-\pgf@xy=\dimen192
-\pgf@yx=\dimen193
-\pgf@yy=\dimen194
-\pgf@zx=\dimen195
-\pgf@zy=\dimen196
+\pgf@picminx=\dimen187
+\pgf@picmaxx=\dimen188
+\pgf@picminy=\dimen189
+\pgf@picmaxy=\dimen190
+\pgf@pathminx=\dimen191
+\pgf@pathmaxx=\dimen192
+\pgf@pathminy=\dimen193
+\pgf@pathmaxy=\dimen194
+\pgf@xx=\dimen195
+\pgf@xy=\dimen196
+\pgf@yx=\dimen197
+\pgf@yy=\dimen198
+\pgf@zx=\dimen199
+\pgf@zy=\dimen256
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
 pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen197
-\pgf@path@lasty=\dimen198
+\pgf@path@lastx=\dimen257
+\pgf@path@lasty=\dimen258
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
 pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen199
-\pgf@shorten@start@additional=\dimen256
+\pgf@shorten@end@additional=\dimen259
+\pgf@shorten@start@additional=\dimen260
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
 pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box54
-\pgf@hbox=\box55
-\pgf@layerbox@main=\box56
-\pgf@picture@serial@count=\count295
+\pgfpic=\box56
+\pgf@hbox=\box57
+\pgf@layerbox@main=\box58
+\pgf@picture@serial@count=\count299
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
 pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen257
+\pgflinewidth=\dimen261
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
 pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen258
-\pgf@pt@y=\dimen259
-\pgf@pt@temp=\dimen260
+\pgf@pt@x=\dimen262
+\pgf@pt@y=\dimen263
+\pgf@pt@temp=\dimen264
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
 pgfcorequick.code.tex"
@@ -909,13 +945,13 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
 pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen261
+\pgfarrowsep=\dimen265
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
 pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen262
-\pgf@sys@shading@range@num=\count296
+\pgf@max=\dimen266
+\pgf@sys@shading@range@num=\count300
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
 pgfcoreimage.code.tex"
@@ -924,7 +960,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
 pgfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box57
+\pgfexternal@startupbox=\box59
 ))
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\
 pgfcorelayers.code.tex"
@@ -941,7 +977,7 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgf
 moduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box58
+\pgfnodeparttextbox=\box60
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgf
 moduleplot.code.tex"
@@ -950,8 +986,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility
 \pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen263
-\pgf@nodesepend=\dimen264
+\pgf@nodesepstart=\dimen267
+\pgf@nodesepend=\dimen268
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility
 \pgfcomp-version-1-18.sty"
@@ -960,8 +996,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.st
 y"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks31
-\verbatim@line=\toks32
+\every@verbatim=\toks33
+\verbatim@line=\toks34
 \verbatim@in@stream=\read3
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\environ\environ.s
@@ -975,19 +1011,19 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox
 .sty"
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count297
+\etb@tempcnta=\count301
 )
-\tcb@titlebox=\box59
-\tcb@upperbox=\box60
-\tcb@lowerbox=\box61
-\tcb@phantombox=\box62
-\c@tcbbreakpart=\count298
-\c@tcblayer=\count299
-\tcolorbox@number=\count300
-\tcb@temp=\box63
-\tcb@temp=\box64
+\tcb@titlebox=\box61
+\tcb@upperbox=\box62
+\tcb@lowerbox=\box63
+\tcb@phantombox=\box64
+\c@tcbbreakpart=\count302
+\c@tcblayer=\count303
+\tcolorbox@number=\count304
 \tcb@temp=\box65
 \tcb@temp=\box66
+\tcb@temp=\box67
+\tcb@temp=\box68
 \tcb@out=\write4
 \tcb@record@out=\write5
 )
@@ -1003,10 +1039,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 .tex"
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutil
 s.tex"
-\XKV@toks=\toks33
-\XKV@tempa@toks=\toks34
+\XKV@toks=\toks35
+\XKV@tempa@toks=\toks36
 )
-\XKV@depth=\count301
+\XKV@depth=\count305
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjcalc
@@ -1021,39 +1057,39 @@ Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\collectbox\collec
 tbox.sty"
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box67
+\collectedbox=\box69
 )
-\tc@llx=\dimen265
-\tc@lly=\dimen266
-\tc@urx=\dimen267
-\tc@ury=\dimen268
+\tc@llx=\dimen269
+\tc@lly=\dimen270
+\tc@urx=\dimen271
+\tc@ury=\dimen272
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\tc-pdft
 ex.def"
 File: tc-pdftex.def 2018/04/08 v2.1 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen269
-\adjbox@Height=\dimen270
-\adjbox@Depth=\dimen271
-\adjbox@Totalheight=\dimen272
-\adjbox@pwidth=\dimen273
-\adjbox@pheight=\dimen274
-\adjbox@pdepth=\dimen275
-\adjbox@ptotalheight=\dimen276
+\adjbox@Width=\dimen273
+\adjbox@Height=\dimen274
+\adjbox@Depth=\dimen275
+\adjbox@Totalheight=\dimen276
+\adjbox@pwidth=\dimen277
+\adjbox@pheight=\dimen278
+\adjbox@pdepth=\dimen279
+\adjbox@ptotalheight=\dimen280
 
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpa
 ge.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count302
+\c@checkoddpage=\count306
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\varwidth\varwidth
 .sty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box68
-\sift@deathcycles=\count303
-\@vwid@loff=\dimen277
-\@vwid@roff=\dimen278
+\@vwid@box=\box70
+\sift@deathcycles=\count307
+\@vwid@loff=\dimen281
+\@vwid@roff=\dimen282
 ))
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgfplots\pgfplots
 table.sty"
@@ -1086,10 +1122,10 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmat
 h.code.tex")
-\pgffor@iter=\dimen279
-\pgffor@skip=\dimen280
-\pgffor@stack=\toks35
-\pgffor@toks=\toks36
+\pgffor@iter=\dimen283
+\pgffor@skip=\dimen284
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
 ))
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlay
 er\tikz\tikz.code.tex"
@@ -1098,32 +1134,32 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\p
 gflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count304
-\pgfplotmarksize=\dimen281
+\pgf@plot@mark@count=\count308
+\pgfplotmarksize=\dimen285
 )
-\tikz@lastx=\dimen282
-\tikz@lasty=\dimen283
-\tikz@lastxsaved=\dimen284
-\tikz@lastysaved=\dimen285
-\tikzleveldistance=\dimen286
-\tikzsiblingdistance=\dimen287
-\tikz@figbox=\box69
-\tikz@figbox@bg=\box70
-\tikz@tempbox=\box71
-\tikz@tempbox@bg=\box72
-\tikztreelevel=\count305
-\tikznumberofchildren=\count306
-\tikznumberofcurrentchild=\count307
-\tikz@fig@count=\count308
+\tikz@lastx=\dimen286
+\tikz@lasty=\dimen287
+\tikz@lastxsaved=\dimen288
+\tikz@lastysaved=\dimen289
+\tikzleveldistance=\dimen290
+\tikzsiblingdistance=\dimen291
+\tikz@figbox=\box71
+\tikz@figbox@bg=\box72
+\tikz@tempbox=\box73
+\tikz@tempbox@bg=\box74
+\tikztreelevel=\count309
+\tikznumberofchildren=\count310
+\tikznumberofcurrentchild=\count311
+\tikz@fig@count=\count312
 
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgf
 modulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count309
-\pgfmatrixcurrentcolumn=\count310
-\pgf@matrix@numberofcolumns=\count311
+\pgfmatrixcurrentrow=\count313
+\pgfmatrixcurrentcolumn=\count314
+\pgf@matrix@numberofcolumns=\count315
 )
-\tikz@expandcount=\count312
+\tikz@expandcount=\count316
 
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlay
 er\tikz\libraries\tikzlibrarytopaths.code.tex"
@@ -1133,12 +1169,12 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 ts.code.tex"
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfplo
 tscore.code.tex"
-\t@pgfplots@toka=\toks37
-\t@pgfplots@tokb=\toks38
-\t@pgfplots@tokc=\toks39
-\pgfplots@tmpa=\dimen288
-\c@pgfplots@coordindex=\count313
-\c@pgfplots@scanlineindex=\count314
+\t@pgfplots@toka=\toks39
+\t@pgfplots@tokb=\toks40
+\t@pgfplots@tokc=\toks41
+\pgfplots@tmpa=\dimen292
+\c@pgfplots@coordindex=\count317
+\c@pgfplots@scanlineindex=\count318
 
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\sys\pg
 fplotssysgeneric.code.tex"))
@@ -1154,7 +1190,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 compatib\pgfplotsoldpgfsupp_pgflibraryfpu.code.tex")
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\oldpgf
 compatib\pgfplotsoldpgfsupp_pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count315
+\c@pgfmathroundto@lastzeros=\count319
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\oldpgf
 compatib\pgfplotsoldpgfsupp_leq.code.tex"))
@@ -1166,14 +1202,14 @@ ructure\pgfplotsliststructure.code.tex")
 ructure\pgfplotsliststructureext.code.tex")
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\listst
 ructure\pgfplotsarray.code.tex"
-\c@pgfplotsarray@tmp=\count316
+\c@pgfplotsarray@tmp=\count320
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\listst
 ructure\pgfplotsmatrix.code.tex")
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\numtab
 le\pgfplotstableshared.code.tex"
-\c@pgfplotstable@counta=\count317
-\t@pgfplotstable@a=\toks40
+\c@pgfplotstable@counta=\count321
+\t@pgfplotstable@a=\toks42
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\listst
 ructure\pgfplotsdeque.code.tex")
@@ -1185,7 +1221,7 @@ gfplotsbinary.data.code.tex"))
 gfplotsutil.verb.code.tex")
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\libs\p
 gflibrarypgfplots.surfshading.code.tex"
-\c@pgfplotslibrarysurf@no=\count318
+\c@pgfplotslibrarysurf@no=\count322
 
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\sys\pg
 flibrarypgfplots.surfshading.pgfsys-pdftex.def")))
@@ -1217,16 +1253,16 @@ ts.paths.code.tex")
 er\tikz\libraries\tikzlibrarydecorations.code.tex"
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgf
 moduledecorations.code.tex"
-\pgfdecoratedcompleteddistance=\dimen289
-\pgfdecoratedremainingdistance=\dimen290
-\pgfdecoratedinputsegmentcompleteddistance=\dimen291
-\pgfdecoratedinputsegmentremainingdistance=\dimen292
-\pgf@decorate@distancetomove=\dimen293
-\pgf@decorate@repeatstate=\count319
-\pgfdecorationsegmentamplitude=\dimen294
-\pgfdecorationsegmentlength=\dimen295
+\pgfdecoratedcompleteddistance=\dimen293
+\pgfdecoratedremainingdistance=\dimen294
+\pgfdecoratedinputsegmentcompleteddistance=\dimen295
+\pgfdecoratedinputsegmentremainingdistance=\dimen296
+\pgf@decorate@distancetomove=\dimen297
+\pgf@decorate@repeatstate=\count323
+\pgfdecorationsegmentamplitude=\dimen298
+\pgfdecorationsegmentlength=\dimen299
 )
-\tikz@lib@dec@box=\box73
+\tikz@lib@dec@box=\box75
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlay
 er\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex"
@@ -1236,13 +1272,13 @@ ecorations\pgflibrarydecorations.pathmorphing.code.tex"))
 er\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex"
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\d
 ecorations\pgflibrarydecorations.pathreplacing.code.tex"))
-\pgfplots@numplots=\count320
-\pgfplots@xmin@reg=\dimen296
-\pgfplots@xmax@reg=\dimen297
-\pgfplots@ymin@reg=\dimen298
-\pgfplots@ymax@reg=\dimen299
-\pgfplots@zmin@reg=\dimen300
-\pgfplots@zmax@reg=\dimen301
+\pgfplots@numplots=\count324
+\pgfplots@xmin@reg=\dimen300
+\pgfplots@xmax@reg=\dimen301
+\pgfplots@ymin@reg=\dimen302
+\pgfplots@ymax@reg=\dimen303
+\pgfplots@zmin@reg=\dimen304
+\pgfplots@zmax@reg=\dimen305
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlay
 er\tikz\libraries\tikzlibraryplotmarks.code.tex"
@@ -1259,59 +1295,59 @@ le\pgfplotstable.coltype.code.tex")))
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow
 .sty"
 Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
-\multirow@colwidth=\skip60
-\multirow@cntb=\count321
-\multirow@dima=\skip61
-\bigstrutjot=\dimen302
+\multirow@colwidth=\skip63
+\multirow@cntb=\count325
+\multirow@dima=\skip64
+\bigstrutjot=\dimen306
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.s
 ty"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip62
-\LTright=\skip63
-\LTpre=\skip64
-\LTpost=\skip65
-\LTchunksize=\count322
-\LTcapwidth=\dimen303
-\LT@head=\box74
-\LT@firsthead=\box75
-\LT@foot=\box76
-\LT@lastfoot=\box77
-\LT@cols=\count323
-\LT@rows=\count324
-\c@LT@tables=\count325
-\c@LT@chunks=\count326
-\LT@p@ftn=\toks41
+\LTleft=\skip65
+\LTright=\skip66
+\LTpre=\skip67
+\LTpost=\skip68
+\LTchunksize=\count326
+\LTcapwidth=\dimen307
+\LT@head=\box76
+\LT@firsthead=\box77
+\LT@foot=\box78
+\LT@lastfoot=\box79
+\LT@cols=\count327
+\LT@rows=\count328
+\c@LT@tables=\count329
+\c@LT@chunks=\count330
+\LT@p@ftn=\toks43
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count327
-\float@exts=\toks42
-\float@box=\box78
-\@float@everytoks=\toks43
-\@floatcapt=\box79
+\c@float@type=\count331
+\float@exts=\toks44
+\float@box=\box80
+\@float@everytoks=\toks45
+\@floatcapt=\box81
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings
 .sty"
-\lst@mode=\count328
-\lst@gtempboxa=\box80
-\lst@token=\toks44
-\lst@length=\count329
-\lst@currlwidth=\dimen304
-\lst@column=\count330
-\lst@pos=\count331
-\lst@lostspace=\dimen305
-\lst@width=\dimen306
-\lst@newlines=\count332
-\lst@lineno=\count333
-\lst@maxwidth=\dimen307
+\lst@mode=\count332
+\lst@gtempboxa=\box82
+\lst@token=\toks46
+\lst@length=\count333
+\lst@currlwidth=\dimen308
+\lst@column=\count334
+\lst@pos=\count335
+\lst@lostspace=\dimen309
+\lst@width=\dimen310
+\lst@newlines=\count336
+\lst@lineno=\count337
+\lst@maxwidth=\dimen311
 
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.
 sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count334
-\lst@skipnumbers=\count335
-\lst@framebox=\box81
+\c@lstnumber=\count338
+\lst@skipnumbers=\count339
+\lst@framebox=\box83
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings
 .cfg"
@@ -1334,92 +1370,92 @@ Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-\c@abspage=\count336
+\c@abspage=\count340
 Package zref Info: New property: abspage on input line 62.
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\needspace\needspa
 ce.sty"
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\mdf@templength=\skip66
-\c@mdf@globalstyle@cnt=\count337
-\mdf@skipabove@length=\skip67
-\mdf@skipbelow@length=\skip68
-\mdf@leftmargin@length=\skip69
-\mdf@rightmargin@length=\skip70
-\mdf@innerleftmargin@length=\skip71
-\mdf@innerrightmargin@length=\skip72
-\mdf@innertopmargin@length=\skip73
-\mdf@innerbottommargin@length=\skip74
-\mdf@splittopskip@length=\skip75
-\mdf@splitbottomskip@length=\skip76
-\mdf@outermargin@length=\skip77
-\mdf@innermargin@length=\skip78
-\mdf@linewidth@length=\skip79
-\mdf@innerlinewidth@length=\skip80
-\mdf@middlelinewidth@length=\skip81
-\mdf@outerlinewidth@length=\skip82
-\mdf@roundcorner@length=\skip83
-\mdf@footenotedistance@length=\skip84
-\mdf@userdefinedwidth@length=\skip85
-\mdf@needspace@length=\skip86
-\mdf@frametitleaboveskip@length=\skip87
-\mdf@frametitlebelowskip@length=\skip88
-\mdf@frametitlerulewidth@length=\skip89
-\mdf@frametitleleftmargin@length=\skip90
-\mdf@frametitlerightmargin@length=\skip91
-\mdf@shadowsize@length=\skip92
-\mdf@extratopheight@length=\skip93
-\mdf@subtitleabovelinewidth@length=\skip94
-\mdf@subtitlebelowlinewidth@length=\skip95
-\mdf@subtitleaboveskip@length=\skip96
-\mdf@subtitlebelowskip@length=\skip97
-\mdf@subtitleinneraboveskip@length=\skip98
-\mdf@subtitleinnerbelowskip@length=\skip99
-\mdf@subsubtitleabovelinewidth@length=\skip100
-\mdf@subsubtitlebelowlinewidth@length=\skip101
-\mdf@subsubtitleaboveskip@length=\skip102
-\mdf@subsubtitlebelowskip@length=\skip103
-\mdf@subsubtitleinneraboveskip@length=\skip104
-\mdf@subsubtitleinnerbelowskip@length=\skip105
+\mdf@templength=\skip69
+\c@mdf@globalstyle@cnt=\count341
+\mdf@skipabove@length=\skip70
+\mdf@skipbelow@length=\skip71
+\mdf@leftmargin@length=\skip72
+\mdf@rightmargin@length=\skip73
+\mdf@innerleftmargin@length=\skip74
+\mdf@innerrightmargin@length=\skip75
+\mdf@innertopmargin@length=\skip76
+\mdf@innerbottommargin@length=\skip77
+\mdf@splittopskip@length=\skip78
+\mdf@splitbottomskip@length=\skip79
+\mdf@outermargin@length=\skip80
+\mdf@innermargin@length=\skip81
+\mdf@linewidth@length=\skip82
+\mdf@innerlinewidth@length=\skip83
+\mdf@middlelinewidth@length=\skip84
+\mdf@outerlinewidth@length=\skip85
+\mdf@roundcorner@length=\skip86
+\mdf@footenotedistance@length=\skip87
+\mdf@userdefinedwidth@length=\skip88
+\mdf@needspace@length=\skip89
+\mdf@frametitleaboveskip@length=\skip90
+\mdf@frametitlebelowskip@length=\skip91
+\mdf@frametitlerulewidth@length=\skip92
+\mdf@frametitleleftmargin@length=\skip93
+\mdf@frametitlerightmargin@length=\skip94
+\mdf@shadowsize@length=\skip95
+\mdf@extratopheight@length=\skip96
+\mdf@subtitleabovelinewidth@length=\skip97
+\mdf@subtitlebelowlinewidth@length=\skip98
+\mdf@subtitleaboveskip@length=\skip99
+\mdf@subtitlebelowskip@length=\skip100
+\mdf@subtitleinneraboveskip@length=\skip101
+\mdf@subtitleinnerbelowskip@length=\skip102
+\mdf@subsubtitleabovelinewidth@length=\skip103
+\mdf@subsubtitlebelowlinewidth@length=\skip104
+\mdf@subsubtitleaboveskip@length=\skip105
+\mdf@subsubtitlebelowskip@length=\skip106
+\mdf@subsubtitleinneraboveskip@length=\skip107
+\mdf@subsubtitleinnerbelowskip@length=\skip108
 
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mdframed\md-frame
 -1.mdf"
 File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 )
-\mdf@frametitlebox=\box82
-\mdf@footnotebox=\box83
-\mdf@splitbox@one=\box84
-\mdf@splitbox@two=\box85
-\mdf@splitbox@save=\box86
-\mdfsplitboxwidth=\skip106
-\mdfsplitboxtotalwidth=\skip107
-\mdfsplitboxheight=\skip108
-\mdfsplitboxdepth=\skip109
-\mdfsplitboxtotalheight=\skip110
-\mdfframetitleboxwidth=\skip111
-\mdfframetitleboxtotalwidth=\skip112
-\mdfframetitleboxheight=\skip113
-\mdfframetitleboxdepth=\skip114
-\mdfframetitleboxtotalheight=\skip115
-\mdffootnoteboxwidth=\skip116
-\mdffootnoteboxtotalwidth=\skip117
-\mdffootnoteboxheight=\skip118
-\mdffootnoteboxdepth=\skip119
-\mdffootnoteboxtotalheight=\skip120
-\mdftotallinewidth=\skip121
-\mdfboundingboxwidth=\skip122
-\mdfboundingboxtotalwidth=\skip123
-\mdfboundingboxheight=\skip124
-\mdfboundingboxdepth=\skip125
-\mdfboundingboxtotalheight=\skip126
-\mdf@freevspace@length=\skip127
-\mdf@horizontalwidthofbox@length=\skip128
-\mdf@verticalmarginwhole@length=\skip129
-\mdf@horizontalspaceofbox=\skip130
-\mdfsubtitleheight=\skip131
-\mdfsubsubtitleheight=\skip132
-\c@mdfcountframes=\count338
+\mdf@frametitlebox=\box84
+\mdf@footnotebox=\box85
+\mdf@splitbox@one=\box86
+\mdf@splitbox@two=\box87
+\mdf@splitbox@save=\box88
+\mdfsplitboxwidth=\skip109
+\mdfsplitboxtotalwidth=\skip110
+\mdfsplitboxheight=\skip111
+\mdfsplitboxdepth=\skip112
+\mdfsplitboxtotalheight=\skip113
+\mdfframetitleboxwidth=\skip114
+\mdfframetitleboxtotalwidth=\skip115
+\mdfframetitleboxheight=\skip116
+\mdfframetitleboxdepth=\skip117
+\mdfframetitleboxtotalheight=\skip118
+\mdffootnoteboxwidth=\skip119
+\mdffootnoteboxtotalwidth=\skip120
+\mdffootnoteboxheight=\skip121
+\mdffootnoteboxdepth=\skip122
+\mdffootnoteboxtotalheight=\skip123
+\mdftotallinewidth=\skip124
+\mdfboundingboxwidth=\skip125
+\mdfboundingboxtotalwidth=\skip126
+\mdfboundingboxheight=\skip127
+\mdfboundingboxdepth=\skip128
+\mdfboundingboxtotalheight=\skip129
+\mdf@freevspace@length=\skip130
+\mdf@horizontalwidthofbox@length=\skip131
+\mdf@verticalmarginwhole@length=\skip132
+\mdf@horizontalspaceofbox=\skip133
+\mdfsubtitleheight=\skip134
+\mdfsubsubtitleheight=\skip135
+\c@mdfcountframes=\count342
 
 ****** mdframed patching \endmdf@trivlist
 
@@ -1435,10 +1471,10 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 . 
 . Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
 .................................................
-\mdf@envdepth=\count339
-\c@mdf@env@i=\count340
-\c@mdf@env@ii=\count341
-\c@mdf@zref@counter=\count342
+\mdf@envdepth=\count343
+\c@mdf@env@i=\count344
+\c@mdf@env@ii=\count345
+\c@mdf@zref@counter=\count346
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\breakurl\breakurl
@@ -1475,76 +1511,73 @@ Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.sty
 "
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count343
+\lrq@indent=\count347
 
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.def
 "
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xstring\xstring.s
 ty"
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xstring\xstring
 .tex"
 \@xs@message=\write6
-\integerpart=\count344
-\decimalpart=\count345
+\integerpart=\count348
+\decimalpart=\count349
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count346
-\c@listtotal=\count347
-\c@listcount=\count348
-\c@liststart=\count349
-\c@liststop=\count350
-\c@citecount=\count351
-\c@citetotal=\count352
-\c@multicitecount=\count353
-\c@multicitetotal=\count354
-\c@instcount=\count355
-\c@maxnames=\count356
-\c@minnames=\count357
-\c@maxitems=\count358
-\c@minitems=\count359
-\c@citecounter=\count360
-\c@savedcitecounter=\count361
-\c@uniquelist=\count362
-\c@uniquename=\count363
-\c@refsection=\count364
-\c@refsegment=\count365
-\c@maxextratitle=\count366
-\c@maxextratitleyear=\count367
-\c@maxextradate=\count368
-\c@maxextraalpha=\count369
-\c@abbrvpenalty=\count370
-\c@highnamepenalty=\count371
-\c@lownamepenalty=\count372
-\c@maxparens=\count373
-\c@parenlevel=\count374
-\blx@tempcnta=\count375
-\blx@tempcntb=\count376
-\blx@tempcntc=\count377
-\blx@maxsection=\count378
-\blx@maxsegment@0=\count379
-\blx@notetype=\count380
-\blx@parenlevel@text=\count381
-\blx@parenlevel@foot=\count382
-\blx@sectionciteorder@0=\count383
-\labelnumberwidth=\skip133
-\labelalphawidth=\skip134
-\biblabelsep=\skip135
-\bibitemsep=\skip136
-\bibnamesep=\skip137
-\bibinitsep=\skip138
-\bibparsep=\skip139
-\bibhang=\skip140
+\c@tabx@nest=\count350
+\c@listtotal=\count351
+\c@listcount=\count352
+\c@liststart=\count353
+\c@liststop=\count354
+\c@citecount=\count355
+\c@citetotal=\count356
+\c@multicitecount=\count357
+\c@multicitetotal=\count358
+\c@instcount=\count359
+\c@maxnames=\count360
+\c@minnames=\count361
+\c@maxitems=\count362
+\c@minitems=\count363
+\c@citecounter=\count364
+\c@savedcitecounter=\count365
+\c@uniquelist=\count366
+\c@uniquename=\count367
+\c@refsection=\count368
+\c@refsegment=\count369
+\c@maxextratitle=\count370
+\c@maxextratitleyear=\count371
+\c@maxextradate=\count372
+\c@maxextraalpha=\count373
+\c@abbrvpenalty=\count374
+\c@highnamepenalty=\count375
+\c@lownamepenalty=\count376
+\c@maxparens=\count377
+\c@parenlevel=\count378
+\blx@tempcnta=\count379
+\blx@tempcntb=\count380
+\blx@tempcntc=\count381
+\blx@maxsection=\count382
+\blx@maxsegment@0=\count383
+\blx@notetype=\count384
+\blx@parenlevel@text=\count385
+\blx@parenlevel@foot=\count386
+\blx@sectionciteorder@0=\count387
+\labelnumberwidth=\skip136
+\labelalphawidth=\skip137
+\biblabelsep=\skip138
+\bibitemsep=\skip139
+\bibnamesep=\skip140
+\bibinitsep=\skip141
+\bibparsep=\skip142
+\bibhang=\skip143
 \blx@bcfin=\read4
 \blx@bcfout=\write7
-\c@mincomprange=\count384
-\c@maxcomprange=\count385
-\c@mincompwidth=\count386
+\c@mincomprange=\count388
+\c@maxcomprange=\count389
+\c@mincompwidth=\count390
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1556,88 +1589,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count387
-\c@savedafterword=\count388
-\c@annotator=\count389
-\c@savedannotator=\count390
-\c@author=\count391
-\c@savedauthor=\count392
-\c@bookauthor=\count393
-\c@savedbookauthor=\count394
-\c@commentator=\count395
-\c@savedcommentator=\count396
-\c@editor=\count397
-\c@savededitor=\count398
-\c@editora=\count399
-\c@savededitora=\count400
-\c@editorb=\count401
-\c@savededitorb=\count402
-\c@editorc=\count403
-\c@savededitorc=\count404
-\c@foreword=\count405
-\c@savedforeword=\count406
-\c@holder=\count407
-\c@savedholder=\count408
-\c@introduction=\count409
-\c@savedintroduction=\count410
-\c@namea=\count411
-\c@savednamea=\count412
-\c@nameb=\count413
-\c@savednameb=\count414
-\c@namec=\count415
-\c@savednamec=\count416
-\c@translator=\count417
-\c@savedtranslator=\count418
-\c@shortauthor=\count419
-\c@savedshortauthor=\count420
-\c@shorteditor=\count421
-\c@savedshorteditor=\count422
-\c@labelname=\count423
-\c@savedlabelname=\count424
-\c@institution=\count425
-\c@savedinstitution=\count426
-\c@lista=\count427
-\c@savedlista=\count428
-\c@listb=\count429
-\c@savedlistb=\count430
-\c@listc=\count431
-\c@savedlistc=\count432
-\c@listd=\count433
-\c@savedlistd=\count434
-\c@liste=\count435
-\c@savedliste=\count436
-\c@listf=\count437
-\c@savedlistf=\count438
-\c@location=\count439
-\c@savedlocation=\count440
-\c@organization=\count441
-\c@savedorganization=\count442
-\c@origlocation=\count443
-\c@savedoriglocation=\count444
-\c@origpublisher=\count445
-\c@savedorigpublisher=\count446
-\c@publisher=\count447
-\c@savedpublisher=\count448
-\c@language=\count449
-\c@savedlanguage=\count450
-\c@origlanguage=\count451
-\c@savedoriglanguage=\count452
-\c@pageref=\count453
-\c@savedpageref=\count454
-\shorthandwidth=\skip141
-\shortjournalwidth=\skip142
-\shortserieswidth=\skip143
-\shorttitlewidth=\skip144
-\shortauthorwidth=\skip145
-\shorteditorwidth=\skip146
-\locallabelnumberwidth=\skip147
-\locallabelalphawidth=\skip148
-\localshorthandwidth=\skip149
-\localshortjournalwidth=\skip150
-\localshortserieswidth=\skip151
-\localshorttitlewidth=\skip152
-\localshortauthorwidth=\skip153
-\localshorteditorwidth=\skip154
+\c@afterword=\count391
+\c@savedafterword=\count392
+\c@annotator=\count393
+\c@savedannotator=\count394
+\c@author=\count395
+\c@savedauthor=\count396
+\c@bookauthor=\count397
+\c@savedbookauthor=\count398
+\c@commentator=\count399
+\c@savedcommentator=\count400
+\c@editor=\count401
+\c@savededitor=\count402
+\c@editora=\count403
+\c@savededitora=\count404
+\c@editorb=\count405
+\c@savededitorb=\count406
+\c@editorc=\count407
+\c@savededitorc=\count408
+\c@foreword=\count409
+\c@savedforeword=\count410
+\c@holder=\count411
+\c@savedholder=\count412
+\c@introduction=\count413
+\c@savedintroduction=\count414
+\c@namea=\count415
+\c@savednamea=\count416
+\c@nameb=\count417
+\c@savednameb=\count418
+\c@namec=\count419
+\c@savednamec=\count420
+\c@translator=\count421
+\c@savedtranslator=\count422
+\c@shortauthor=\count423
+\c@savedshortauthor=\count424
+\c@shorteditor=\count425
+\c@savedshorteditor=\count426
+\c@labelname=\count427
+\c@savedlabelname=\count428
+\c@institution=\count429
+\c@savedinstitution=\count430
+\c@lista=\count431
+\c@savedlista=\count432
+\c@listb=\count433
+\c@savedlistb=\count434
+\c@listc=\count435
+\c@savedlistc=\count436
+\c@listd=\count437
+\c@savedlistd=\count438
+\c@liste=\count439
+\c@savedliste=\count440
+\c@listf=\count441
+\c@savedlistf=\count442
+\c@location=\count443
+\c@savedlocation=\count444
+\c@organization=\count445
+\c@savedorganization=\count446
+\c@origlocation=\count447
+\c@savedoriglocation=\count448
+\c@origpublisher=\count449
+\c@savedorigpublisher=\count450
+\c@publisher=\count451
+\c@savedpublisher=\count452
+\c@language=\count453
+\c@savedlanguage=\count454
+\c@origlanguage=\count455
+\c@savedoriglanguage=\count456
+\c@pageref=\count457
+\c@savedpageref=\count458
+\shorthandwidth=\skip144
+\shortjournalwidth=\skip145
+\shortserieswidth=\skip146
+\shorttitlewidth=\skip147
+\shortauthorwidth=\skip148
+\shorteditorwidth=\skip149
+\locallabelnumberwidth=\skip150
+\locallabelalphawidth=\skip151
+\localshorthandwidth=\skip152
+\localshortjournalwidth=\skip153
+\localshortserieswidth=\skip154
+\localshorttitlewidth=\skip155
+\localshortauthorwidth=\skip156
+\localshorteditorwidth=\skip157
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1651,13 +1684,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex
 .def"
 File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
-\c@textcitecount=\count455
-\c@textcitetotal=\count456
-\c@textcitemaxnames=\count457
-\c@biburlnumpenalty=\count458
-\c@biburlucpenalty=\count459
-\c@biburllcpenalty=\count460
-\c@smartand=\count461
+\c@textcitecount=\count459
+\c@textcitetotal=\count460
+\c@textcitemaxnames=\count461
+\c@biburlnumpenalty=\count462
+\c@biburlucpenalty=\count463
+\c@biburllcpenalty=\count464
+\c@smartand=\count465
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
@@ -1683,8 +1716,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\stan
 dard.bbx"
 File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count462
-\c@bbx:relatedtotal=\count463
+\c@bbx:relatedcount=\count466
+\c@bbx:relatedtotal=\count467
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
@@ -1698,8 +1731,8 @@ Package biblatex Info: ... file 'numeric-comp.cbx' found.
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\cbx\nume
 ric-comp.cbx"
 File: numeric-comp.cbx 2018/03/04 v3.11 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count464
-\c@cbx@tempcntb=\count465
+\c@cbx@tempcnta=\count468
+\c@cbx@tempcntb=\count469
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1733,8 +1766,8 @@ Package biblatex Info: ... file 'english.lbx' found.
 ish.lbx"
 File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 )
-\@quotelevel=\count466
-\@quotereset=\count467
+\@quotelevel=\count470
+\@quotereset=\count471
 
 
 LaTeX Warning: Unused global option(s):
@@ -1743,35 +1776,35 @@ LaTeX Warning: Unused global option(s):
 ("Daniel Edwards - 1055301.aux")
 \openout1 = `"Daniel Edwards - 1055301.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
 kii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count468
-\scratchdimen=\dimen308
-\scratchbox=\box87
-\nofMPsegments=\count469
-\nofMParguments=\count470
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count471
-\MPscratchDim=\dimen309
-\MPnumerator=\count472
-\makeMPintoPDFobject=\count473
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count472
+\scratchdimen=\dimen312
+\scratchbox=\box89
+\nofMPsegments=\count473
+\nofMParguments=\count474
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count475
+\MPscratchDim=\dimen313
+\MPnumerator=\count476
+\makeMPintoPDFobject=\count477
+\everyMPtoPDFconversion=\toks48
 )
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf
 -base.sty"
@@ -1788,13 +1821,13 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box88
+\AtBeginShipoutBox=\box90
 
 
 Package hyperref Warning: Height of page (\paperheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
-Package hyperref Info: Link coloring ON on input line 32.
+Package hyperref Info: Link coloring ON on input line 34.
 
 ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.
 sty"
@@ -1804,18 +1837,30 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 lestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count474
+\c@section@level=\count478
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
  ("Daniel Edwards - 1055301.out") ("Daniel Edwards - 1055301.out")
 \@outlinefile=\write8
 \openout8 = `"Daniel Edwards - 1055301.out"'.
 
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflscap
+e.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.s
+ty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
- ("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+
+("C:\Users\Daniel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
 File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -1911,9 +1956,9 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 32.
+ on input line 34.
 
-\c@lstlisting=\count475
+\c@lstlisting=\count479
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1922,16 +1967,16 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '"Daniel Edwards - 1055301".bbl' found.
 ("Daniel Edwards - 1055301.bbl")
-Package biblatex Info: Reference section=0 on input line 32.
-Package biblatex Info: Reference segment=0 on input line 32.
+Package biblatex Info: Reference section=0 on input line 34.
+Package biblatex Info: Reference segment=0 on input line 34.
 
 
 pdfTeX warning: pdflatex (file ./EIE_better.pdf): PDF inclusion: found PDF vers
 ion <1.6>, but at most version <1.5> allowed
-<EIE_better.pdf, id=163, 278.73334pt x 256.83453pt>
+<EIE_better.pdf, id=166, 278.73334pt x 256.83453pt>
 File: EIE_better.pdf Graphic file (type pdf)
 <use EIE_better.pdf>
-Package pdftex.def Info: EIE_better.pdf  used on input line 42.
+Package pdftex.def Info: EIE_better.pdf  used on input line 44.
 (pdftex.def)             Requested size: 118.07944pt x 108.80005pt.
 [0{C:/Users/Daniel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./EIE_be
 tter.pdf>] ("Daniel Edwards - 1055301.toc" [1])
@@ -1939,92 +1984,92 @@ tter.pdf>] ("Daniel Edwards - 1055301.toc" [1])
 \openout9 = `"Daniel Edwards - 1055301.toc"'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 96--99
+Underfull \hbox (badness 10000) in paragraph at lines 98--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--99
+Underfull \hbox (badness 10000) in paragraph at lines 98--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--127
+Underfull \hbox (badness 10000) in paragraph at lines 107--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--127
+Underfull \hbox (badness 10000) in paragraph at lines 107--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--127
+Underfull \hbox (badness 10000) in paragraph at lines 107--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--127
+Underfull \hbox (badness 10000) in paragraph at lines 107--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--127
+Underfull \hbox (badness 10000) in paragraph at lines 107--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--127
+Underfull \hbox (badness 10000) in paragraph at lines 107--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--127
+Underfull \hbox (badness 10000) in paragraph at lines 107--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--127
+Underfull \hbox (badness 10000) in paragraph at lines 107--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--127
+Underfull \hbox (badness 10000) in paragraph at lines 107--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--127
+Underfull \hbox (badness 10000) in paragraph at lines 107--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--127
+Underfull \hbox (badness 10000) in paragraph at lines 107--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--127
+Underfull \hbox (badness 10000) in paragraph at lines 107--129
 
  []
 
 [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 152--155
+Underfull \hbox (badness 10000) in paragraph at lines 154--157
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
-<system.pdf, id=331, 737.75626pt x 204.765pt>
+<system.pdf, id=335, 737.75626pt x 204.765pt>
 File: system.pdf Graphic file (type pdf)
 <use system.pdf>
-Package pdftex.def Info: system.pdf  used on input line 167.
+Package pdftex.def Info: system.pdf  used on input line 169.
 (pdftex.def)             Requested size: 435.32419pt x 120.82278pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--176
+Underfull \hbox (badness 10000) in paragraph at lines 176--178
 
  []
 
@@ -2033,40 +2078,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 174--176
 pdfTeX warning: pdflatex (file ./system.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<normCondAudiogram.PNG, id=402, 421.575pt x 316.18124pt>
+<normCondAudiogram.PNG, id=406, 421.575pt x 316.18124pt>
 File: normCondAudiogram.PNG Graphic file (type png)
 <use normCondAudiogram.PNG>
-Package pdftex.def Info: normCondAudiogram.PNG  used on input line 193.
+Package pdftex.def Info: normCondAudiogram.PNG  used on input line 195.
 (pdftex.def)             Requested size: 290.22105pt x 217.66837pt.
  [7 <./normCondAudiogram.PNG (PNG copy)>]
-<igFreqRange.PNG, id=416, 421.575pt x 316.18124pt>
+<igFreqRange.PNG, id=420, 421.575pt x 316.18124pt>
 File: igFreqRange.PNG Graphic file (type png)
 <use igFreqRange.PNG>
-Package pdftex.def Info: igFreqRange.PNG  used on input line 218.
+Package pdftex.def Info: igFreqRange.PNG  used on input line 220.
 (pdftex.def)             Requested size: 290.22105pt x 217.66837pt.
-<numBandsErrorFreq.png, id=420, 421.575pt x 316.18124pt>
+<numBandsErrorFreq.png, id=424, 421.575pt x 316.18124pt>
 File: numBandsErrorFreq.png Graphic file (type png)
 <use numBandsErrorFreq.png>
-Package pdftex.def Info: numBandsErrorFreq.png  used on input line 234.
+Package pdftex.def Info: numBandsErrorFreq.png  used on input line 236.
 (pdftex.def)             Requested size: 195.89455pt x 146.92143pt.
-<numBandErrorBand.png, id=421, 421.575pt x 316.18124pt>
+<numBandErrorBand.png, id=425, 421.575pt x 316.18124pt>
 File: numBandErrorBand.png Graphic file (type png)
 <use numBandErrorBand.png>
-Package pdftex.def Info: numBandErrorBand.png  used on input line 240.
+Package pdftex.def Info: numBandErrorBand.png  used on input line 242.
 (pdftex.def)             Requested size: 195.89455pt x 146.92143pt.
  [8 <./igFreqRange.PNG (PNG copy)>]
 [9 <./numBandsErrorFreq.png (PNG copy)> <./numBandErrorBand.png (PNG copy)>]
-<matErrDelay.PNG, id=484, 421.575pt x 316.18124pt>
+<matErrDelay.PNG, id=488, 421.575pt x 316.18124pt>
 File: matErrDelay.PNG Graphic file (type png)
 <use matErrDelay.PNG>
-Package pdftex.def Info: matErrDelay.PNG  used on input line 305.
+Package pdftex.def Info: matErrDelay.PNG  used on input line 307.
 (pdftex.def)             Requested size: 290.22105pt x 217.66837pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--318
+Underfull \hbox (badness 10000) in paragraph at lines 317--320
 
  []
 
@@ -2075,58 +2120,58 @@ estination with the same identifier (name{section.1}) has been already used, du
 plicate ignored
 <to be read again> 
                    \relax 
-l.356 ...on{Impact Appendix - Non-Technical thing}
+l.358 ...on{Impact Appendix - Non-Technical thing}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{section.2}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.359 \section{Insertion Gain Parameters}
+l.361 \section{Insertion Gain Parameters}
                                          pdfTeX warning (ext4): destination wit
 h the same identifier (name{section.3}) has been already used, duplicate ignore
 d
 <to be read again> 
                    \relax 
-l.379 \section{Number of Filters Investigation}
+l.381 \section{Number of Filters Investigation}
                                                pdfTeX warning (ext4): destinati
 on with the same identifier (name{section.4}) has been already used, duplicate 
 ignored
 <to be read again> 
                    \relax 
-l.619 \section{Bark-Scale}
+l.621 \section{Bark-Scale}
                           pdfTeX warning (ext4): destination with the same iden
 tifier (name{section.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.686 ...m Filter Bank Specifications and Results}
+l.688 ...m Filter Bank Specifications and Results}
                                                   
-<uniMatErr.PNG, id=577, 421.575pt x 316.18124pt>
+<uniMatErr.PNG, id=583, 421.575pt x 316.18124pt>
 File: uniMatErr.PNG Graphic file (type png)
 <use uniMatErr.PNG>
-Package pdftex.def Info: uniMatErr.PNG  used on input line 719.
+Package pdftex.def Info: uniMatErr.PNG  used on input line 721.
 (pdftex.def)             Requested size: 290.22105pt x 217.66837pt.
  [15] [16] [17]pdfTeX warning (ext4): destination with the same identifier (nam
 e{section.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.725 ...e Filter Bank Specifications and Results}
+l.727 ...e Filter Bank Specifications and Results}
                                                   
-<critMatErr.PNG, id=602, 421.575pt x 316.18124pt>
+<critMatErr.PNG, id=608, 421.575pt x 316.18124pt>
 File: critMatErr.PNG Graphic file (type png)
 <use critMatErr.PNG>
-Package pdftex.def Info: critMatErr.PNG  used on input line 779.
+Package pdftex.def Info: critMatErr.PNG  used on input line 781.
 (pdftex.def)             Requested size: 290.22105pt x 217.66837pt.
 pdfTeX warning (ext4): destination with the same identifier (name{section.7}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.784 ...c Filter Bank Specifications and Results}
+l.786 ...c Filter Bank Specifications and Results}
                                                    [18 <./uniMatErr.PNG (PNG co
 py)> <./critMatErr.PNG (PNG copy)>]
-<symMatErr.PNG, id=610, 421.575pt x 316.18124pt>
+<symMatErr.PNG, id=616, 421.575pt x 316.18124pt>
 File: symMatErr.PNG Graphic file (type png)
 <use symMatErr.PNG>
-Package pdftex.def Info: symMatErr.PNG  used on input line 823.
+Package pdftex.def Info: symMatErr.PNG  used on input line 825.
 (pdftex.def)             Requested size: 290.22105pt x 217.66837pt.
 
 
@@ -2136,12 +2181,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.8}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.829 ...e Filter Bank Specifications and Results}
+l.831 ...e Filter Bank Specifications and Results}
                                                   
-<octMatErr.PNG, id=613, 421.575pt x 316.18124pt>
+<octMatErr.PNG, id=619, 421.575pt x 316.18124pt>
 File: octMatErr.PNG Graphic file (type png)
 <use octMatErr.PNG>
-Package pdftex.def Info: octMatErr.PNG  used on input line 868.
+Package pdftex.def Info: octMatErr.PNG  used on input line 870.
 (pdftex.def)             Requested size: 290.22105pt x 217.66837pt.
 
 
@@ -2151,23 +2196,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.9}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.874 ...1 Filter Bank Specifications and Results}
+l.876 ...1 Filter Bank Specifications and Results}
                                                    [19]
-<ansiOctMatErr.PNG, id=621, 421.575pt x 316.18124pt>
+<ansiOctMatErr.PNG, id=627, 421.575pt x 316.18124pt>
 File: ansiOctMatErr.PNG Graphic file (type png)
 <use ansiOctMatErr.PNG>
-Package pdftex.def Info: ansiOctMatErr.PNG  used on input line 923.
+Package pdftex.def Info: ansiOctMatErr.PNG  used on input line 925.
 (pdftex.def)             Requested size: 290.22105pt x 217.66837pt.
  [20 <./symMatErr.PNG (PNG copy)>]pdfTeX warning (ext4): destination with the s
 ame identifier (name{section.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.929 ...1 Filter Bank Specifications and Results}
+l.931 ...1 Filter Bank Specifications and Results}
                                                   
-<ansiOptMatErr.PNG, id=631, 421.575pt x 316.18124pt>
+<ansiOptMatErr.PNG, id=637, 421.575pt x 316.18124pt>
 File: ansiOptMatErr.PNG Graphic file (type png)
 <use ansiOptMatErr.PNG>
-Package pdftex.def Info: ansiOptMatErr.PNG  used on input line 968.
+Package pdftex.def Info: ansiOptMatErr.PNG  used on input line 970.
 (pdftex.def)             Requested size: 290.22105pt x 217.66837pt.
 
 
@@ -2177,31 +2222,260 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.11})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.973 ...ion{Dynamic Range Compression Parameters}
+l.975 ...ion{Dynamic Range Compression Parameters}
                                                    [21 <./octMatErr.PNG (PNG co
-py)> <./ansiOctMatErr.PNG (PNG copy)>] [22 <./ansiOptMatErr.PNG (PNG copy)>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 990.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 990.
+py)> <./ansiOctMatErr.PNG (PNG copy)>]
+<meetingMin.pdf, id=643, 598.235pt x 846.16125pt>
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf>
+Package pdftex.def Info: meetingMin.pdf  used on input line 996.
+(pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf>
+Package pdftex.def Info: meetingMin.pdf  used on input line 996.
+(pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 
-("Daniel Edwards - 1055301.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 990.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 990.
+
+Package pdfpages Warning: Erroneous page width of 0.0pt is corrected.
+
+
+Package pdfpages Warning: Erroneous page height of 0.0pt is corrected.
+
+<meetingMin.pdf, id=646, page=1, 598.235pt x 846.16125pt>
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 1>
+Package pdftex.def Info: meetingMin.pdf , page1 used on input line 996.
+(pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 1>
+Package pdftex.def Info: meetingMin.pdf , page1 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+[22]
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 1>
+Package pdftex.def Info: meetingMin.pdf , page1 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 1>
+Package pdftex.def Info: meetingMin.pdf , page1 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 1>
+Package pdftex.def Info: meetingMin.pdf , page1 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+pdfTeX warning (ext4): destination with the same identifier (name{section.12}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.996 	}}]{meetingMin.pdf}
+                           [23 <./meetingMin.pdf
+
+pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
+resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<meetingMin.pdf, id=694, page=2, 598.235pt x 846.16125pt>
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 2>
+Package pdftex.def Info: meetingMin.pdf , page2 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 2>
+Package pdftex.def Info: meetingMin.pdf , page2 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 2>
+Package pdftex.def Info: meetingMin.pdf , page2 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+ [24 <./meetingMin.pdf
+
+pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
+resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<meetingMin.pdf, id=705, page=3, 598.235pt x 846.16125pt>
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 3>
+Package pdftex.def Info: meetingMin.pdf , page3 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 3>
+Package pdftex.def Info: meetingMin.pdf , page3 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 3>
+Package pdftex.def Info: meetingMin.pdf , page3 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+ [25 <./meetingMin.pdf
+
+pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
+resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<meetingMin.pdf, id=710, page=4, 598.235pt x 846.16125pt>
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 4>
+Package pdftex.def Info: meetingMin.pdf , page4 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 4>
+Package pdftex.def Info: meetingMin.pdf , page4 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 4>
+Package pdftex.def Info: meetingMin.pdf , page4 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+ [26 <./meetingMin.pdf
+
+pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
+resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<meetingMin.pdf, id=720, page=5, 598.235pt x 846.16125pt>
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 5>
+Package pdftex.def Info: meetingMin.pdf , page5 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 5>
+Package pdftex.def Info: meetingMin.pdf , page5 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 5>
+Package pdftex.def Info: meetingMin.pdf , page5 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+ [27 <./meetingMin.pdf
+
+pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
+resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<meetingMin.pdf, id=730, page=6, 598.235pt x 846.16125pt>
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 6>
+Package pdftex.def Info: meetingMin.pdf , page6 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 6>
+Package pdftex.def Info: meetingMin.pdf , page6 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 6>
+Package pdftex.def Info: meetingMin.pdf , page6 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+ [28 <./meetingMin.pdf
+
+pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
+resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<meetingMin.pdf, id=735, page=7, 598.235pt x 846.16125pt>
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 7>
+Package pdftex.def Info: meetingMin.pdf , page7 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 7>
+Package pdftex.def Info: meetingMin.pdf , page7 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 7>
+Package pdftex.def Info: meetingMin.pdf , page7 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+ [29 <./meetingMin.pdf
+
+pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
+resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<meetingMin.pdf, id=755, page=8, 598.235pt x 846.16125pt>
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 8>
+Package pdftex.def Info: meetingMin.pdf , page8 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 8>
+Package pdftex.def Info: meetingMin.pdf , page8 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 8>
+Package pdftex.def Info: meetingMin.pdf , page8 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+ [30 <./meetingMin.pdf
+
+pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
+resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<meetingMin.pdf, id=761, page=9, 598.235pt x 846.16125pt>
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 9>
+Package pdftex.def Info: meetingMin.pdf , page9 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 9>
+Package pdftex.def Info: meetingMin.pdf , page9 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 9>
+Package pdftex.def Info: meetingMin.pdf , page9 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+ [31 <./meetingMin.pdf
+
+pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
+resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<meetingMin.pdf, id=771, page=10, 598.235pt x 846.16125pt>
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 10>
+Package pdftex.def Info: meetingMin.pdf , page10 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 10>
+Package pdftex.def Info: meetingMin.pdf , page10 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 10>
+Package pdftex.def Info: meetingMin.pdf , page10 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+ [32 <./meetingMin.pdf
+
+pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
+resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<meetingMin.pdf, id=776, page=11, 598.235pt x 846.16125pt>
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 11>
+Package pdftex.def Info: meetingMin.pdf , page11 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 11>
+Package pdftex.def Info: meetingMin.pdf , page11 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 11>
+Package pdftex.def Info: meetingMin.pdf , page11 used on input line 996.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+ [33 <./meetingMin.pdf
+
+pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
+resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1000.
+ [34 <./ansiOptMatErr.PNG (PNG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1000.
+ ("Daniel Edwards - 1055301.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1000.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1000.
+
 Package rerunfilecheck Info: File `"Daniel Edwards - 1055301".out' has not chan
 ged.
-(rerunfilecheck)             Checksum: 6FD83767D10AF905B8946159873EDCB8;2913.
+(rerunfilecheck)             Checksum: 36E7ADAF35587DD50BD2E038938BBC76;2966.
 Package logreq Info: Writing requests to '"Daniel Edwards - 1055301".run.xml'.
 \openout1 = `"Daniel Edwards - 1055301.run.xml"'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 990.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1000.
  ) 
 Here is how much of TeX's memory you used:
- 50781 strings out of 492973
- 1153067 string characters out of 3126249
- 1680489 words of memory out of 3000000
- 53823 multiletter control sequences out of 15000+200000
+ 51513 strings out of 492973
+ 1165563 string characters out of 3126249
+ 1693965 words of memory out of 3000000
+ 54520 multiletter control sequences out of 15000+200000
  556945 words of font info for 113 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,11n,98p,1788b,1855s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,18n,98p,1788b,1856s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.en
 c}<C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
@@ -2222,9 +2496,9 @@ ts/cm/cmsy8.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmti10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Daniel/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb>
-Output written on "Daniel Edwards - 1055301.pdf" (23 pages, 704944 bytes).
+Output written on "Daniel Edwards - 1055301.pdf" (35 pages, 983722 bytes).
 PDF statistics:
- 722 PDF objects out of 1000 (max. 8388607)
- 127 named destinations out of 1000 (max. 500000)
- 414 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 867 PDF objects out of 1000 (max. 8388607)
+ 139 named destinations out of 1000 (max. 500000)
+ 492 words of extra memory for PDF output out of 10000 (max. 10000000)
 

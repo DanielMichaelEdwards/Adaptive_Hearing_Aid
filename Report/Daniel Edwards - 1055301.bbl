@@ -39,8 +39,16 @@
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{International Ear Care Day - Act Now, Here's How!}
+      \field{journaltitle}{University of the Witwatersrand}
+      \field{month}{3}
+      \field{title}{Hearing loss can be prevented}
       \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.wits.ac.za/news/latest-news/general-news/2016/2016-03/hearing-loss-can-be-prevented.html
+      \endverb
+      \verb{url}
+      \verb https://www.wits.ac.za/news/latest-news/general-news/2016/2016-03/hearing-loss-can-be-prevented.html
+      \endverb
     \endentry
     \entry{qualityOfLife}{article}{}
       \name{author}{4}{}{%

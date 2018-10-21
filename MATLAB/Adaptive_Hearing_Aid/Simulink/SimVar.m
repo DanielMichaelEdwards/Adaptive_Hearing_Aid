@@ -94,3 +94,16 @@ fs2 = [240 323 535 761 1300 2420 4650 9176];
 
 GdBansi = 30;
 Gansi = 10^(GdBansi/10);
+
+ampdB = 2;
+amp = 10^(ampdB/10);
+
+GdB = 2;
+G = 10^(ampdB/10);
+
+CT = 30;
+CR = 5;
+AT = 0.05;
+RT = 0.2;
+mkUpGain = 10;
+kneeWidth = 0;
