@@ -2,13 +2,13 @@ clc;
 clear all;
 close all;
 %% Use the Parks algorithm to get the order of the filter - then you can calculate the group delay
-fs1 = [1 30 60 80 153 507 1203 2610];
+fs1 = [10 60 123 153 361 900 2020 4250];
 
-fp1 = [22 45 90 180 353 707 1403 2810];
+fp1 = [90 145 223 353 561 1250 2220 4450];
 
-fp2 = [45 90 180 353 707 1403 2810 8200];
+fp2 = [140 223 353 561 1100 2220 4450 8976];
 
-fs2 = [145 190 280 535 907 1603 3010 8400];
+fs2 = [240 323 535 761 1300 2420 4650 9176];
 
 order = 1:length(fs1);
 
@@ -26,8 +26,10 @@ for i=1:length(order)
     [n2,fo,ao,w] = firpmord(f,a,dev,Fs);
     if n1 > n2
         order(i) = n1;
+        disp('L');
     else
         order(i) = n2;
+        disp('H');
     end
         
 end 

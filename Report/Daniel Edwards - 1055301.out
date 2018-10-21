@@ -22,7 +22,7 @@
 \BOOKMARK [2][-]{subsection.9.5}{ANSI S1.11 Design}{section.9}% 22
 \BOOKMARK [2][-]{subsection.9.6}{Filter Design Selection}{section.9}% 23
 \BOOKMARK [2][-]{subsection.9.7}{Filter Bank Optimisation}{section.9}% 24
-\BOOKMARK [1][-]{section.10}{Dynamic Compression Design}{}% 25
+\BOOKMARK [1][-]{section.10}{Dynamic Range Compression Design}{}% 25
 \BOOKMARK [1][-]{section.11}{System Realisation}{}% 26
 \BOOKMARK [1][-]{section.12}{Success Criterion}{}% 27
 \BOOKMARK [1][-]{section.13}{Critical Evaluation of Results}{}% 28
@@ -38,3 +38,5 @@
 \BOOKMARK [1][-]{section.7}{Symmetric Filter Bank Specifications and Results}{}% 38
 \BOOKMARK [1][-]{section.8}{Octave Filter Bank Specifications and Results}{}% 39
 \BOOKMARK [1][-]{section.9}{ANSI S1.11 Filter Bank Specifications and Results}{}% 40
+\BOOKMARK [1][-]{section.10}{Optimised ANSI S1.11 Filter Bank Specifications and Results}{}% 41
+\BOOKMARK [1][-]{section.11}{Dynamic Range Compression Parameters}{}% 42

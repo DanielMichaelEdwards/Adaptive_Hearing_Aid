@@ -509,6 +509,31 @@
       \field{journaltitle}{American National Standard Specification for Octave-Band and Fractional-Octave-Band Analog and Digital Filters}
       \field{title}{American National Standard Specification for Octave-Band and Fractional-Octave-Band Analog and Digital Filters}
     \endentry
+    \entry{compressHand}{book}{}
+      \name{author}{1}{}{%
+        {{hash=62db4f678b5b70c30d1bd0f998af9c90}{%
+           family={Technologies},
+           familyi={T\bibinitperiod},
+           given={Starkey\bibnamedelima Hearing},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Compression Handbook}%
+      }
+      \strng{namehash}{62db4f678b5b70c30d1bd0f998af9c90}
+      \strng{fullhash}{62db4f678b5b70c30d1bd0f998af9c90}
+      \strng{bibnamehash}{62db4f678b5b70c30d1bd0f998af9c90}
+      \strng{authorbibnamehash}{62db4f678b5b70c30d1bd0f998af9c90}
+      \strng{authornamehash}{62db4f678b5b70c30d1bd0f998af9c90}
+      \strng{authorfullhash}{62db4f678b5b70c30d1bd0f998af9c90}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{title}{The Compression Handbook}
+      \field{year}{2017}
+    \endentry
     \entry{dhawan}{inbook}{}
       \name{author}{2}{}{%
         {{hash=2471b63e8d27658d2631db7f8e0389fd}{%
@@ -531,8 +556,8 @@
       \strng{authorbibnamehash}{9a443b750211196c1b5c5a0e6f8b87b5}
       \strng{authornamehash}{9a443b750211196c1b5c5a0e6f8b87b5}
       \strng{authorfullhash}{9a443b750211196c1b5c5a0e6f8b87b5}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Digital Filtering In Hearing Aid System For The Hearing Impaired}
@@ -557,8 +582,8 @@
       \strng{authorbibnamehash}{499896bad26a5b7cd5b893292832de06}
       \strng{authornamehash}{499896bad26a5b7cd5b893292832de06}
       \strng{authorfullhash}{499896bad26a5b7cd5b893292832de06}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{6}
@@ -703,8 +728,8 @@
       \list{publisher}{1}{%
         {ASHA}%
       }
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Averican Speech-Language-Hearing Association}
       \field{title}{The Audiogram}
@@ -734,8 +759,8 @@
       \strng{authorbibnamehash}{908776d50e631ee8038380629004eb82}
       \strng{authornamehash}{908776d50e631ee8038380629004eb82}
       \strng{authorfullhash}{908776d50e631ee8038380629004eb82}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{ISCAS '98. Proceedings of the 1998 IEEE International Symposium on Circuits and Systems}
@@ -844,8 +869,8 @@
       \strng{authorbibnamehash}{54ae63ad06acd4dbb7a81c7860c1930c}
       \strng{authornamehash}{54ae63ad06acd4dbb7a81c7860c1930c}
       \strng{authorfullhash}{54ae63ad06acd4dbb7a81c7860c1930c}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Third-Octave Filter Banks}

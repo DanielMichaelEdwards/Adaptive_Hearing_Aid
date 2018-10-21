@@ -110,7 +110,9 @@ put something in about Ricketts and avoiding noise - isolation, say something ab
 \newline
 \noindent Chang \textit{et al.} give further insight into the types of filter banks by providing four different designs namely; uniform, critical-like, symmetric and $1/3$ octave \cite{chang}. The $1/3$ octave filter bank proved to have the best audiogram matching. This filter bank had a $78ms$ delay at $24kHz$ with the \textit{FIR} filter design compare to a $27ms$ delay when parallel \textit{IIR} filters were used. Shearman \cite{octave} states a better understanding of how people perceive sound can be achieved by using octave analysis. This form of analysis allows for the human perceived quality of the audio signal to be measured. This design aims to optimise the sound quality to improve the patients quality of life and thus, octave analysis is considered.\\
 \newline
-\noindent Chang \textit{et al.} \cite{chang} and Yand \textit{et a.} \cite{ansiAtten} simulate a filter bank using the ANSI S1.11 specifications. ANSI S1.11 is a standardised set of performance requirements for designing octave and fractional octave filters for both analog and digital domains \cite{ansiDoc}. These requirements were developed by the Acoustical Society of America specifically for audio applications \cite{ansiDoc}. These standards are commonly used throughout literature and thus, are considered in this design.\\
+\noindent Chang \textit{et al.} \cite{chang} and Yang \textit{et al.} \cite{ansiAtten} simulate a filter bank using the ANSI S1.11 specifications. ANSI S1.11 is a standardised set of performance requirements for designing octave and fractional octave filters for both analog and digital domains \cite{ansiDoc}. These requirements were developed by the Acoustical Society of America specifically for audio applications \cite{ansiDoc}. These standards are commonly used throughout literature and thus, are considered in this design. Furthermore, Chang \textit{et al.} and Yang \textit{et al.} present the concept of multirate filters. These techniques are used to reduce the computational complexity of the filters by adjusting the frequencies at which different filters operate at \cite{chang}, \cite{ansiAtten}.\\
+\newline
+\noindent Reference \cite{compressHand} discusses the use of dynamic range compression. Within the patients auditory range, soft sounds should be amplified to an audible level but loud sounds must not be amplified such that the sound is uncomfortable. The dynamic range compression algorithm aims to adjust the amplified soft, speech and loud sound levels into a comfortable range. This is an essential component for patient quality of life and thus, must be considered.\\
 \newline
 \noindent Dhawan \textit{et al.} simulate filtering in a hearing aid while using a wavelet filter to reduce noise. Additive white Gaussian noise (AWGN) was used to simulate the auditory noise \cite{dhawan}. Noise reduction is a critical component of this design and thus, the effect of these noise reduction techniques will be investigated within this system. \\
 \newline
@@ -218,6 +220,8 @@ IG_i &= X + (0.31\times H_i) + k_i
 \label{fig:igFreqRange}
 \end{figure}  
 
+\noindent The insertion gain, per sub-band is taken as the average insertion gain within the sub-band range.
+
 \subsection{Number of Filters} 
 \label{sec:numFreqBands}
 
@@ -303,24 +307,20 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
 \label{fig:matErrDelay}
 \end{figure}
 
-\noindent From Figure \ref{fig:matErrDelay}, the critical-like and octave filter banks provide the best balance between matching error and group delay. However, experimentation found that only slight optimisations can be applied to these filter banks. The ANSI S1.11 has a significantly lower matching error compared to the other filter banks. Furthermore, the group delay of the ANSI S1.11 filter bank can be significantly optimised by using multi-rate filtering techniques and transition bandwidth relaxation \cite{chang}. Therefore, the ANSI S1.11 filter bank design technique is chosen to design the adaptive filter bank. The optimisations applied to this filter bank are presented in Section \ref{sec:filtBankOpt}.
+\noindent From Figure \ref{fig:matErrDelay}, the critical-like and octave filter banks provide the best balance between matching error and group delay. However, experimentation found that only slight optimisations can be applied to these filter banks. The ANSI S1.11 has a significantly lower matching error compared to the other filter banks. Furthermore, the group delay of the ANSI S1.11 filter bank can be significantly optimised by using transition bandwidth relaxation \cite{chang}. Therefore, the ANSI S1.11 filter bank design technique is chosen to design the adaptive filter bank. The optimisations applied to this filter bank are presented in Section \ref{sec:filtBankOpt}.
 
 \subsection{Filter Bank Optimisation}
 \label{sec:filtBankOpt}
 
-\noindent In the previous section, the investigations were constrained to using 8 filters. ANSI S1.11 provides specifications for $1/3$-octave filter banks, meaning there are $3$ sub-bands per octave. As shown in Section \ref{sec:numFreqBands}, increasing the number of sub-bands decreases the matching error. A design was simulated using the frequency sub-bands $F_{14} \rightarrow F_{39}$. Simulations performed resulted in extensive aliasing affects and a maximum group delay of $107.7ms$. This is unacceptable. Relaxation techniques exist to reduce rigidity of the ANSI S1.11 specification. However, the lowest frequency sub-band $(F_{14})$ has a lower passband frequency of $23Hz$. It is impossible to make the lower transition bandwidth large enough to reduce the order without reducing the attenuation. Therefore, the octave filter bank is chosen over the $1/3$-octave filter bank. As shown in Section \ref{sec:filtSelect}, the ANSI S1.11 octave filter bank is highly accurate, but has an unacceptably large group delay. Therefore, the ANSI S1.11 octave filter bank will be optimised to meet the $10ms$ group delay requirement. As seen in equation \ref{eqn:grpDelay}, the group delay is dependant on the filter order. The maximum filter order to achieve a group delay of $10ms$ is therefore, $P = (10ms)\times (2f_s) = 400$. Using \texttt{MATLAB's} Park-McClennan algorithm function \texttt{firpmord}, it was found that the first, second and third sub-band filters did not meet this requirement with filter orders of $1350$, $1890$ and $945$ respectively.\\
+\noindent In the previous section, the investigations were constrained to using 8 filters. ANSI S1.11 provides specifications for $1/3$-octave filter banks, meaning there are $3$ sub-bands per octave. As shown in Section \ref{sec:numFreqBands}, increasing the number of sub-bands decreases the matching error. A design was simulated using the frequency sub-bands $F_{14} \rightarrow F_{39}$ from the ANSI S1.11 specification. Simulations revealed extensive aliasing affects and a maximum group delay of $107.7ms$. This is unacceptable. Relaxation techniques exist to reduce rigidity of the ANSI S1.11 specification by increasing the relevant transition bandwidths. However, the lowest frequency sub-band $(F_{14})$ has a lower passband frequency of $23Hz$. However, it is impossible to make the lower transition bandwidth large enough to reduce the order without reducing the attenuation. Therefore, the octave filter bank is chosen over the $1/3$-octave filter bank.\\
 \newline
-\noindent To reduce the complexity (order) of an \textit{FIR} filter, multirate filters can be used. This involves operating different parts of the filter bank at different sampling frequencies. This increases the efficiency of the filter bank by reducing the number of multiplications required.
+\noindent As shown in Section \ref{sec:filtSelect}, the ANSI S1.11 octave filter bank is highly accurate, but has an unacceptably large group delay. Therefore, the ANSI S1.11 octave filter bank will be optimised to meet the $10ms$ group delay requirement. As seen in equation \ref{eqn:grpDelay}, the group delay is dependant on the filter order. The maximum filter order to achieve a group delay of $10ms$ is therefore, $P = (10ms)\times (2f_s) = 400$. Using \texttt{MATLAB's} Park-McClennan algorithm function \texttt{firpmord}, it was found that the first, second and third sub-band filters did not meet this requirement with filter orders of $1350$, $1890$ and $945$ respectively. To reduce the order and hence the group delay, relaxation of the ANSI S1.11 specifications can be applied. Using iterative techniques, it was found that a transition bandwidth of $75Hz$ yields a $10ms$ group delay. The filter bank will be bottlenecked by the filter with the maximum group delay. Therefore, the minimum transition bandwidth is set at $80Hz$ to ensure a group delay $<10ms$ per filter. The first passband frequency of the ANSI S1.11 filter bank designed in Section \ref{sec:ansi} was $22Hz<80Hz$. Therefore, the selected sub-bands per octave were adjusted such that the first passband frequency could meet the $10ms$ group delay requirement. Table \ref{tab:ansiOptSpec} in Appendix \ref{app:ansiOptSpec} illustrate the adjusted frequency specifications. The adjusted filter bank yielded a maximum group delay of $8.88ms$ with a mean and maximum matching error of $0.83dB$ and $10.42dB$ respectively. The matching error for the full frequency spectrum is illustrates in Figure \ref{fig:ansiOptMatErr} of Appendix \ref{app:ansiOptSpec}. 
 
 
+\section{Dynamic Range Compression Design}
 
-multirate filter\\
-adjust interatively to get rid of aliasing affects
+\noindent The design of the dynamic range compression component involves choosing suitable values for the compression threshold, compression ratio, attack and release times and the number of channels. More information about these parameters can be found in Appendix \ref{app:compressPara}. To maximise speech intelligibility, the parameters are set as shown in Table XXX \cite{compressHand}.
 
-
-\section{Dynamic Compression Design}
-
-\noindent 
 
 \section{System Realisation}
 
@@ -344,7 +344,8 @@ what defines success. Look at the requirements. matching error, group delay
 
 \section{Future Recommendations}
 
-
+why you dont use multirate filters\\
+divide into what needs to be improved and what the implementation considerations must be
 \section{Conclusion}
 \newpage
 \printbibliography
@@ -865,7 +866,7 @@ what defines success. Look at the requirements. matching error, group delay
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.6\linewidth]{octMatErr.PNG}
-\caption{Matching Error for Symmetric Filter Bank}
+\caption{Matching Error for Octave Filter Bank}
 \label{fig:octMatErr}
 \end{figure}  
 
@@ -920,10 +921,70 @@ f_u &= (G^{\frac{1}{2b}}) \times f_m
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.6\linewidth]{ansiOctMatErr.PNG}
-\caption{Matching Error for Symmetric Filter Bank}
+\caption{Matching Error for ANSI S1.11 Octave Filter Bank}
 \label{fig:ansiOctMatErr}
 \end{figure} 
 
 
+\section{Optimised ANSI S1.11 Filter Bank Specifications and Results}
+\label{app:ansiOptSpec}
+
+\noindent The frequency specifications were adjusted such that the group delay of the filter bank was less than $10ms$. Table \ref{tab:ansiOptSpec} summarises the specifications for the optimised filter bank.
+
+% Table generated by Excel2LaTeX from sheet 'ANSI Oct'
+\begin{table}[htbp]
+  \centering
+  \caption{Optimised ANSI S1.11 Filter Bank Specifications}
+  \begin{adjustbox}{width=0.9\linewidth}
+    \begin{tabular}{|r|r|r|r|r|r|}
+    \hline
+    \multicolumn{1}{|l|}{\textbf{Sub-band}} & \multicolumn{1}{l|}{\textbf{Lower Stopband Frequency $(Hz)$}} & \multicolumn{1}{l|}{\textbf{Lower Passband Frequency $(Hz)$}} & \multicolumn{1}{l|}{\textbf{Upper Passband Frequency $(Hz)$}} & \multicolumn{1}{l|}{\textbf{Upper Stopband Frequency $(Hz)$}} & \multicolumn{1}{l|}{\textbf{Gain $(dB)$}} \\
+    \hline
+    1     & 10    & 90    & 140   & 240   & 0,47 \\
+    \hline
+    2     & 60    & 145   & 223   & 323   & 3,16 \\
+    \hline
+    3     & 123   & 223   & 353   & 535   & 7,60 \\
+    \hline
+    4     & 153   & 353   & 561   & 761   & 13,68 \\
+    \hline
+    5     & 361   & 561   & 1100  & 1300  & 21,76 \\
+    \hline
+    6     & 900   & 1250  & 2220  & 2420  & 22,76 \\
+    \hline
+    7     & 2020  & 2220  & 4450  & 4650  & 21,23 \\
+    \hline
+    8     & 4250  & 4450  & 8976  & 9176  & 21,00 \\
+    \hline
+    \end{tabular}%
+    \end{adjustbox}
+  \label{tab:ansiOptSpec}%
+\end{table}%
+
+\noindent Figure \ref{fig:ansiOptMatErr} illustrates the matching error for the full frequency spectrum.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\linewidth]{ansiOptMatErr.PNG}
+\caption{Matching Error for Optimised ANSI S1.11 Filter Bank}
+\label{fig:ansiOptMatErr}
+\end{figure} 
+
+\section{Dynamic Range Compression Parameters}
+\label{app:compressPara}
+
+\noindent The Dynamic Range Compression algorithm works by adjusting the output level depending on the input level. These adjustments fit the filter banks output into a suitable loudness range. The specifics of the parameters used in the dynamic range compression algorithm are discussed below.
+
+\begin{itemize}
+	\item Compression Threshold (CT): The compression threshold is the point where the compression algorithm begins to compress the loudness levels. This is also referred to as the threshold knee point and defined as the point where the output level is $2dB$ lower than the uncompressed output level.
+	\item Compression Ratio (CR): This parameter (shown in equation \ref{eqn:cr}) defines how much the input signal will be compressed, once above the compression threshold. 
+	\begin{equation}
+	\label{eqn:cr}
+		CR = \frac{\Delta input}{\Delta output}
+	\end{equation}
+	\noindent Below the compression threshold, the compression ratio is $1$.
+	\item Attack Time (AT): The attack time is the delay from when the input signal surpasses the compression threshold, to when the compression takes affect.
+	\item Release Time (RT): Release time is measured as the time between when the input loudness level drops below the compression threshold, to when the compression deactivates.
+\end{itemize}
 \end{appendices}
 \end{document}

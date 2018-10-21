@@ -1,12 +1,13 @@
 clc;
 clear all;
+close all;
 %% Investigate the effects of the frequency bands
 %Set up audiogram
 Fh = 8000;
 steps = 50;
 audioX = [250 500 1000 2000 4000 8000];
 audioConY = [-50 -45 -45 -60 -50 -60];
-xq = 0:2:8000;
+xq = 0:5:8000;
 pCond = pchip(audioX, audioConY, xq);
 
 audioNormY = [0 -8 -5 0 -10 0];
@@ -33,14 +34,14 @@ end
 
 pIG = pchip(audioX, IG, xq);
 
-% figure;
-% plot(xq, pIG);
-% xlabel('Frequency (Hz)');
-% ylabel('Insertion Gain (dB)');
+figure;
+plot(xq, pIG);
+xlabel('Frequency (Hz)');
+ylabel('Insertion Gain (dB)');
 
 filtX = [25 50 100 200 250 500 1000 1500 2000 2500 3000 3500 4000 4500 5000 5500 6000 6500 7000 7500 8000];
 
-band8 = [-4.25 -2.75 0.2 5.75 8 15.5 23.5 23.5 21.75 22.5 20.9 20.8 21.2 21.1 20.9 21 21.1 21.05 21 21   21.1];
+band8 = [7.6 8.2 9.2 11.6 13.3 19.5 21.35 22.5 22.6 21.5 21 21.2 21.5 21.2 20.8 20.95 21 21.1 21.05 21 21];
 
 pb8 = pchip(filtX, band8, xq);
 
@@ -55,5 +56,5 @@ meanError = mean(matchError8)
 maxError = max(matchError8)
 
 
-%mean(pIG(1406:4001))
+%mean(pIG(2226:4001))
   
