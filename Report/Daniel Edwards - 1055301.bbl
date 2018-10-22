@@ -938,6 +938,82 @@
       \verb https://0-ieeexplore-ieee-org.innopac.wits.ac.za/document/7457341
       \endverb
     \endentry
+    \entry{dsp}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7815b752ccbb7c090ede5e1735d80962}{%
+           family={Devices},
+           familyi={D\bibinitperiod},
+           given={Analog},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7815b752ccbb7c090ede5e1735d80962}
+      \strng{fullhash}{7815b752ccbb7c090ede5e1735d80962}
+      \strng{bibnamehash}{7815b752ccbb7c090ede5e1735d80962}
+      \strng{authorbibnamehash}{7815b752ccbb7c090ede5e1735d80962}
+      \strng{authornamehash}{7815b752ccbb7c090ede5e1735d80962}
+      \strng{authorfullhash}{7815b752ccbb7c090ede5e1735d80962}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{SigmaDSP Digital Audio Processor ADAU1463/ADAU1467}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1463-1467.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1463-1467.pdf
+      \endverb
+    \endentry
+    \entry{dac}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=98891ef37ae74f3a00ae9a7c9c316e78}{%
+           family={Instruments},
+           familyi={I\bibinitperiod},
+           given={Texas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Texas Instruments}%
+      }
+      \strng{namehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{fullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{bibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorbibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{TLV320AIC3109-Q1 Automotive, Low-Power, 96-kHz, Mono Audio Codec}
+      \field{year}{2018}
+    \endentry
+    \entry{speaker}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=117a001782cf1fdf36e933e4574c7325}{%
+           family={Audio},
+           familyi={A\bibinitperiod},
+           given={Dayton},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Dayton Audio}%
+      }
+      \strng{namehash}{117a001782cf1fdf36e933e4574c7325}
+      \strng{fullhash}{117a001782cf1fdf36e933e4574c7325}
+      \strng{bibnamehash}{117a001782cf1fdf36e933e4574c7325}
+      \strng{authorbibnamehash}{117a001782cf1fdf36e933e4574c7325}
+      \strng{authornamehash}{117a001782cf1fdf36e933e4574c7325}
+      \strng{authorfullhash}{117a001782cf1fdf36e933e4574c7325}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{CE20M-16}
+      \field{year}{2014}
+    \endentry
     \entry{bark}{misc}{}
       \name{author}{1}{}{%
         {{hash=438418c7ecd91754acabbd3bb4378361}{%
@@ -968,6 +1044,35 @@
       \endverb
       \verb{url}
       \verb https://ccrma.stanford.edu/~jos/sasp/Bark_Frequency_Scale.html
+      \endverb
+    \endentry
+    \entry{compCalc}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2d2b0d998977e6379aad61f1b56ac3c1}{%
+           family={MathWorks},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MathWorks}%
+      }
+      \strng{namehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{fullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{bibnamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authorbibnamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authornamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authorfullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dynamic range compressor - Simulink}
+      \field{title}{Compressor}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.mathworks.com/help/audio/ref/compressor.html
+      \endverb
+      \verb{url}
+      \verb https://www.mathworks.com/help/audio/ref/compressor.html
       \endverb
     \endentry
   \enddatalist

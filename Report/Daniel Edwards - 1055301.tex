@@ -131,15 +131,12 @@ Put something in about the number of bands that increases the matching error
 Put the stuff about the audiogram gain factor thingy\\
 mention stuff about why digital is better than analog\\
 talk about group delay\\
-mention stuff about multirate filters
-\section{Design Objectives}
+\section{Design Objectives and High-Level Requirements}
 
-\noindent This design aims to provide an adaptive hearing aid for patients with conductive hearing loss. This device should allow for patients to operate comfortably in social situations and thus, improving their quality of life.
-
-\section{Design Requirements}
-
+\noindent This design aims to provide an adaptive hearing aid for patients with conductive hearing loss. This device should allow for patients to operate comfortably in social situations and thus, improving their quality of life. To achieve this, the hearing aid must compensate for the hearing loss of the patient, allow the patient to listen in different directions and hear within a comfortable loudness range. Factors such as response time should be designed such that the hearing aid resembles the human auditory system. These requirements are technically defined in Section \ref{sec:assCons}
 
 \section{Design Assumptions and Constrains}
+\label{sec:assCons}
 
 \subsection{Assumptions}
 
@@ -153,12 +150,8 @@ mention stuff about multirate filters
 
 \noindent The design of this system consists of two main subsystems. The first, is applying directionality techniques to allow for the user to listen in specific directions. The second is the audiogram correction subsystem. These subsystems will be amalgamated into a single system. This paper focuses on the adaptive hearing subsystem. The audiogram correction subsystems consists on a filter bank, dynamic range compression, DAC\footnote{Digital-to-Analog-Converter} and a speaker. \\
 \newline
-\noindent In this system, the adaptive filtering component is optimised for the audiogram matching error and response time. Various filter bank designs are presented in literature. Therefore, a comparison will be drawn between each design within the conductive hearing loss context. The best performing design will be further optimised. Once a design is selected, a suitable DSP\footnote{Digital-Signal-Processor} will be selected and a circuit realised. Digital filters were considered, as opposed to analog filters, since the specifications of the digital filter can be easily adjusted to satisfy the gain requirements of various prescription formulas.
+\noindent In this system, the adaptive filtering component is optimised for the audiogram matching error and response time. Various filter bank designs are presented in literature. Therefore, a comparison will be drawn between each design within the conductive hearing loss context. The best performing design will be further optimised for the best trade-off between matching error and response time. Dynamic range compression will be applied to the output of the filter bank to mainting the sound levels within a comfortable range. Once a design is selected, the suitable hardware will be selected and a circuit realised. Digital filters were considered, as opposed to analog filters, since the specifications of the digital filter can be easily adjusted to satisfy the gain requirements of various prescription formulas.
 
-
-Mention the compression aspect\\
-
-ideal filter bank
 
 \section{System Overview}
 
@@ -173,10 +166,9 @@ ideal filter bank
 
 \section{Adaptive Filter Design}
 
-State the factors that contribute to the optimisation\\
-\noindent The adaptive filter is a filter bank which consists of an array of bandpass filters. Each of the bandpass filters operate with a particular frequency range and gain. This design subsection aims to utilise this frequency bank rectify a patients audiogram. This audiogram is presented in Section \ref{sec:audiogram}.\\
+\noindent The adaptive filter is a filter bank which consists of an array of bandpass filters. Each of the bandpass filters operate with a particular frequency range and gain. The filter bank is adaptive in the sense that the filter parameters can be adjusted by the audiologist to meet a specific requirement. This design subsection aims to utilise a frequency bank to meet an audiologists prescription.  The audiogram considered in this design is presented in Section \ref{sec:audiogram}.\\
 
-\noindent \textbf{Approach:} Research proved that there are multiple filter bank types used to rectifying a patients audiogram, typically categorised as uniform and non-uniform. To determine the optimum design, each of these systems will be considered. Sections \ref{sec:uniDesign}, \ref{sec:critDesign}, \ref{sec:symmDesign} and \ref{sec:octDesign} present the design of the uniform, critical-like, symmetric and octave filter banks respectively. These designs will also be compared to the ANSI S1.11 specification presented in Section \ref{sec:ansi}. The directionality sub-system relies on the phase response of the system and thus, only \textit{FIR} filters (because of their linear phase characteristics) will be considered as oppose to \textit{IIR} filters. Furthermore, because \textit{FIR} filters are stable, an accurate behaviour of the filter bank can be simulated and predicted. Two metrics are used to measure a filter banks performance namely; matching error and group delay. The matching error is defined as the difference between the filter bank response and the perscription. The group delay $(T_g)$ is calculated as shown in equation \ref{eqn:grpDelay} \cite{chang}.
+\noindent \textbf{Approach:} Research proved that there are multiple filter bank types used to rectifying a patients audiogram, typically categorised as uniform and non-uniform. To determine the optimum design, each of these systems will be considered. Sections \ref{sec:uniDesign}, \ref{sec:symmDesign}, \ref{sec:critDesign} and \ref{sec:octDesign} present the design of the uniform, symmetric, critical-like and octave filter banks respectively. These designs will also be compared to the ANSI S1.11 specification presented in Section \ref{sec:ansi}. The directionality sub-system relies on the phase response of the system and thus, only \textit{FIR} filters (because of their linear phase characteristics) will be considered as oppose to \textit{IIR} filters. Furthermore, because \textit{FIR} filters are stable, an accurate behaviour of the filter bank can be simulated and predicted. Two metrics are used to measure a filter banks performance namely; matching error and group delay. The matching error is defined as the difference between the filter bank response and the perscription. The group delay $(T_g)$ is calculated as shown in equation \ref{eqn:grpDelay} \cite{chang}.
 
 \begin{equation}
 \label{eqn:grpDelay}
@@ -202,18 +194,17 @@ T_g = \frac{P}{2f_s}
 \subsection{Insertion Gain}
 \label{sec:insertGain}
 
-\noindent The filter bank corrects the audiogram by applying gain to particular frequencies sub-bands. Each sub-band gain is defined as insertion gain. In this design, the insertion gain is calculated using the NAL-R formulas given in equation \ref{eqn:nalRp}.
+\noindent The filter bank corrects the audiogram by applying gain to particular frequencies sub-bands. Each sub-band gain is defined as insertion gain. The accuracy of the filter bank is based on it's ability to match the prescription formula. Therefore, the prescription formula is considered to be a black box and as a result, the performance of the filter bank is independent of the prescription formula used. For simplicity, this design calculates the insertion gain using the NAL-R formulas given in equation \ref{eqn:nalRp}.
 
 \begin{equation}
 \label{eqn:nalRp}
 \begin{aligned}
 H_{3FA} &= (H_{500} + H_{1k} + H_{2k})/3 \\
-X &= 0.15 \times H_{3FA} \\ 
-IG_i &= X + (0.31\times H_i) + k_i
+IG_i &= 0.15 \times H_{3FA} + (0.31\times H_i) + k_i
 \end{aligned}
 \end{equation}
 
-\noindent Where X is a constant, $IG_i$ is the insertion gain, $H_i$ is the audiogram value at the $i^{th}$ sampled frequency and $k_i$ is a constant at the $i^{th}$ sampled frequency given by Table \ref{tab:kiVal} in Appendix \ref{app:insertGainParam}. Similarly to the audiogram, the insertion gain values were interpolated using \texttt{MATLAB's} \texttt{pchip} function. The insertion gains for the full frequency range is illustrated in Figure \ref{fig:igFreqRange}.
+\noindent Where $IG_i$ is the insertion gain, $H_i$ is the audiogram value at the $i^{th}$ sampled frequency and $k_i$ is a constant at the $i^{th}$ sampled frequency given by Table \ref{tab:kiVal} in Appendix \ref{app:insertGainParam}. Similarly to the audiogram, the insertion gain values were interpolated using \texttt{MATLAB's} \texttt{pchip} function. The insertion gains for the full frequency range is illustrated in Figure \ref{fig:igFreqRange}. 
 
 \begin{figure}[h]
 \centering
@@ -222,7 +213,7 @@ IG_i &= X + (0.31\times H_i) + k_i
 \label{fig:igFreqRange}
 \end{figure}  
 
-\noindent The insertion gain, per sub-band is taken as the average insertion gain within the sub-band range.
+\noindent A sub-band's insertion gain is taken as the average insertion gain within the sub-band range.
 
 \subsection{Number of Filters} 
 \label{sec:numFreqBands}
@@ -250,24 +241,23 @@ IG_i &= X + (0.31\times H_i) + k_i
 \subsection{Uniform, Critical-like, Symmetric and Octave Filter Bank Design}
 \label{sec:uniCritSymOct}
 
-\noindent This section aims to optimise the structure of the filter bank's frequency bands. Therefore, a comparison between a uniform, critical-like, symmetric and octave filter banks will be made. These filters will then be compared to the ANSI S1.11 filter bank. To draw a fair comparison, all of the filters will be design with the parameters given in Table \ref{tab:numFilt_FiltSpec} in Appendix \ref{app:numFilt}. Each filter bank will consist of $8$ bandpass filters. Initially, the transition band per sub-band is set to $10\%$ of the sub-band's bandwidth. However, through simulation, it was found that adjusting the transition bandwidth significantly affected the performance. Therefore, each sub-band's transition bandwidth is iteratively adjusted to achieve the optimal performance. This allows for the best performing filter banks to be compared. Therefore, concrete performance decisions can be made. The same insertion gain method as in Section \ref{sec:insertGain} will be used.
+\noindent This section aims to optimise the structure of the filter bank's frequency bands. Therefore, a comparison between a uniform, symmetric, critical-like and octave filter banks will be made. These filters will then be compared to the ANSI S1.11 filter bank. To draw a fair comparison, all of the filters will be design with the parameters given in Table \ref{tab:numFilt_FiltSpec} in Appendix \ref{app:numFilt}. Each filter bank will consist of $8$ bandpass filters. Initially, the transition band per sub-band is set to $10\%$ of the sub-band's bandwidth. However, through simulation, it was found that adjusting the transition bandwidth significantly affected the performance. Therefore, each sub-band's transition bandwidth is iteratively adjusted to achieve the optimal performance. This allows for the best performing filter banks to be compared. Therefore, concrete performance decisions can be made. The same insertion gain method as in Section \ref{sec:insertGain} will be used.
 
 \subsubsection{Uniform Filter Bank Design}
 \label{sec:uniDesign}
 
-\noindent A uniform filter bank consist of an array of evenly spaced, filters with equal bandwidths \cite{chang}. Uniform filter banks are simple and easy to implement. However, for a sufficient resolution, uniform filter banks requires more bands than non-uniform filter banks for a good fit. The additional filters implies that more computations are required and thus, the filter bank's group delay is potentially increased \cite{brennan}. This design optimised  Section \ref{sec:numFreqBands}'s $8$ sub-band design by utilising the filter characteristics in Table \ref{tab:uniFiltSpec} of Appendix \ref{app:uniFreqBand}. This design acheived and average and maximum matching error of $1.36dB$ and $11.25dB$ respectively with a group delay of $5.48ms$. The matching error across the full frequency spectrum can be seen in Figure \ref{fig:uniMatErr} of Appendix \ref{app:uniFreqBand}.
+\noindent A uniform filter bank consist of an array of evenly spaced, filters with equal bandwidths \cite{chang}. Uniform filter banks are simple and easy to implement. However, for a sufficient resolution, uniform filter banks requires more bands than non-uniform filter banks for a good fit. The additional filters implies that more computations are required and thus, the filter bank's group delay is potentially increased \cite{brennan}. This design optimised Section \ref{sec:numFreqBands}'s $8$ sub-band design by adjusting the filter bands to minimise aliasing effects. The filter bank characteristics are given in Table \ref{tab:uniFiltSpec} of Appendix \ref{app:uniFreqBand}. This design achieved and average and maximum matching error of $1.36dB$ and $11.25dB$ respectively with a group delay of $5.48ms$. The matching error across the full frequency spectrum can be seen in Figure \ref{fig:uniMatErr} of Appendix \ref{app:uniFreqBand}.
+
+\subsubsection{Symmetric Filter Bank Design}
+\label{sec:symmDesign}
+
+\noindent Symmetric filter banks provde an improvement on the uniform filter bank. The non-uniform sub-bands are symmetric about the center frequency of the frequency spectrum, in this case $4kHz$. Symmetric filter banks have the ability of enhancing the matching error of low and high, or mid frequencies \cite{sebastian}. Figure \ref{fig:normCondAudio} illustrates that the threshold of a conductive hearing loss patient is worse at the low and high frequencies. Therefore, the frequency bands will be chosen such that these frequencies are emphasised. Table \ref{tab:symFreqBand} in Appendix \ref{app:symFreqBands} illustrates the bands used in this investigation. Simulation illustrated that the symmetric filter bank achieved an average error of $1.34dB$ with a maximum matching error of $9.4dB$. This filter bank achieved a group delay of $14.92ms$. The matching error for the full frequency spectrum is illustrated in Figure \ref{fig:symMatErr} in Appendix \ref{app:symFreqBands}.
 
 
 \subsubsection{Critical-like Filter Bank Design}
 \label{sec:critDesign}
 
 \noindent This filter is forms part of the non-uniform filter bank category. This filter design attempts to account for the psychoacoustic characteristics using the critical bands of the Bark Scale \cite{chong}. Table \ref{tab:bark} in Appendix \ref{app:bark} provides the Bark scale's critical frequency band information. This investigation is limited to using $8$ filters and a maximum frequency of $8kHz$. Therefore, the sub-bands are set as shown in Table \ref{tab:critFiltFreqBand} of Appendix \ref{app:critFiltFreqBand}.	This design achieved an average and maximum matching error of $0.87dB$ and $8.15dB$ respectively and a group delay of $16.18ms$. The matching error for the full frequency spectrum is illustrated in Figure \ref{fig:critMatErr} of Appendix \ref{app:critFiltFreqBand}.
-
-
-\subsubsection{Symmetric Filter Bank Design}
-\label{sec:symmDesign}
-
-\noindent Symmetric filter banks provde an improvement on the uniform filter bank. The non-uniform sub-bands are symmetric about the center frequency of the frequency spectrum, in this case $4kHz$. Symmetric filter banks have the ability of enhancing the matching error of low and high, or mid frequencies \cite{sebastian}. Figure \ref{fig:normCondAudio} illustrates that the threshold of a conductive hearing loss patient is worse at the low and high frequencies. Therefore, the frequency bands will be chosen such that these frequencies are emphasised. Table \ref{tab:symFreqBand} in Appendix \ref{app:symFreqBands} illustrates the bands used in this investigation. Simulation illustrated that the symmetric filter bank achieved an average error of $1.34dB$ with a maximum matching error of $9.4dB$. This filter bank achieved a group delay of $14.92ms$. The matching error for the full frequency spectrum is illustrated in Figure \ref{fig:symMatErr} in Appendix \ref{app:symFreqBands}.
 
 
 \subsubsection{Octave Filter Bank Design}
@@ -320,21 +310,19 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
 
 
 \section{Dynamic Range Compression Design}
+\label{sec:dynamicCompress}
 
-\noindent The design of the dynamic range compression component involves choosing suitable values for the compression threshold, compression ratio, attack and release times and the number of channels. More information about these parameters can be found in Appendix \ref{app:compressPara}. The parameters chosen for this design are such that speech intelligibility is maximised.
+\noindent The design of the dynamic range compression component involves choosing suitable values for the compression threshold, compression ratio, attack and release times and the number of channels. More information about these parameters can be found in Appendix \ref{app:compressPara}. The parameters chosen for this design are such that speech intelligibility is maximised. TALK ABOUT WHAT THE PARAMETERS MEAN. The compressed output gain is calculated as shown in Appendix \ref{app:compressCalc}.
 
 
 \section{System Realisation}
 
-\noindent This subsystem consists of an input, an analysis and synthesis stage and finally an output. The hardware required to realise this system consists of a DSP, DAC, anti-imaging filter and speaker. TALK ABOUT THE INPUT. The Analog Devices, \textit{ADAU1463 Sigma Digital Audio Processor} is chosen as the DSP for this system.
-
-
-talk about the DSP, DAC, anti-imaging filter, speaker
-
-
+\noindent This subsystem consists of an input, an analysis and synthesis stage, and finally an output. For the analysis stage, a DSP\footnote{Digital-Signal-Processor} is required which will house the filter bank and the dynamic range compression algorithm. The sythesis stage consists of a DAC, reconstruction filter, pre-amplifier which outputs to a speaker.  TALK ABOUT THE INPUT. The Analog Devices, \textit{ADAU1463 Sigma Digital Audio Processor} is chosen as the DSP for this system. This DSP can handle $24000$ filter taps per sample \cite{dsp}. The optimised filter bank consists of a total of $1683$ filter taps per sample and therefore, this DSP can easily handle the filter bank processing requirements. The \textit{ADAU1463} has $2$ communication port types, $I^2C$ and $SPI$.  To synthesise the signal, the output of the DSP is connected to the \textit{TLV320AIC3109-Q1} audio processor. The \textit{ADAU1463} supports both $SPI$ and $I^2C$ as opposed to \textit{TLV320AIC3109-Q1} which only supports $I^2C$. Therefore, the \textit{ADAU1463} communicates with the \textit{TLV320AIC3109-Q1} via the $I^2C port$. The \textit{TLV320AIC3109-Q1} contains the DAC, reconstruction filter and pre-amplifier suitable for a $16 \Omega$ headphone output load resistance \cite{dac}. The \textit{CE20M-16} micro speaker is specified to output the sound of the system to the patient. The \textit{CE20M-16} micro speaker has a $16 \Omega$ load resistance \cite{speaker} and thus, is suitable for the output of the \textit{TLV320AIC3109-Q1} audio processor. An overall circuit diagram is giving in Figure XXX of Appendix XXX.
 
 
 \section{Success Criterion}
+
+\noindent 
 
 what defines success. Look at the requirements. matching error, group delay
 
@@ -349,6 +337,11 @@ what defines success. Look at the requirements. matching error, group delay
 why you dont use multirate filters\\
 divide into what needs to be improved and what the implementation considerations must be
 \section{Conclusion}
+
+\section*{Acknowledgements}
+
+\noindent I would like to take this opportunity to thank Prof. Rubin for all of his help and assistance with this project. A special thanks to the University of the Witwatersrand and all of the staff that were involved in the development of this project.
+
 \newpage
 \printbibliography
 \newpage
@@ -723,6 +716,50 @@ divide into what needs to be improved and what the implementation considerations
 \label{fig:uniMatErr}
 \end{figure}  
 
+\section{Symmetric Filter Bank Specifications and Results} 
+\label{app:symFreqBands}
+
+\noindent Table \ref{tab:symFreqBand} summarises the frequency bands used to investigate the performance of the symmetric filter bank design. Because the human hearing frequency spectrum begins at $20Hz$, the first sub-band is not symmetric to the last sub-band. However, there is only a $4\%$ difference which is negligible. The transition bandwidth for the first sub-band however, will be $20Hz$. Since only the transition bandwidth of the first sub-band is affected, this affect is also ignored.
+
+% Table generated by Excel2LaTeX from sheet 'Symmetric'
+\begin{table}[htbp]
+  \centering
+  \caption{Symmetric Filter Bank Frequency Bands}
+  \begin{adjustbox}{width=0.9\linewidth}
+    \begin{tabular}{|r|r|r|r|}
+    \hline
+    \multicolumn{1}{|l|}{\textbf{Band Number}} & \multicolumn{1}{l|}{\textbf{Lower Passband Frequency $(Hz)$}} & \multicolumn{1}{l|}{\textbf{Upper Passband Frequency $(Hz)$}} & \multicolumn{1}{l|}{\textbf{Bandwidth $(Hz)$}} \\
+    \hline
+    1     & 20    & 500   & 480 \\
+    \hline
+    2     & 500   & 1000  & 500 \\
+    \hline
+    3     & 1000  & 2000  & 1000 \\
+    \hline
+    4     & 2000  & 4000  & 2000 \\
+    \hline
+    5     & 4000  & 6000  & 2000 \\
+    \hline
+    6     & 6000  & 7000  & 1000 \\
+    \hline
+    7     & 7000  & 7500  & 500 \\
+    \hline
+    8     & 7500  & 8000  & 500 \\
+    \hline
+    \end{tabular}%
+    \end{adjustbox}
+  \label{tab:symFreqBand}%
+\end{table}%
+
+\noindent Figure \ref{fig:symMatErr} illustrates the matching error for the full frequency spectrum of the symmetric filter bank.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\linewidth]{symMatErr.PNG}
+\caption{Matching Error for Symmetric Filter Bank}
+\label{fig:symMatErr}
+\end{figure}  
+
 
 \section{Critical-Like Filter Bank Specifications and Results}
 \label{app:critFiltFreqBand}
@@ -783,49 +820,7 @@ divide into what needs to be improved and what the implementation considerations
 \label{fig:critMatErr}
 \end{figure}  
 
-\section{Symmetric Filter Bank Specifications and Results} 
-\label{app:symFreqBands}
 
-\noindent Table \ref{tab:symFreqBand} summarises the frequency bands used to investigate the performance of the symmetric filter bank design. Because the human hearing frequency spectrum begins at $20Hz$, the first sub-band is not symmetric to the last sub-band. However, there is only a $4\%$ difference which is negligible. The transition bandwidth for the first sub-band however, will be $20Hz$. Since only the transition bandwidth of the first sub-band is affected, this affect is also ignored.
-
-% Table generated by Excel2LaTeX from sheet 'Symmetric'
-\begin{table}[htbp]
-  \centering
-  \caption{Symmetric Filter Bank Frequency Bands}
-  \begin{adjustbox}{width=0.9\linewidth}
-    \begin{tabular}{|r|r|r|r|}
-    \hline
-    \multicolumn{1}{|l|}{\textbf{Band Number}} & \multicolumn{1}{l|}{\textbf{Lower Passband Frequency $(Hz)$}} & \multicolumn{1}{l|}{\textbf{Upper Passband Frequency $(Hz)$}} & \multicolumn{1}{l|}{\textbf{Bandwidth $(Hz)$}} \\
-    \hline
-    1     & 20    & 500   & 480 \\
-    \hline
-    2     & 500   & 1000  & 500 \\
-    \hline
-    3     & 1000  & 2000  & 1000 \\
-    \hline
-    4     & 2000  & 4000  & 2000 \\
-    \hline
-    5     & 4000  & 6000  & 2000 \\
-    \hline
-    6     & 6000  & 7000  & 1000 \\
-    \hline
-    7     & 7000  & 7500  & 500 \\
-    \hline
-    8     & 7500  & 8000  & 500 \\
-    \hline
-    \end{tabular}%
-    \end{adjustbox}
-  \label{tab:symFreqBand}%
-\end{table}%
-
-\noindent Figure \ref{fig:symMatErr} illustrates the matching error for the full frequency spectrum of the symmetric filter bank.
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.6\linewidth]{symMatErr.PNG}
-\caption{Matching Error for Symmetric Filter Bank}
-\label{fig:symMatErr}
-\end{figure}  
 
 
 \section{Octave Filter Bank Specifications and Results}
@@ -978,16 +973,33 @@ f_u &= (G^{\frac{1}{2b}}) \times f_m
 \noindent The Dynamic Range Compression algorithm works by adjusting the output level depending on the input level. These adjustments fit the filter banks output into a suitable loudness range. The specifics of the parameters used in the dynamic range compression algorithm are discussed below.
 
 \begin{itemize}
-	\item Compression Threshold (CT): The compression threshold is the point where the compression algorithm begins to compress the loudness levels. This is also referred to as the threshold knee point and defined as the point where the output level is $2dB$ lower than the uncompressed output level.
-	\item Compression Ratio (CR): This parameter (shown in equation \ref{eqn:cr}) defines how much the input signal will be compressed, once above the compression threshold. 
+	\item Compression Threshold: The compression threshold is the point where the compression algorithm begins to compress the loudness levels. This is also referred to as the threshold knee point and defined as the point where the output level is $2dB$ lower than the uncompressed output level.
+	\item Compression Ratio: This parameter (shown in equation \ref{eqn:cr}) defines how much the input signal will be compressed, once above the compression threshold. 
 	\begin{equation}
 	\label{eqn:cr}
 		CR = \frac{\Delta input}{\Delta output}
 	\end{equation}
 	\noindent Below the compression threshold, the compression ratio is $1$.
-	\item Attack Time (AT): The attack time is the delay from when the input signal surpasses the compression threshold, to when the compression takes affect.
-	\item Release Time (RT): Release time is measured as the time between when the input loudness level drops below the compression threshold, to when the compression deactivates.
+	\item Attack Time: The attack time is the delay from when the input signal surpasses the compression threshold, to when the compression takes affect.
+	\item Release Time: Release time is measured as the time between when the input loudness level drops below the compression threshold, to when the compression deactivates.
 \end{itemize}
+
+\section{Dynamic Range Compression Calculations}
+\label{app:compressCalc}
+
+\noindent The calculations presented in this section are adapted from reference \cite{compCalc}. The input signal is sampled $(x[n])$ and converted to decibels ($x_{dB}[n] = 20\times log_{10}|x[n]|$). This design utilises a hard knee and hence, the static charactersitics are calculated as shown in equation \ref{eqn:staticCharac}.
+
+\begin{equation}
+\label{eqn:staticCharac}
+x_{sc}(x_{dB}) = 
+\begin{cases} 
+      x_{dB} & x_{dB} < T \\
+     T + \frac{x_{dB} - T}{R} & x_{dB} \geq T
+   \end{cases}
+\end{equation}
+
+\noindent Where $T$ is the compression threshold and $R$ is the compression ratio. The gain is then calculated by taking the difference between the static characteristics and the input signal $(g_c[n] = x_{sc}[n] - x_{dB}[n])$.
+
 
 \FloatBarrier
 \includepdf[pages=-, picturecommand*={%

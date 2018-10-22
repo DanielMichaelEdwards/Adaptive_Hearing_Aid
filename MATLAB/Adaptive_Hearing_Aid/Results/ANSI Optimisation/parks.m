@@ -36,7 +36,7 @@ end
 order
 grpDelay = order./(2*Fs);
 grpDelay = 1000.*grpDelay
-
+sum(order)
 
 % 
 % f = [19 23]

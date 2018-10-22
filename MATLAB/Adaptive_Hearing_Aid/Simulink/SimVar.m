@@ -98,8 +98,8 @@ Gansi = 10^(GdBansi/10);
 ampdB = 2;
 amp = 10^(ampdB/10);
 
-GdB = 2;
-G = 10^(ampdB/10);
+GdB = 0;
+G = 10^(GdB/10);
 
 CT = 30;
 CR = 5;

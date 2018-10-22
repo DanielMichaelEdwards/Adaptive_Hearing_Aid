@@ -64,14 +64,14 @@ pb7 = pchip(filtX, band7, xq);
 band8 = [18.7 17.5 21.8 23.5 23.5 21.9 21.5 21.3 22.8 21 23 20.9 22.5 20.8 23.3 21.2 20.9];
 pb8 = pchip(filtX, band8, xq);
 
-matchError1 = abs(plus(pb1,  pCond));
-matchError2 = abs(plus(pb2,  pCond));
-matchError3 = abs(plus(pb3,  pCond));
-matchError4 = abs(plus(pb4,  pCond));
-matchError5 = abs(plus(pb5,  pCond));
-matchError6 = abs(plus(pb6,  pCond));
-matchError7 = abs(plus(pb7,  pCond));
-matchError8 = abs(plus(pb8,  pCond));
+matchError1 = abs(minus(pb1,  pIG));
+matchError2 = abs(minus(pb2,  pIG));
+matchError3 = abs(minus(pb3,  pIG));
+matchError4 = abs(minus(pb4,  pIG));
+matchError5 = abs(minus(pb5,  pIG));
+matchError6 = abs(minus(pb6,  pIG));
+matchError7 = abs(minus(pb7,  pIG));
+matchError8 = abs(minus(pb8,  pIG));
 
 figure;
 plot(xq, matchError1);
