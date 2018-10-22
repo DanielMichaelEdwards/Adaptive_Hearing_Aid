@@ -2030,11 +2030,12 @@
     <bcf:citekey order="53">yang</bcf:citekey>
     <bcf:citekey order="54">ansiAtten</bcf:citekey>
     <bcf:citekey order="55">chang</bcf:citekey>
-    <bcf:citekey order="56">dsp</bcf:citekey>
-    <bcf:citekey order="57">dac</bcf:citekey>
-    <bcf:citekey order="58">speaker</bcf:citekey>
-    <bcf:citekey order="59">bark</bcf:citekey>
-    <bcf:citekey order="60">compCalc</bcf:citekey>
+    <bcf:citekey order="56">compressHand</bcf:citekey>
+    <bcf:citekey order="57">dsp</bcf:citekey>
+    <bcf:citekey order="58">dac</bcf:citekey>
+    <bcf:citekey order="59">speaker</bcf:citekey>
+    <bcf:citekey order="60">bark</bcf:citekey>
+    <bcf:citekey order="61">compCalc</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

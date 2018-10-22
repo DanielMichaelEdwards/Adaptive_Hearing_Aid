@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.8.29)  22 OCT 2018 19:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.8.29)  22 OCT 2018 20:51
 entering extended mode
 **"./Daniel Edwards - 1055301.tex"
 ("Daniel Edwards - 1055301.tex"
@@ -1984,93 +1984,92 @@ tter.pdf>] ("Daniel Edwards - 1055301.toc" [1])
 \openout9 = `"Daniel Edwards - 1055301.toc"'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 98--101
+Underfull \hbox (badness 10000) in paragraph at lines 100--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--101
+Underfull \hbox (badness 10000) in paragraph at lines 100--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--129
+Underfull \hbox (badness 10000) in paragraph at lines 109--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--129
+Underfull \hbox (badness 10000) in paragraph at lines 109--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--129
+Underfull \hbox (badness 10000) in paragraph at lines 109--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--129
+Underfull \hbox (badness 10000) in paragraph at lines 109--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--129
+Underfull \hbox (badness 10000) in paragraph at lines 109--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--129
+Underfull \hbox (badness 10000) in paragraph at lines 109--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--129
+Underfull \hbox (badness 10000) in paragraph at lines 109--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--129
+Underfull \hbox (badness 10000) in paragraph at lines 109--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--129
+Underfull \hbox (badness 10000) in paragraph at lines 109--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--129
+Underfull \hbox (badness 10000) in paragraph at lines 109--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--129
+Underfull \hbox (badness 10000) in paragraph at lines 109--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--129
+Underfull \hbox (badness 10000) in paragraph at lines 109--131
 
  []
 
 [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 130--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--154
+Underfull \hbox (badness 10000) in paragraph at lines 132--136
 
  []
 
 [5]
+Underfull \hbox (badness 10000) in paragraph at lines 153--156
+
+ []
+
 <system.pdf, id=334, 737.75626pt x 204.765pt>
 File: system.pdf Graphic file (type pdf)
 <use system.pdf>
-Package pdftex.def Info: system.pdf  used on input line 162.
+Package pdftex.def Info: system.pdf  used on input line 164.
 (pdftex.def)             Requested size: 435.32419pt x 120.82278pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
@@ -2082,81 +2081,105 @@ urce which is no dict (key 'ProcSets', type <array>); ignored.
 <normCondAudiogram.PNG, id=404, 421.575pt x 316.18124pt>
 File: normCondAudiogram.PNG Graphic file (type png)
 <use normCondAudiogram.PNG>
-Package pdftex.def Info: normCondAudiogram.PNG  used on input line 187.
+Package pdftex.def Info: normCondAudiogram.PNG  used on input line 189.
 (pdftex.def)             Requested size: 290.22105pt x 217.66837pt.
  [7 <./normCondAudiogram.PNG (PNG copy)>]
-<igFreqRange.PNG, id=419, 421.575pt x 316.18124pt>
+<igFreqRange.PNG, id=418, 421.575pt x 316.18124pt>
 File: igFreqRange.PNG Graphic file (type png)
 <use igFreqRange.PNG>
-Package pdftex.def Info: igFreqRange.PNG  used on input line 211.
+Package pdftex.def Info: igFreqRange.PNG  used on input line 213.
 (pdftex.def)             Requested size: 290.22105pt x 217.66837pt.
-<numBandsErrorFreq.png, id=423, 421.575pt x 316.18124pt>
+<numBandsErrorFreq.png, id=422, 421.575pt x 316.18124pt>
 File: numBandsErrorFreq.png Graphic file (type png)
 <use numBandsErrorFreq.png>
-Package pdftex.def Info: numBandsErrorFreq.png  used on input line 227.
+Package pdftex.def Info: numBandsErrorFreq.png  used on input line 229.
 (pdftex.def)             Requested size: 195.89455pt x 146.92143pt.
-<numBandErrorBand.png, id=424, 421.575pt x 316.18124pt>
+<numBandErrorBand.png, id=423, 421.575pt x 316.18124pt>
 File: numBandErrorBand.png Graphic file (type png)
 <use numBandErrorBand.png>
-Package pdftex.def Info: numBandErrorBand.png  used on input line 233.
+Package pdftex.def Info: numBandErrorBand.png  used on input line 235.
 (pdftex.def)             Requested size: 195.89455pt x 146.92143pt.
- [8 <./igFreqRange.PNG (PNG copy)> <./numBandsErrorFreq.png (PNG copy)> <./numB
-andErrorBand.png (PNG copy)>]
-[9]
-<matErrDelay.PNG, id=489, 421.575pt x 316.18124pt>
+ [8 <./igFreqRange.PNG (PNG copy)>]
+[9 <./numBandsErrorFreq.png (PNG copy)> <./numBandErrorBand.png (PNG copy)>]
+<matErrDelay.PNG, id=486, 421.575pt x 316.18124pt>
 File: matErrDelay.PNG Graphic file (type png)
 <use matErrDelay.PNG>
-Package pdftex.def Info: matErrDelay.PNG  used on input line 297.
+Package pdftex.def Info: matErrDelay.PNG  used on input line 299.
 (pdftex.def)             Requested size: 290.22105pt x 217.66837pt.
- [10 <./matErrDelay.PNG (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 307--310
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--312
 
  []
 
-[11] [12] [13] [14]pdfTeX warning (ext4): destination with the same identifier 
-(name{section.1}) has been already used, duplicate ignored
+[10]
+<loud.pdf, id=512, 231.86626pt x 255.95625pt>
+File: loud.pdf Graphic file (type pdf)
+<use loud.pdf>
+Package pdftex.def Info: loud.pdf  used on input line 321.
+(pdftex.def)             Requested size: 169.29684pt x 186.88945pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11 <./matErrDelay.PNG (PNG copy)>]
+<staticChar.PNG, id=525, 421.575pt x 316.18124pt>
+File: staticChar.PNG Graphic file (type png)
+<use staticChar.PNG>
+Package pdftex.def Info: staticChar.PNG  used on input line 330.
+(pdftex.def)             Requested size: 290.22105pt x 217.66837pt.
+ [12 <./loud.pdf
+
+pdfTeX warning: pdflatex (file ./loud.pdf): PDF inclusion: invalid other resour
+ce which is no dict (key 'ProcSets', type <array>); ignored.
+> <./staticChar.PNG (PNG copy)>] [13] [14] [15]pdfTeX warning (ext4): destinati
+on with the same identifier (name{section.1}) has been already used, duplicate 
+ignored
 <to be read again> 
                    \relax 
-l.351 ...on{Impact Appendix - Non-Technical thing}
+l.368 ...on{Impact Appendix - Non-Technical thing}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{section.2}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.354 \section{Insertion Gain Parameters}
+l.371 \section{Insertion Gain Parameters}
                                          pdfTeX warning (ext4): destination wit
 h the same identifier (name{section.3}) has been already used, duplicate ignore
 d
 <to be read again> 
                    \relax 
-l.374 \section{Number of Filters Investigation}
+l.391 \section{Number of Filters Investigation}
                                                pdfTeX warning (ext4): destinati
 on with the same identifier (name{section.4}) has been already used, duplicate 
 ignored
 <to be read again> 
                    \relax 
-l.614 \section{Bark-Scale}
+l.631 \section{Bark-Scale}
                           pdfTeX warning (ext4): destination with the same iden
 tifier (name{section.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.681 ...m Filter Bank Specifications and Results}
+l.698 ...m Filter Bank Specifications and Results}
                                                   
-<uniMatErr.PNG, id=596, 421.575pt x 316.18124pt>
+<uniMatErr.PNG, id=631, 421.575pt x 316.18124pt>
 File: uniMatErr.PNG Graphic file (type png)
 <use uniMatErr.PNG>
-Package pdftex.def Info: uniMatErr.PNG  used on input line 714.
+Package pdftex.def Info: uniMatErr.PNG  used on input line 731.
 (pdftex.def)             Requested size: 290.22105pt x 217.66837pt.
- [15] [16] [17]pdfTeX warning (ext4): destination with the same identifier (nam
+ [16] [17] [18]pdfTeX warning (ext4): destination with the same identifier (nam
 e{section.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.719 ...c Filter Bank Specifications and Results}
+l.736 ...c Filter Bank Specifications and Results}
                                                   
-<symMatErr.PNG, id=621, 421.575pt x 316.18124pt>
+<symMatErr.PNG, id=657, 421.575pt x 316.18124pt>
 File: symMatErr.PNG Graphic file (type png)
 <use symMatErr.PNG>
-Package pdftex.def Info: symMatErr.PNG  used on input line 758.
+Package pdftex.def Info: symMatErr.PNG  used on input line 775.
 (pdftex.def)             Requested size: 290.22105pt x 217.66837pt.
 
 
@@ -2166,12 +2189,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.764 ...e Filter Bank Specifications and Results}
+l.781 ...e Filter Bank Specifications and Results}
                                                   
-<critMatErr.PNG, id=624, 421.575pt x 316.18124pt>
+<critMatErr.PNG, id=660, 421.575pt x 316.18124pt>
 File: critMatErr.PNG Graphic file (type png)
 <use critMatErr.PNG>
-Package pdftex.def Info: critMatErr.PNG  used on input line 818.
+Package pdftex.def Info: critMatErr.PNG  used on input line 835.
 (pdftex.def)             Requested size: 290.22105pt x 217.66837pt.
 
 
@@ -2181,13 +2204,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.8}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.826 ...e Filter Bank Specifications and Results}
-                                                   [18 <./uniMatErr.PNG (PNG co
+l.843 ...e Filter Bank Specifications and Results}
+                                                   [19 <./uniMatErr.PNG (PNG co
 py)>]
-<octMatErr.PNG, id=632, 421.575pt x 316.18124pt>
+<octMatErr.PNG, id=667, 421.575pt x 316.18124pt>
 File: octMatErr.PNG Graphic file (type png)
 <use octMatErr.PNG>
-Package pdftex.def Info: octMatErr.PNG  used on input line 865.
+Package pdftex.def Info: octMatErr.PNG  used on input line 882.
 (pdftex.def)             Requested size: 290.22105pt x 217.66837pt.
 
 
@@ -2197,13 +2220,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.9}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.871 ...1 Filter Bank Specifications and Results}
-                                                   [19 <./symMatErr.PNG (PNG co
+l.888 ...1 Filter Bank Specifications and Results}
+                                                   [20 <./symMatErr.PNG (PNG co
 py)> <./critMatErr.PNG (PNG copy)>]
-<ansiOctMatErr.PNG, id=640, 421.575pt x 316.18124pt>
+<ansiOctMatErr.PNG, id=675, 421.575pt x 316.18124pt>
 File: ansiOctMatErr.PNG Graphic file (type png)
 <use ansiOctMatErr.PNG>
-Package pdftex.def Info: ansiOctMatErr.PNG  used on input line 920.
+Package pdftex.def Info: ansiOctMatErr.PNG  used on input line 937.
 (pdftex.def)             Requested size: 290.22105pt x 217.66837pt.
 
 
@@ -2213,12 +2236,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.10})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.926 ...1 Filter Bank Specifications and Results}
-                                                   [20]
-<ansiOptMatErr.PNG, id=650, 421.575pt x 316.18124pt>
+l.943 ...1 Filter Bank Specifications and Results}
+                                                   [21]
+<ansiOptMatErr.PNG, id=685, 421.575pt x 316.18124pt>
 File: ansiOptMatErr.PNG Graphic file (type png)
 <use ansiOptMatErr.PNG>
-Package pdftex.def Info: ansiOptMatErr.PNG  used on input line 965.
+Package pdftex.def Info: ansiOptMatErr.PNG  used on input line 982.
 (pdftex.def)             Requested size: 290.22105pt x 217.66837pt.
 
 
@@ -2228,23 +2251,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.11})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.970 ...ion{Dynamic Range Compression Parameters}
-                                                   [21 <./octMatErr.PNG (PNG co
+l.987 ...ion{Dynamic Range Compression Parameters}
+                                                   [22 <./octMatErr.PNG (PNG co
 py)>]pdfTeX warning (ext4): destination with the same identifier (name{section.
 12}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.987 ...n{Dynamic Range Compression Calculations}
-                                                   [22 <./ansiOctMatErr.PNG (PN
+l.1004 ...{Dynamic Range Compression Calculations}
+                                                   [23 <./ansiOctMatErr.PNG (PN
 G copy)> <./ansiOptMatErr.PNG (PNG copy)>]
-<meetingMin.pdf, id=663, 598.235pt x 846.16125pt>
+<meetingMin.pdf, id=704, 598.235pt x 846.16125pt>
 File: meetingMin.pdf Graphic file (type pdf)
 <use meetingMin.pdf>
-Package pdftex.def Info: meetingMin.pdf  used on input line 1008.
+Package pdftex.def Info: meetingMin.pdf  used on input line 1066.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 File: meetingMin.pdf Graphic file (type pdf)
 <use meetingMin.pdf>
-Package pdftex.def Info: meetingMin.pdf  used on input line 1008.
+Package pdftex.def Info: meetingMin.pdf  used on input line 1066.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 
 
@@ -2253,223 +2276,223 @@ Package pdfpages Warning: Erroneous page width of 0.0pt is corrected.
 
 Package pdfpages Warning: Erroneous page height of 0.0pt is corrected.
 
-<meetingMin.pdf, id=666, page=1, 598.235pt x 846.16125pt>
+<meetingMin.pdf, id=707, page=1, 598.235pt x 846.16125pt>
 File: meetingMin.pdf Graphic file (type pdf)
 <use meetingMin.pdf, page 1>
-Package pdftex.def Info: meetingMin.pdf , page1 used on input line 1008.
+Package pdftex.def Info: meetingMin.pdf , page1 used on input line 1066.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 File: meetingMin.pdf Graphic file (type pdf)
 <use meetingMin.pdf, page 1>
-Package pdftex.def Info: meetingMin.pdf , page1 used on input line 1008.
+Package pdftex.def Info: meetingMin.pdf , page1 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-[23]
+[24]
 File: meetingMin.pdf Graphic file (type pdf)
 <use meetingMin.pdf, page 1>
-Package pdftex.def Info: meetingMin.pdf , page1 used on input line 1008.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 1>
-Package pdftex.def Info: meetingMin.pdf , page1 used on input line 1008.
+Package pdftex.def Info: meetingMin.pdf , page1 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: meetingMin.pdf Graphic file (type pdf)
 <use meetingMin.pdf, page 1>
-Package pdftex.def Info: meetingMin.pdf , page1 used on input line 1008.
+Package pdftex.def Info: meetingMin.pdf , page1 used on input line 1066.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 1>
+Package pdftex.def Info: meetingMin.pdf , page1 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 pdfTeX warning (ext4): destination with the same identifier (name{section.13}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1008 	}}]{meetingMin.pdf}
-                            [24 <./meetingMin.pdf
+l.1066 	}}]{meetingMin.pdf}
+                            [25 <./meetingMin.pdf
 
 pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
 resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<meetingMin.pdf, id=716, page=2, 598.235pt x 846.16125pt>
+<meetingMin.pdf, id=764, page=2, 598.235pt x 846.16125pt>
 File: meetingMin.pdf Graphic file (type pdf)
 <use meetingMin.pdf, page 2>
-Package pdftex.def Info: meetingMin.pdf , page2 used on input line 1008.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 2>
-Package pdftex.def Info: meetingMin.pdf , page2 used on input line 1008.
+Package pdftex.def Info: meetingMin.pdf , page2 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: meetingMin.pdf Graphic file (type pdf)
 <use meetingMin.pdf, page 2>
-Package pdftex.def Info: meetingMin.pdf , page2 used on input line 1008.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
- [25 <./meetingMin.pdf
-
-pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
-resource which is no dict (key 'ProcSets', type <array>); ignored.
->]
-<meetingMin.pdf, id=726, page=3, 598.235pt x 846.16125pt>
-File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 3>
-Package pdftex.def Info: meetingMin.pdf , page3 used on input line 1008.
+Package pdftex.def Info: meetingMin.pdf , page2 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 3>
-Package pdftex.def Info: meetingMin.pdf , page3 used on input line 1008.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 3>
-Package pdftex.def Info: meetingMin.pdf , page3 used on input line 1008.
+<use meetingMin.pdf, page 2>
+Package pdftex.def Info: meetingMin.pdf , page2 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
  [26 <./meetingMin.pdf
 
 pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
 resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<meetingMin.pdf, id=731, page=4, 598.235pt x 846.16125pt>
+<meetingMin.pdf, id=774, page=3, 598.235pt x 846.16125pt>
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 4>
-Package pdftex.def Info: meetingMin.pdf , page4 used on input line 1008.
+<use meetingMin.pdf, page 3>
+Package pdftex.def Info: meetingMin.pdf , page3 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 4>
-Package pdftex.def Info: meetingMin.pdf , page4 used on input line 1008.
+<use meetingMin.pdf, page 3>
+Package pdftex.def Info: meetingMin.pdf , page3 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 4>
-Package pdftex.def Info: meetingMin.pdf , page4 used on input line 1008.
+<use meetingMin.pdf, page 3>
+Package pdftex.def Info: meetingMin.pdf , page3 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
  [27 <./meetingMin.pdf
 
 pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
 resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<meetingMin.pdf, id=741, page=5, 598.235pt x 846.16125pt>
+<meetingMin.pdf, id=779, page=4, 598.235pt x 846.16125pt>
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 5>
-Package pdftex.def Info: meetingMin.pdf , page5 used on input line 1008.
+<use meetingMin.pdf, page 4>
+Package pdftex.def Info: meetingMin.pdf , page4 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 5>
-Package pdftex.def Info: meetingMin.pdf , page5 used on input line 1008.
+<use meetingMin.pdf, page 4>
+Package pdftex.def Info: meetingMin.pdf , page4 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 5>
-Package pdftex.def Info: meetingMin.pdf , page5 used on input line 1008.
+<use meetingMin.pdf, page 4>
+Package pdftex.def Info: meetingMin.pdf , page4 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
  [28 <./meetingMin.pdf
 
 pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
 resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<meetingMin.pdf, id=751, page=6, 598.235pt x 846.16125pt>
+<meetingMin.pdf, id=789, page=5, 598.235pt x 846.16125pt>
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 6>
-Package pdftex.def Info: meetingMin.pdf , page6 used on input line 1008.
+<use meetingMin.pdf, page 5>
+Package pdftex.def Info: meetingMin.pdf , page5 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 6>
-Package pdftex.def Info: meetingMin.pdf , page6 used on input line 1008.
+<use meetingMin.pdf, page 5>
+Package pdftex.def Info: meetingMin.pdf , page5 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 6>
-Package pdftex.def Info: meetingMin.pdf , page6 used on input line 1008.
+<use meetingMin.pdf, page 5>
+Package pdftex.def Info: meetingMin.pdf , page5 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
  [29 <./meetingMin.pdf
 
 pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
 resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<meetingMin.pdf, id=756, page=7, 598.235pt x 846.16125pt>
+<meetingMin.pdf, id=799, page=6, 598.235pt x 846.16125pt>
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 7>
-Package pdftex.def Info: meetingMin.pdf , page7 used on input line 1008.
+<use meetingMin.pdf, page 6>
+Package pdftex.def Info: meetingMin.pdf , page6 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 7>
-Package pdftex.def Info: meetingMin.pdf , page7 used on input line 1008.
+<use meetingMin.pdf, page 6>
+Package pdftex.def Info: meetingMin.pdf , page6 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 7>
-Package pdftex.def Info: meetingMin.pdf , page7 used on input line 1008.
+<use meetingMin.pdf, page 6>
+Package pdftex.def Info: meetingMin.pdf , page6 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
  [30 <./meetingMin.pdf
 
 pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
 resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<meetingMin.pdf, id=777, page=8, 598.235pt x 846.16125pt>
+<meetingMin.pdf, id=805, page=7, 598.235pt x 846.16125pt>
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 8>
-Package pdftex.def Info: meetingMin.pdf , page8 used on input line 1008.
+<use meetingMin.pdf, page 7>
+Package pdftex.def Info: meetingMin.pdf , page7 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 8>
-Package pdftex.def Info: meetingMin.pdf , page8 used on input line 1008.
+<use meetingMin.pdf, page 7>
+Package pdftex.def Info: meetingMin.pdf , page7 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 8>
-Package pdftex.def Info: meetingMin.pdf , page8 used on input line 1008.
+<use meetingMin.pdf, page 7>
+Package pdftex.def Info: meetingMin.pdf , page7 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
  [31 <./meetingMin.pdf
 
 pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
 resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<meetingMin.pdf, id=782, page=9, 598.235pt x 846.16125pt>
+<meetingMin.pdf, id=825, page=8, 598.235pt x 846.16125pt>
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 9>
-Package pdftex.def Info: meetingMin.pdf , page9 used on input line 1008.
+<use meetingMin.pdf, page 8>
+Package pdftex.def Info: meetingMin.pdf , page8 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 9>
-Package pdftex.def Info: meetingMin.pdf , page9 used on input line 1008.
+<use meetingMin.pdf, page 8>
+Package pdftex.def Info: meetingMin.pdf , page8 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 9>
-Package pdftex.def Info: meetingMin.pdf , page9 used on input line 1008.
+<use meetingMin.pdf, page 8>
+Package pdftex.def Info: meetingMin.pdf , page8 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
  [32 <./meetingMin.pdf
 
 pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
 resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<meetingMin.pdf, id=792, page=10, 598.235pt x 846.16125pt>
+<meetingMin.pdf, id=830, page=9, 598.235pt x 846.16125pt>
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 10>
-Package pdftex.def Info: meetingMin.pdf , page10 used on input line 1008.
+<use meetingMin.pdf, page 9>
+Package pdftex.def Info: meetingMin.pdf , page9 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 10>
-Package pdftex.def Info: meetingMin.pdf , page10 used on input line 1008.
+<use meetingMin.pdf, page 9>
+Package pdftex.def Info: meetingMin.pdf , page9 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 10>
-Package pdftex.def Info: meetingMin.pdf , page10 used on input line 1008.
+<use meetingMin.pdf, page 9>
+Package pdftex.def Info: meetingMin.pdf , page9 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
  [33 <./meetingMin.pdf
 
 pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
 resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<meetingMin.pdf, id=797, page=11, 598.235pt x 846.16125pt>
+<meetingMin.pdf, id=840, page=10, 598.235pt x 846.16125pt>
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 11>
-Package pdftex.def Info: meetingMin.pdf , page11 used on input line 1008.
+<use meetingMin.pdf, page 10>
+Package pdftex.def Info: meetingMin.pdf , page10 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 11>
-Package pdftex.def Info: meetingMin.pdf , page11 used on input line 1008.
+<use meetingMin.pdf, page 10>
+Package pdftex.def Info: meetingMin.pdf , page10 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: meetingMin.pdf Graphic file (type pdf)
-<use meetingMin.pdf, page 11>
-Package pdftex.def Info: meetingMin.pdf , page11 used on input line 1008.
+<use meetingMin.pdf, page 10>
+Package pdftex.def Info: meetingMin.pdf , page10 used on input line 1066.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
  [34 <./meetingMin.pdf
 
 pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
 resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1012.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1012.
+<meetingMin.pdf, id=845, page=11, 598.235pt x 846.16125pt>
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 11>
+Package pdftex.def Info: meetingMin.pdf , page11 used on input line 1066.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 11>
+Package pdftex.def Info: meetingMin.pdf , page11 used on input line 1066.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: meetingMin.pdf Graphic file (type pdf)
+<use meetingMin.pdf, page 11>
+Package pdftex.def Info: meetingMin.pdf , page11 used on input line 1066.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+ [35 <./meetingMin.pdf
+
+pdfTeX warning: pdflatex (file ./meetingMin.pdf): PDF inclusion: invalid other 
+resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1070.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1070.
  ("Daniel Edwards - 1055301.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1012.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1012.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1070.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1070.
 
 Package rerunfilecheck Info: File `"Daniel Edwards - 1055301".out' has not chan
 ged.
@@ -2477,16 +2500,16 @@ ged.
 Package logreq Info: Writing requests to '"Daniel Edwards - 1055301".run.xml'.
 \openout1 = `"Daniel Edwards - 1055301.run.xml"'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1012.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1070.
  ) 
 Here is how much of TeX's memory you used:
- 51529 strings out of 492973
- 1165990 string characters out of 3126249
- 1695371 words of memory out of 3000000
- 54531 multiletter control sequences out of 15000+200000
+ 51556 strings out of 492973
+ 1166408 string characters out of 3126249
+ 1695967 words of memory out of 3000000
+ 54547 multiletter control sequences out of 15000+200000
  556945 words of font info for 113 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,18n,98p,1788b,1852s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,18n,98p,2015b,1852s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.en
 c}<C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
@@ -2504,13 +2527,14 @@ a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/D
 aniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.p
 fb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmsy8.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Daniel/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Daniel/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb>
-Output written on "Daniel Edwards - 1055301.pdf" (35 pages, 1002076 bytes).
+/public/amsfonts/cm/cmsy6.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Daniel/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Daniel/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/User
+s/Daniel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb>
+Output written on "Daniel Edwards - 1055301.pdf" (36 pages, 1094154 bytes).
 PDF statistics:
- 887 PDF objects out of 1000 (max. 8388607)
- 144 named destinations out of 1000 (max. 500000)
- 492 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 941 PDF objects out of 1000 (max. 8388607)
+ 153 named destinations out of 1000 (max. 500000)
+ 502 words of extra memory for PDF output out of 10000 (max. 10000000)
 

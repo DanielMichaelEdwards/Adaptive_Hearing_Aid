@@ -95,6 +95,8 @@ define what adaptive means
 \subsection{Existing Solutions}
 \label{sec:existSoln}
 
+make it for conductive here
+
 \noindent Two main hearing assisting devices exist for sensorineural hearing impairments namely; hearing aids and cochlear implants \cite{atlantic}. Cochlear implants are typically used in cases of extreme hearing loss. These devices work well in quiet environments \cite{carroll}. However, cochlear implant users battle to perceive speech in noisy environments \cite{carroll} and thus, the individuals quality of life is not improved. Therefore, this design will make use of hearing aid technology.\\
 \newline
 \noindent There are two main types of hearing aids, analog and digital. Analog hearing aids amplify all sounds, including noise\cite{woodford}. Ricketts \cite{ricketts} states that the largest problem for the hearing impaired is listening in noisy situations. Digital hearing aids however, contain a signal processing element which gives them additional functionality such as filtering noise, and isolating sounds in specific directions \cite{ricketts}. Thus, these hearing aids improve the patient's speech intelligibility which can positively their social experience.\\
@@ -114,7 +116,7 @@ put something in about Ricketts and avoiding noise - isolation, say something ab
 \newline
 \noindent Chang \textit{et al.} \cite{chang} and Yang \textit{et al.} \cite{ansiAtten} simulate a filter bank using the ANSI S1.11 specifications. ANSI S1.11 is a standardised set of performance requirements for designing octave and fractional octave filters for both analog and digital domains \cite{ansiDoc}. These requirements were developed by the Acoustical Society of America specifically for audio applications \cite{ansiDoc}. These standards are commonly used throughout literature and thus, are considered in this design. Furthermore, Chang \textit{et al.} and Yang \textit{et al.} present the concept of multirate filters. These techniques are used to reduce the computational complexity of the filters by adjusting the frequencies at which different filters operate at \cite{chang}, \cite{ansiAtten}.\\
 \newline
-\noindent Reference \cite{compressHand} discusses the use of dynamic range compression. Within the patients auditory range, soft sounds should be amplified to an audible level but loud sounds must not be amplified such that the sound is uncomfortable. The dynamic range compression algorithm aims to adjust the amplified soft, speech and loud sound levels into a comfortable range. This is an essential component for patient quality of life and thus, must be considered.\\
+\noindent Reference \cite{compressHand} discusses the use of dynamic range compression. Patients with hearing loss battle to hear soft sounds but can hear loud sounds fine. Within the patients auditory range, soft sounds should be amplified to an audible level but loud sounds must not be amplified such that the sound is uncomfortable. The dynamic range compression algorithm aims to adjust the amplified soft, speech and loud sound levels into a comfortable range. This is an essential component for patient quality of life and thus, must be considered.\\
 \newline
 \noindent Dhawan \textit{et al.} simulate filtering in a hearing aid while using a wavelet filter to reduce noise. Additive white Gaussian noise (AWGN) was used to simulate the auditory noise \cite{dhawan}. Noise reduction is a critical component of this design and thus, the effect of these noise reduction techniques will be investigated within this system. \\
 \newline
@@ -299,7 +301,7 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
 \label{fig:matErrDelay}
 \end{figure}
 
-\noindent From Figure \ref{fig:matErrDelay}, the critical-like and octave filter banks provide the best balance between matching error and group delay. However, experimentation found that only slight optimisations can be applied to these filter banks. The ANSI S1.11 has a significantly lower matching error compared to the other filter banks. Furthermore, the group delay of the ANSI S1.11 filter bank can be significantly optimised by using transition bandwidth relaxation \cite{chang}. Therefore, the ANSI S1.11 filter bank design technique is chosen to design the adaptive filter bank. The optimisations applied to this filter bank are presented in Section \ref{sec:filtBankOpt}.
+\noindent From Figure \ref{fig:matErrDelay}, the critical-like and octave filter banks provide the best balance between matching error and group delay. However, experimentation found that only slight optimisations can be applied to these filter banks. The ANSI S1.11 has a significantly lower matching error compared to the other filter banks. Furthermore, the group delay of the ANSI S1.11 filter bank can be significantly optimised by using transition bandwidth relaxation (adjusting the transition bandwidth to reduce the filter order) \cite{chang}. Therefore, the ANSI S1.11 filter bank design technique is chosen to design the adaptive filter bank. The optimisations applied to this filter bank are presented in Section \ref{sec:filtBankOpt}.
 
 \subsection{Filter Bank Optimisation}
 \label{sec:filtBankOpt}
@@ -312,8 +314,23 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
 \section{Dynamic Range Compression Design}
 \label{sec:dynamicCompress}
 
-\noindent The design of the dynamic range compression component involves choosing suitable values for the compression threshold, compression ratio, attack and release times and the number of channels. More information about these parameters can be found in Appendix \ref{app:compressPara}. The parameters chosen for this design are such that speech intelligibility is maximised. TALK ABOUT WHAT THE PARAMETERS MEAN. The compressed output gain is calculated as shown in Appendix \ref{app:compressCalc}.
+\noindent This section aims to design a compression algorithm to maintain the output of the filter bank within a comfortable auditory range. Figure \ref{fig:loud} illustrates the loudness range that normal and hearing impaired people can hear, and is comfortable. 
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.35\linewidth]{loud.pdf}
+\caption{Comfortable Loudness Range for Normal and Hearing Impaired People}
+\label{fig:loud}
+\end{figure} 
+
+\noindent As seen from Figure \ref{fig:loud}, speech is perceived as soft to a hearing impaired individual. Therefore, by merely amplifying the sound to improve speech perception, loud sounds that were once comfortable will be shifted into the uncomfortable region. Dynamic range compression ensures the the output of the filter bank remains in a comfortable auditory region by compressing the loudness range into the loudness range, audible range to the patient. The design of the dynamic range compression component involves choosing suitable values for the compression threshold, compression ratio, attack and release times and the number of channels. More information about these parameters can be found in Appendix \ref{app:compressPara}. The parameters chosen for this design are such that speech intelligibility is maximised. The compression threshold should be set below $50dBSPL$ to amplify the soft speech into an audible range \cite{compressHand}. In this design, the compression threshold is set at $30dBSPL$. To operate over a wide input range, the compression recommended to be below $4$ and therefore, is set at $3$ in this design. The attack and release times are set at \texttt{MATLAB's} recommended $0.05s$ and $0.2s$ respectively. Each of the sub-band filter banks will be followed by a dynamic range compressor. This is chosen to improve speed intelligibility by amplifying the loud vowel sounds separately from the softer consonant sounds. The dynamic range compressor output is calculated as shown in Appendix \ref{app:compressCalc}. To test this algorithm, gain was applied to a $6kHz$ digital sine wave with an amplitude of $1$ before it was passed through the compressor. By adjusting the gain, the affect of the compressor can be seen which is referred to as the static characteristics. Figure \ref{fig:staticChar} illustrates the static characteristics for dynamic range compressor used in this design.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\linewidth]{staticChar.PNG}
+\caption{Dynamic Range Compressor Static Characteristics}
+\label{fig:staticChar}
+\end{figure}
 
 \section{System Realisation}
 
@@ -987,7 +1004,7 @@ f_u &= (G^{\frac{1}{2b}}) \times f_m
 \section{Dynamic Range Compression Calculations}
 \label{app:compressCalc}
 
-\noindent The calculations presented in this section are adapted from reference \cite{compCalc}. The input signal is sampled $(x[n])$ and converted to decibels ($x_{dB}[n] = 20\times log_{10}|x[n]|$). This design utilises a hard knee and hence, the static charactersitics are calculated as shown in equation \ref{eqn:staticCharac}.
+\noindent Reference \cite{compCalc} provides the calculations presented in this section. The input signal is sampled $(x[n])$ and converted to decibels ($x_{dB}[n] = 20\times log_{10}|x[n]|$). This design utilises a hard knee and hence, the static characteristics are calculated as shown in equation \ref{eqn:staticCharac}.
 
 \begin{equation}
 \label{eqn:staticCharac}
@@ -998,8 +1015,49 @@ x_{sc}(x_{dB}) =
    \end{cases}
 \end{equation}
 
-\noindent Where $T$ is the compression threshold and $R$ is the compression ratio. The gain is then calculated by taking the difference between the static characteristics and the input signal $(g_c[n] = x_{sc}[n] - x_{dB}[n])$.
+\noindent Where $T$ is the compression threshold and $R$ is the compression ratio. The gain is then calculated by taking the difference between the static characteristics and the input signal $(g_c[n] = x_{sc}[n] - x_{dB}[n])$. The attack and release parameters are then applied to the gain as shown in equation \ref{eqn:gainSmooth}.
 
+\begin{equation}
+\label{eqn:gainSmooth}
+g_s[n] = 
+\begin{cases} 
+      \alpha_A g_s[n-1] + (1-\alpha_A)g_c[n] & g_c[n] \leq g_s[n-1] \\
+     \alpha_R g_s[n-1] + (1-\alpha_R)g_c[n] & g_c[n] > g_s[n-1]
+   \end{cases}
+\end{equation}
+
+\noindent Where $g_s$ is the smoothed gain and $\alpha_A$ and $\alpha_R$ are the attack and release time coefficients calculated as shown in equation \ref{eqn:attackCoeff} and \ref{eqn:releaseCoeff} respectively.
+%
+\begin{equation}
+\label{eqn:attackCoeff}
+\alpha_A = e^{\frac{-log(9)}{F_s\times T_A}}
+\end{equation}
+%
+\begin{equation}
+\label{eqn:releaseCoeff}
+\alpha_R = e^{\frac{-log(9)}{F_s\times T_R}}
+\end{equation}
+%
+\noindent Where $T_A$ and $T_R$ are the attack and release times respectively. The make-up gain $M$, is calculated such that a $0dB$, stead state input will give a $0dB$ steady state output. Equation \ref{eqn:makeUpGain} describes how this value is obtained.
+%
+\begin{equation}
+\label{eqn:makeUpGain}
+M = T - (T/R)
+\end{equation}
+%
+\noindent The make-up gain is then applied to the smoothed gain $(g_m = g_s[n] + M)$. The value $g_m$ has units of $(dB)$ and therefore, the equivalent linear value $(g_{lin})$, must be calculated. This is achieved using equation \ref{eqn:glin}.
+
+\begin{equation}
+\label{eqn:glin}
+g_{lin} = 10^{\frac{g_m[n]}{20}}
+\end{equation}
+
+\noindent Finally, the output $(y)$ is calculated as shown in equation \ref{eqn:compressOutput}.
+
+\begin{equation}
+\label{eqn:compressOutput}
+y[n] = x[n] \times g_{lin}[n]
+\end{equation}
 
 \FloatBarrier
 \includepdf[pages=-, picturecommand*={%
