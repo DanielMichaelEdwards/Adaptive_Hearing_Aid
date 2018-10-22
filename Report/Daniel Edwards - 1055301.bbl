@@ -1014,6 +1014,56 @@
       \field{title}{CE20M-16}
       \field{year}{2014}
     \endentry
+    \entry{speechDPA}{misc}{}
+      \list{publisher}{1}{%
+        {DPA Microphones}%
+      }
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DPA}
+      \field{month}{2}
+      \field{title}{FACTS ABOUT SPEECH INTELLIGIBILITY}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.dpamicrophones.com/mic-university/facts-about-speech-intelligibility
+      \endverb
+      \verb{url}
+      \verb https://www.dpamicrophones.com/mic-university/facts-about-speech-intelligibility
+      \endverb
+    \endentry
+    \entry{loudRange}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6ea65d87c2ccd204e661682e077ecfbf}{%
+           family={Pujol},
+           familyi={P\bibinitperiod},
+           given={Rémy},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Neuroreille}%
+      }
+      \strng{namehash}{6ea65d87c2ccd204e661682e077ecfbf}
+      \strng{fullhash}{6ea65d87c2ccd204e661682e077ecfbf}
+      \strng{bibnamehash}{6ea65d87c2ccd204e661682e077ecfbf}
+      \strng{authorbibnamehash}{6ea65d87c2ccd204e661682e077ecfbf}
+      \strng{authornamehash}{6ea65d87c2ccd204e661682e077ecfbf}
+      \strng{authorfullhash}{6ea65d87c2ccd204e661682e077ecfbf}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{| Cochlea}
+      \field{month}{6}
+      \field{title}{Journey into the world of Hearing - specialists}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://www.cochlea.org/en/hear/human-auditory-range
+      \endverb
+      \verb{url}
+      \verb http://www.cochlea.org/en/hear/human-auditory-range
+      \endverb
+    \endentry
     \entry{bark}{misc}{}
       \name{author}{1}{}{%
         {{hash=438418c7ecd91754acabbd3bb4378361}{%
@@ -1031,8 +1081,8 @@
       \strng{authorbibnamehash}{438418c7ecd91754acabbd3bb4378361}
       \strng{authornamehash}{438418c7ecd91754acabbd3bb4378361}
       \strng{authorfullhash}{438418c7ecd91754acabbd3bb4378361}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Bark Frequency Scale}

@@ -137,7 +137,11 @@ talk about group delay\\
 
 \noindent This design aims to provide an adaptive hearing aid for patients with conductive hearing loss. This device should allow for patients to operate comfortably in social situations and thus, improving their quality of life. To achieve this, the hearing aid must compensate for the hearing loss of the patient, allow the patient to listen in different directions and hear within a comfortable loudness range. Factors such as response time should be designed such that the hearing aid resembles the human auditory system. These requirements are technically defined in Section \ref{sec:assCons}
 
-\section{Design Assumptions and Constrains}
+\section{Design Requirements}
+
+\noindent The maximum matching error, within the conversational frequency range $(500Hz \rightarrow 4kHz)$, must lie within the preferable compensation limit of $3dB$ \cite{chang}.
+
+\section{Design Assumptions and Constraints}
 \label{sec:assCons}
 
 \subsection{Assumptions}
@@ -339,15 +343,38 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
 
 \section{Success Criterion}
 
-\noindent 
+\noindent To deem this subsystem successful, the adaptive filter bank and dynamic range compression must be combined and simulated. The results of these simulations should be compared to that of the design requirements and constraints.  The following criterion will be used to measure the success of each subsystem.
 
-what defines success. Look at the requirements. matching error, group delay
+\begin{enumerate}
+	\item Matching Error: In the previous section, the entire frequency spectrum was analysed. The most common frequency range of conversation however, is $500Hz$ to $4kHz$ with particular importance at $2kHz$ \cite{speechDPA}. Therefore, since the focus of this design is maximise speech intelligibility, the matching error between $500Hz$ and $4kHz$ will determine the success of the frequency response matching component.
+	\item System Response: As stated above, the response time of the system is a critical design consideration. Since the directionality is assumed to have a response time of $10ms$, the overall response time of this subsection cannot exceed $10ms$ to meet the $20ms$ response time requirement.
+	\item Loudness Compression: The dynamic range compression must ensure that sounds, comfortable to the human ear, remain in the comfortable loudness region $(40dBSPL \rightarrow 80dBSPL)$ \cite{loudRange}.
+\end{enumerate}
 
-\section{Critical Evaluation of Results}
+
+\section{Testing and Critical Evaluation of Results}
+
+\noindent Simulations were performed on the combined subsystem. The measurements taken from these simulations were compared to the success criteria of the subsystem. The matching error, group delay and dynamic range compression results are provide in Section \ref{sec:resMatErr}, \ref{sec:resGroupDelay} and \ref{sec:resCompress} respectively. A technical view point regarding this design is presented in Section \ref{sec:socioImpacts} with a non-technical discussion presented in Appendix \ref{app:nonTech}.
+ 
+	\subsection{Matching Error Results}
+\label{sec:resMatErr}
+
+\noindent The optimised filter bank has a mean and maximum matching of $0.73dB$ and $4.5dB$ respectively between $500Hz$ and $4kHz$. Whilst the average matching error falls within the $3dB$ constraint, the maximum error does not. When the transition bandwidths are adjusted, the impact of aliasing is increased. As a result, when the filters are combined, the overall response deviates further from the desired response and thus, the matching error increases. In terms of matching error, the ideal filter bank would be constructed of ideal filters as no aliasing would occur.
+
+\subsection{Group Delay Results}
+\label{sec:resGroupDelay}
+
+
+\subsection{Dynamic Range Compression Results}
+\label{sec:resCompress}
 
 
 
 \subsection{Socioeconomic Impacts of Design}
+\label{sec:socioImpacts}
+
+
+
 
 \section{Future Recommendations}
 
@@ -362,11 +389,10 @@ divide into what needs to be improved and what the implementation considerations
 \newpage
 \printbibliography
 \newpage
-\section*{Appendix}
 \begin{appendices}
 
 \section{Impact Appendix - Non-Technical thing}
-
+\label{app:nonTech}
 
 \section{Insertion Gain Parameters}
 \label{app:insertGainParam}
@@ -1058,6 +1084,24 @@ g_{lin} = 10^{\frac{g_m[n]}{20}}
 \label{eqn:compressOutput}
 y[n] = x[n] \times g_{lin}[n]
 \end{equation}
+
+
+\section{Testing and Results}
+\label{app:test}
+
+\noindent This appendix contacts the various experimentation set-ups and results used to evaluate the success of the design.
+
+\subsection{Matching Error Testing and Results}
+\label{app:testMatErr}
+
+\noindent To investigate the conversational performance of the system, the experimentation set-up, illustrated in Figure \ref{fig:matErrTest} is used.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\linewidth]{matErrTest.PNG}
+\caption{Dynamic Range Compressor Static Characteristics}
+\label{fig:matErrTest}
+\end{figure}
 
 \FloatBarrier
 \includepdf[pages=-, picturecommand*={%
