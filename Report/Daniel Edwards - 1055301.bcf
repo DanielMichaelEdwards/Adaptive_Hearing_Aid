@@ -2031,17 +2031,19 @@
     <bcf:citekey order="54">yang</bcf:citekey>
     <bcf:citekey order="55">ansiAtten</bcf:citekey>
     <bcf:citekey order="56">chang</bcf:citekey>
-    <bcf:citekey order="57">compressHand</bcf:citekey>
-    <bcf:citekey order="58">dsp</bcf:citekey>
-    <bcf:citekey order="59">dac</bcf:citekey>
-    <bcf:citekey order="60">speaker</bcf:citekey>
-    <bcf:citekey order="61">speechDPA</bcf:citekey>
-    <bcf:citekey order="62">loudRange</bcf:citekey>
-    <bcf:citekey order="63">cost</bcf:citekey>
-    <bcf:citekey order="64">qmf</bcf:citekey>
-    <bcf:citekey order="65">witsHearingStats</bcf:citekey>
-    <bcf:citekey order="66">bark</bcf:citekey>
-    <bcf:citekey order="67">compCalc</bcf:citekey>
+    <bcf:citekey order="57">widex</bcf:citekey>
+    <bcf:citekey order="58">compressHand</bcf:citekey>
+    <bcf:citekey order="59">dsp</bcf:citekey>
+    <bcf:citekey order="60">dac</bcf:citekey>
+    <bcf:citekey order="61">speaker</bcf:citekey>
+    <bcf:citekey order="62">speechDPA</bcf:citekey>
+    <bcf:citekey order="63">loudRange</bcf:citekey>
+    <bcf:citekey order="64">cost</bcf:citekey>
+    <bcf:citekey order="65">qmf</bcf:citekey>
+    <bcf:citekey order="66">witsHearingStats</bcf:citekey>
+    <bcf:citekey order="67">govAid</bcf:citekey>
+    <bcf:citekey order="68">bark</bcf:citekey>
+    <bcf:citekey order="69">compCalc</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -10,4 +10,4 @@ output = [26.75 31.8 36.8 41.8 45 46.7 48.4 50.05 51.75 53.4 55.1 56.75 58.5 60.
 figure;
 plot(input, output);
 xlabel('Input (dBSPL)');
-ylabel('Output (dBSPL');
+ylabel('Output (dBSPL)');

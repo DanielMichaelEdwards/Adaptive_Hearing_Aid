@@ -938,6 +938,22 @@
       \verb https://0-ieeexplore-ieee-org.innopac.wits.ac.za/document/7457341
       \endverb
     \endentry
+    \entry{widex}{misc}{}
+      \list{publisher}{1}{%
+        {WIDEX}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Widex}
+      \field{title}{The human hearing range - what can you hear?}
+      \verb{urlraw}
+      \verb https://global.widex.com/en/blog/human-hearing-range-what-can-you-hear
+      \endverb
+      \verb{url}
+      \verb https://global.widex.com/en/blog/human-hearing-range-what-can-you-hear
+      \endverb
+    \endentry
     \entry{dsp}{article}{}
       \name{author}{1}{}{%
         {{hash=7815b752ccbb7c090ede5e1735d80962}{%
@@ -982,8 +998,8 @@
       \strng{authorbibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
       \strng{authornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
       \strng{authorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{TLV320AIC3109-Q1 Automotive, Low-Power, 96-kHz, Mono Audio Codec}
@@ -1132,6 +1148,21 @@
       \endverb
       \verb{url}
       \verb https://www.springer.com/gp/book/9783319592732
+      \endverb
+    \endentry
+    \entry{govAid}{misc}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NB Hearing > Cape Town > Audiologist > Hearing Aids & Tests}
+      \field{month}{6}
+      \field{title}{Story: The hearing aid waiting list in the public sector}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.nb-hearing.co.za/audiologists-experience-working-public-sector-new-year-hear-anew/
+      \endverb
+      \verb{url}
+      \verb https://www.nb-hearing.co.za/audiologists-experience-working-public-sector-new-year-hear-anew/
       \endverb
     \endentry
     \entry{bark}{misc}{}
