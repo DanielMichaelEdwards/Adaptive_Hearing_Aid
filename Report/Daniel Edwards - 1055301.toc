@@ -26,9 +26,9 @@
 \contentsline {section}{\numberline {10.}Dynamic Range Compression Design}{12}{section.10}
 \contentsline {section}{\numberline {11.}System Realisation}{14}{section.11}
 \contentsline {section}{\numberline {12.}Success Criterion}{14}{section.12}
-\contentsline {section}{\numberline {13.}Testing and Critical Evaluation of Results}{14}{section.13}
+\contentsline {section}{\numberline {13.}Critical Evaluation of Results}{14}{section.13}
 \contentsline {subsection}{\numberline {13.1}Matching Error Results}{14}{subsection.13.1}
-\contentsline {subsection}{\numberline {13.2}Group Delay Results}{15}{subsection.13.2}
+\contentsline {subsection}{\numberline {13.2}Response Time Results}{15}{subsection.13.2}
 \contentsline {subsection}{\numberline {13.3}Dynamic Range Compression Results}{15}{subsection.13.3}
 \contentsline {subsection}{\numberline {13.4}Socioeconomic Impacts of Design}{15}{subsection.13.4}
 \contentsline {section}{\numberline {14.}Future Recommendations}{15}{section.14}

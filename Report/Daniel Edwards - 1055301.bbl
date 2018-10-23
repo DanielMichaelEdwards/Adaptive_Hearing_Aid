@@ -839,8 +839,8 @@
       \strng{authorbibnamehash}{330d7f8ed56cbc02681df8dc25e4022f}
       \strng{authornamehash}{330d7f8ed56cbc02681df8dc25e4022f}
       \strng{authorfullhash}{330d7f8ed56cbc02681df8dc25e4022f}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: EXPRESS BRIEFS}
@@ -1006,8 +1006,8 @@
       \strng{authorbibnamehash}{117a001782cf1fdf36e933e4574c7325}
       \strng{authornamehash}{117a001782cf1fdf36e933e4574c7325}
       \strng{authorfullhash}{117a001782cf1fdf36e933e4574c7325}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{2}
@@ -1062,6 +1062,59 @@
       \endverb
       \verb{url}
       \verb http://www.cochlea.org/en/hear/human-auditory-range
+      \endverb
+    \endentry
+    \entry{qmf}{article}{}
+      \name{author}{5}{}{%
+        {{hash=40faa1bc69980517511d12eb5ab3c8bb}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ace207890bbbdb9e7097405c414b8c3e}{%
+           family={Kuldeep},
+           familyi={K\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=253a6a56760be38d2c13da257906ade7}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={I},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5dd8e0fc734e36e0ed28b5f475c22cbb}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={G.K},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0a14424debeda2417e4dcb6debf1842e}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={H.N},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{d177a0275c13232adb5cbcc2933e4d99}
+      \strng{fullhash}{530ed36f6f4facf084b4e830475cdd3f}
+      \strng{bibnamehash}{530ed36f6f4facf084b4e830475cdd3f}
+      \strng{authorbibnamehash}{530ed36f6f4facf084b4e830475cdd3f}
+      \strng{authornamehash}{d177a0275c13232adb5cbcc2933e4d99}
+      \strng{authorfullhash}{530ed36f6f4facf084b4e830475cdd3f}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Multirate Systems}
+      \field{title}{Advances in Multirate Filter Banks: A Research Survey}
+      \field{year}{2018}
+      \field{pages}{35\bibrangedash 57}
+      \range{pages}{23}
+      \verb{doi}
+      \verb DOI 10.1007/978-3-319-59274-9_2
+      \endverb
+      \verb{urlraw}
+      \verb https://www.springer.com/gp/book/9783319592732
+      \endverb
+      \verb{url}
+      \verb https://www.springer.com/gp/book/9783319592732
       \endverb
     \endentry
     \entry{bark}{misc}{}

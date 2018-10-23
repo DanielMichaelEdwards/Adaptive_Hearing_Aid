@@ -352,17 +352,19 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
 \end{enumerate}
 
 
-\section{Testing and Critical Evaluation of Results}
+\section{Critical Evaluation of Results}
 
 \noindent Simulations were performed on the combined subsystem. The measurements taken from these simulations were compared to the success criteria of the subsystem. The matching error, group delay and dynamic range compression results are provide in Section \ref{sec:resMatErr}, \ref{sec:resGroupDelay} and \ref{sec:resCompress} respectively. A technical view point regarding this design is presented in Section \ref{sec:socioImpacts} with a non-technical discussion presented in Appendix \ref{app:nonTech}.
  
 	\subsection{Matching Error Results}
 \label{sec:resMatErr}
 
-\noindent The optimised filter bank has a mean and maximum matching of $0.73dB$ and $4.5dB$ respectively between $500Hz$ and $4kHz$. Whilst the average matching error falls within the $3dB$ constraint, the maximum error does not. When the transition bandwidths are adjusted, the impact of aliasing is increased. As a result, when the filters are combined, the overall response deviates further from the desired response and thus, the matching error increases. In terms of matching error, the ideal filter bank would be constructed of ideal filters as no aliasing would occur.
+\noindent The optimised filter bank has a mean and maximum matching of $0.73dB$ and $4.5dB$ respectively between $500Hz$ and $4kHz$. Whilst the average matching error falls within the $3dB$ constraint, the maximum error does not. When the transition bandwidths are adjusted, the impact of aliasing is increased. As a result, when the filters are combined, the overall response deviates further from the desired response and thus, the matching error increases. In terms of matching error, the ideal filter bank would be constructed of ideal filters as no aliasing would occur. However, since this is unrealisable, this is an important design trade-off. 
 
-\subsection{Group Delay Results}
+\subsection{Response Time Results}
 \label{sec:resGroupDelay}
+
+\noindent Two components contribute to the response time is the delay introduced from the filter bank and the processing time of the dynamic range compression component. The processing time of the dynamic range compression is a simple conversion and hence, is negligible compared to the numerous calculations required for each filter. Therefore, the response time is bottlenecked by the filter bank and by derivative, the maximum group delay. As stated in Section \ref{sec:filtBankOpt}, the group delay is $8.88ms$. Whilst this falls within the constrained $10ms$ response time, it will still be noticeable to the wearer. 
 
 
 \subsection{Dynamic Range Compression Results}
@@ -378,8 +380,8 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
 
 \section{Future Recommendations}
 
-why you dont use multirate filters\\
-divide into what needs to be improved and what the implementation considerations must be
+\noindent An iterative approach was taken to handle the trade-off between the matching error and group delay of the filter bank. Extensive investigations into the balance between minimise the matching error and group delay would greatly enhance the performance of the hearing aid and hence, the quality of life of the wearer. As shown above, the number of filters reduces the matching error. The ANSI S1.11 $1/3$-octave filter bank therefore, should have a lower matching error than the ANSI S1.11 octave filter bank. This ANSI S1.11 design was discarded due to it's inability to reduce the group delay and aliasing effects at low frequency. However, this should be revisited with the intention of minimising aliasing effects and group delay. The filter bank presented is adaptive in the sense that the gain of sub-bands can be adjusted. A further aspect of adaptability would be to allow the bandwidth of the sub-bands to be adjusted. This would allow the audiologist to further correct the patients audiogram. This would involve developing an algorithm to ensure that minimal aliasing occurs with the chosen bandwidths. Multirate filters were not considered in this design as computational complexity was not constrained. However, utilising a quadrature mirror filter with multirate filtering is a possible solution for reducing aliasing affects \cite{qmf}. The DSP chosen for this design far exceeds the requirements. Although cost is not a constraint, it must be considered when this system is realised. Therefore, a more suitable DSP must be chosen.
+
 \section{Conclusion}
 
 \section*{Acknowledgements}
