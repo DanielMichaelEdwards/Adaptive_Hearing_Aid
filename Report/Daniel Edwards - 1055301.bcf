@@ -2037,9 +2037,11 @@
     <bcf:citekey order="60">speaker</bcf:citekey>
     <bcf:citekey order="61">speechDPA</bcf:citekey>
     <bcf:citekey order="62">loudRange</bcf:citekey>
-    <bcf:citekey order="63">qmf</bcf:citekey>
-    <bcf:citekey order="64">bark</bcf:citekey>
-    <bcf:citekey order="65">compCalc</bcf:citekey>
+    <bcf:citekey order="63">cost</bcf:citekey>
+    <bcf:citekey order="64">qmf</bcf:citekey>
+    <bcf:citekey order="65">witsHearingStats</bcf:citekey>
+    <bcf:citekey order="66">bark</bcf:citekey>
+    <bcf:citekey order="67">compCalc</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

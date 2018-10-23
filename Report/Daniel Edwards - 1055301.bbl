@@ -1064,6 +1064,23 @@
       \verb http://www.cochlea.org/en/hear/human-auditory-range
       \endverb
     \endentry
+    \entry{cost}{misc}{}
+      \list{publisher}{1}{%
+        {NB-Hearing}%
+      }
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NB Hearing > Cape Town > Audiologist > Hearing Aids & Tests}
+      \field{title}{Want more information about hearing aid prices?}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.nb-hearing.co.za/hearing-aid-prices/
+      \endverb
+      \verb{url}
+      \verb https://www.nb-hearing.co.za/hearing-aid-prices/
+      \endverb
+    \endentry
     \entry{qmf}{article}{}
       \name{author}{5}{}{%
         {{hash=40faa1bc69980517511d12eb5ab3c8bb}{%

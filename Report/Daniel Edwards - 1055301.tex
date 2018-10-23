@@ -99,9 +99,7 @@ make it for conductive here
 
 \noindent Two main hearing assisting devices exist for sensorineural hearing impairments namely; hearing aids and cochlear implants \cite{atlantic}. Cochlear implants are typically used in cases of extreme hearing loss. These devices work well in quiet environments \cite{carroll}. However, cochlear implant users battle to perceive speech in noisy environments \cite{carroll} and thus, the individuals quality of life is not improved. Therefore, this design will make use of hearing aid technology.\\
 \newline
-\noindent There are two main types of hearing aids, analog and digital. Analog hearing aids amplify all sounds, including noise\cite{woodford}. Ricketts \cite{ricketts} states that the largest problem for the hearing impaired is listening in noisy situations. Digital hearing aids however, contain a signal processing element which gives them additional functionality such as filtering noise, and isolating sounds in specific directions \cite{ricketts}. Thus, these hearing aids improve the patient's speech intelligibility which can positively their social experience.\\
-
-put something in about Ricketts and avoiding noise - isolation, say something about adaptive
+\noindent There are two main types of hearing aids, analog and digital. Analog hearing aids amplify all sounds, including noise\cite{woodford}. Ricketts \cite{ricketts} states that the largest problem for the hearing impaired is listening in noisy situations. Digital hearing aids however, contain a signal processing element which gives them additional functionality such as filtering noise, and isolating sounds in specific directions \cite{ricketts}. Thus, these hearing aids improve the patient's speech intelligibility which can positively their social experience.
 
 \subsection{Literature Review}
 \label{sec:litReview}
@@ -129,10 +127,6 @@ put something in about Ricketts and avoiding noise - isolation, say something ab
 \noindent McCowan \cite{mccowan} provides a comprehensive explanation of the wave propagation and various algorithms to determine directivity. This paper evaluates the performance of these algorithms within this context to determine the optimum solution.\\
 \newline
 
-Put something in about the number of bands that increases the matching error
-Put the stuff about the audiogram gain factor thingy\\
-mention stuff about why digital is better than analog\\
-talk about group delay\\
 \section{Design Objectives and High-Level Requirements}
 
 \noindent This design aims to provide an adaptive hearing aid for patients with conductive hearing loss. This device should allow for patients to operate comfortably in social situations and thus, improving their quality of life. To achieve this, the hearing aid must compensate for the hearing loss of the patient, allow the patient to listen in different directions and hear within a comfortable loudness range. Factors such as response time should be designed such that the hearing aid resembles the human auditory system. These requirements are technically defined in Section \ref{sec:assCons}
@@ -146,7 +140,7 @@ talk about group delay\\
 
 \subsection{Assumptions}
 
-\noindent This paper presents a theoretical design and hence, assumptions can be made. This design is not limited by cost, power or space. This design is considered for adult patients only. The directionality component considers a $2D$ wave in a plane instead of a $3D$ wave. Finally, it is assumed that the speaker is deep inside the ear and hence separated from the microphone. This separation is considered to be significant enough such that feedback cancellation is not required. The directionality assumes that audiogram will be corrected to a flat response.
+\noindent This paper presents a theoretical design and hence, assumptions can be made. This design is not limited by cost, power or space. This design is considered for adult patients only. The directionality component considers a $2D$ wave in a plane instead of a $3D$ wave. Finally, it is assumed that the speaker is deep inside the ear and hence separated from the microphone. This separation is considered to be significant enough such that feedback cancellation is not required. The directionality assumes that audiogram will be corrected to a flat response. This design assumes that the limitations of the hardware are negligible and that only the effects of the system itself contributes to delays.
 
 \subsection{Constraints}
 
@@ -370,17 +364,43 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
 \subsection{Dynamic Range Compression Results}
 \label{sec:resCompress}
 
+\noindent To evaluate to what extent, the dynamic range compression works, a loudness reading (using \texttt{MATLAB's} \texttt{splMeter} function) is taken before an after the compression block. The input to the 
+
 
 
 \subsection{Socioeconomic Impacts of Design}
 \label{sec:socioImpacts}
 
+\subsection{Cost Analysis}
 
+\noindent Although the cost of the system is not constrained, it is an important factor to considered in any design. The cost of this design is divided up into the directionality and adaptive filter components. The cost of the directionality is $R4000$. For the adaptive filtering, the total cost is $R300$. A breakdown of the cost for this system is given in Table \ref{tab:bill}.
+
+% Table generated by Excel2LaTeX from sheet 'Cost'
+\begin{table}[htbp]
+  \centering
+  \caption{Bill of Components}
+    \begin{tabular}{|l|r|}
+    \hline
+    \textbf{Component} & \multicolumn{1}{l|}{\textbf{Cost (ZAR)}} \\
+    \hline
+    ADAU1463 & 177,17 \\
+    \hline
+    TLV320AIC3109-Q1 & 63,32 \\
+    \hline
+    CE20M-16 & 57,43 \\
+    \hline
+    Directionality &  4000\\
+    \hline
+    \end{tabular}%
+  \label{tab:bill}%
+\end{table}%
+
+\noindent The total cost of the system is therefore, $R4300$ per ear. Typical hearing aids in South Africa cost between $R5000$ and $R50000$ per ear \cite{cost}. The design presented here, is therefore a cheaper alternative to typical hearing aids.
 
 
 \section{Future Recommendations}
 
-\noindent An iterative approach was taken to handle the trade-off between the matching error and group delay of the filter bank. Extensive investigations into the balance between minimise the matching error and group delay would greatly enhance the performance of the hearing aid and hence, the quality of life of the wearer. As shown above, the number of filters reduces the matching error. The ANSI S1.11 $1/3$-octave filter bank therefore, should have a lower matching error than the ANSI S1.11 octave filter bank. This ANSI S1.11 design was discarded due to it's inability to reduce the group delay and aliasing effects at low frequency. However, this should be revisited with the intention of minimising aliasing effects and group delay. The filter bank presented is adaptive in the sense that the gain of sub-bands can be adjusted. A further aspect of adaptability would be to allow the bandwidth of the sub-bands to be adjusted. This would allow the audiologist to further correct the patients audiogram. This would involve developing an algorithm to ensure that minimal aliasing occurs with the chosen bandwidths. Multirate filters were not considered in this design as computational complexity was not constrained. However, utilising a quadrature mirror filter with multirate filtering is a possible solution for reducing aliasing affects \cite{qmf}. The DSP chosen for this design far exceeds the requirements. Although cost is not a constraint, it must be considered when this system is realised. Therefore, a more suitable DSP must be chosen.
+\noindent Due to time constraints, the design was not fully optimised. However, this section discusses some suggestions that should be investigated to improve the performance of the design. An iterative approach was taken to handle the trade-off between the matching error and group delay of the filter bank. Extensive investigations into the balance between minimise the matching error and group delay would greatly enhance the performance of the hearing aid and hence, the quality of life of the wearer. As shown above, the number of filters reduces the matching error. The ANSI S1.11 $1/3$-octave filter bank therefore, should have a lower matching error than the ANSI S1.11 octave filter bank. This ANSI S1.11 design was discarded due to it's inability to reduce the group delay and aliasing effects at low frequency. However, this should be revisited with the intention of minimising aliasing effects and group delay. The filter bank presented is adaptive in the sense that the gain of sub-bands can be adjusted. A further aspect of adaptability would be to allow the bandwidth of the sub-bands to be adjusted. This would allow the audiologist to further correct the patients audiogram. This would involve developing an algorithm to ensure that minimal aliasing occurs with the chosen bandwidths. Multirate filters were not considered in this design as computational complexity was not constrained. However, utilising a quadrature mirror filter with multirate filtering is a possible solution for reducing aliasing affects \cite{qmf}. The DSP chosen for this design far exceeds the requirements. Although cost is not a constraint, it must be considered when this system is realised. Therefore, a more suitable DSP must be chosen.
 
 \section{Conclusion}
 
@@ -393,8 +413,20 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
 \newpage
 \begin{appendices}
 
-\section{Impact Appendix - Non-Technical thing}
+\section{Social and Economic Implications of Design}
 \label{app:nonTech}
+
+\noindent The responsibility of an engineer is to marry the scientific world with the needs of the real world. Therefore, an engineer must always consider the implications that their design has on the world and the society that their design will impact. This non-technical report therefore discusses the implications that this design has on society and our economy.\\
+\newline
+\noindent Hearing loss affects many people around the world. Wits University stated that in \textit{2016}, approximately $20\%$ of the population suffered from some form of hearing loss \cite{witsHearingStats}. This amounts to approximately $11.2\: million$ South Africans.\\
+\newline
+\noindent The most significant hindrance due to hearing loss, is the inability to communicate affectively with others. This inability to communicate leads to an individual becoming isolated from society and subsequently, loneliness, isolation, dependence, depression and frustration. All of these are signs of poor quality of life. The amount of people affected by hearing loss, combined with the repercussion of hearing loss, shows that systems, designed to compensate for a persons hearing loss is required. This compensation, should be focused on improving a persons speech intelligibility so that their ability to communicate effectively is restored.\\
+\newline
+\noindent Hearing aids are a solution for people with hearing loss but some designs have their own drawbacks. Hearing aids simply amplify the sound to a range where the wearer can hear. However, this also means that noise can be amplified too which become excessively loud and uncomfortable for the wearer. Furthermore, sounds are often amplified in all directions which can confuse and disorientate the wearer. As a result, this design contains a directionality component which allows the wearer to control in which direction they would like to listen. Also, only the auditory regions (known as frequency bands) where the person battles to hear are amplified. This means that noise is less likely to amplified and the wearer can participate in social events and activities comfortably. As a result, people using hearing aids to compensate for their hearing loss can enjoy socialising which helps with isolations and all the other affects that their hearing impairment has on their quality of life.\\
+\newline
+\noindent Each person has a different hearing characteristic and as a their hearing deteriorates over time, different compensation is required. The hearing aid is designed to be adaptive, meaning that it can be programmed specifically to  compensate for an individuals hearing impairment. Since this is a digital system, the hardware will remain the same which makes it an affordable and customizable choice. The design presented here is expected to cost approximately $R4300$ per year as opposed to existing hearing aids which cost between $R5000$ and $R50000$ per ear in South Africa. About $27.2\%$ of South Africans are unemployed and therefore, it is unlikely that the unemployed portion of South Africans that with hearing impairments will be able to afford existing hearing aids. This cheaper alternative can provide hearing impairment compensation for those less fortunate. Consequently, our society will be uplifted as people can get educated and communicate effectively.\\
+\newline
+\noindent Having people with hearing impairments able to function in society is not only beneficial to the wearer, but society and the economy. By wearing a hearing aid and hence, being able to communicate, these individuals can make a significant impact in the work place and hence, improve the economy. Moreover, being able to hear means that they can pursue education opportunities that were not available to them before. This means that these individuals are no longer held back by their disability, but can function and contribute effectively to society and the economy.
 
 \section{Insertion Gain Parameters}
 \label{app:insertGainParam}
@@ -1104,6 +1136,17 @@ y[n] = x[n] \times g_{lin}[n]
 \caption{Dynamic Range Compressor Static Characteristics}
 \label{fig:matErrTest}
 \end{figure}
+
+\section{Project Planning and Execution}
+
+\noindent The work breakdown of the project is illustrated in Figure \ref{fig:gantt}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{gantt.pdf}
+\caption{Gantt Chart illustrating Work Progression throughout Project}
+\label{fig:gantt}
+\end{figure} 
 
 \FloatBarrier
 \includepdf[pages=-, picturecommand*={%
