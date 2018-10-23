@@ -1,51 +1,47 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Background}{}% 2
-\BOOKMARK [1][-]{section.3}{Design Research}{}% 3
-\BOOKMARK [2][-]{subsection.3.1}{Existing Solutions}{section.3}% 4
-\BOOKMARK [2][-]{subsection.3.2}{Literature Review}{section.3}% 5
-\BOOKMARK [1][-]{section.4}{Design Objectives and High-Level Requirements}{}% 6
-\BOOKMARK [1][-]{section.5}{Design Requirements}{}% 7
-\BOOKMARK [1][-]{section.6}{Design Assumptions and Constraints}{}% 8
-\BOOKMARK [2][-]{subsection.6.1}{Assumptions}{section.6}% 9
-\BOOKMARK [2][-]{subsection.6.2}{Constraints}{section.6}% 10
-\BOOKMARK [1][-]{section.7}{Design Methodology}{}% 11
-\BOOKMARK [1][-]{section.8}{System Overview}{}% 12
-\BOOKMARK [1][-]{section.9}{Adaptive Filter Design}{}% 13
-\BOOKMARK [2][-]{subsection.9.1}{Audiogram}{section.9}% 14
-\BOOKMARK [2][-]{subsection.9.2}{Insertion Gain}{section.9}% 15
-\BOOKMARK [2][-]{subsection.9.3}{Number of Filters}{section.9}% 16
-\BOOKMARK [2][-]{subsection.9.4}{Uniform, Critical-like, Symmetric and Octave Filter Bank Design}{section.9}% 17
-\BOOKMARK [3][-]{subsubsection.9.4.1}{Uniform Filter Bank Design}{subsection.9.4}% 18
-\BOOKMARK [3][-]{subsubsection.9.4.2}{Symmetric Filter Bank Design}{subsection.9.4}% 19
-\BOOKMARK [3][-]{subsubsection.9.4.3}{Critical-like Filter Bank Design}{subsection.9.4}% 20
-\BOOKMARK [3][-]{subsubsection.9.4.4}{Octave Filter Bank Design}{subsection.9.4}% 21
-\BOOKMARK [2][-]{subsection.9.5}{ANSI S1.11 Design}{section.9}% 22
-\BOOKMARK [2][-]{subsection.9.6}{Filter Design Selection}{section.9}% 23
-\BOOKMARK [2][-]{subsection.9.7}{Filter Bank Optimisation}{section.9}% 24
-\BOOKMARK [1][-]{section.10}{Dynamic Range Compression Design}{}% 25
-\BOOKMARK [1][-]{section.11}{System Realisation}{}% 26
-\BOOKMARK [1][-]{section.12}{Success Criterion}{}% 27
-\BOOKMARK [1][-]{section.13}{Critical Evaluation of Results}{}% 28
-\BOOKMARK [2][-]{subsection.13.1}{Matching Error Results}{section.13}% 29
-\BOOKMARK [2][-]{subsection.13.2}{Response Time Results}{section.13}% 30
-\BOOKMARK [2][-]{subsection.13.3}{Dynamic Range Compression Results}{section.13}% 31
-\BOOKMARK [2][-]{subsection.13.4}{Socio-economic Impacts of Design}{section.13}% 32
-\BOOKMARK [2][-]{subsection.13.5}{Cost Analysis}{section.13}% 33
-\BOOKMARK [1][-]{section.14}{Future Recommendations}{}% 34
-\BOOKMARK [1][-]{section.15}{Conclusion}{}% 35
-\BOOKMARK [1][-]{section.1}{Social and Economic Implications of Design}{}% 36
-\BOOKMARK [1][-]{section.2}{Insertion Gain Parameters}{}% 37
-\BOOKMARK [1][-]{section.3}{Number of Filters Investigation}{}% 38
-\BOOKMARK [1][-]{section.4}{Bark-Scale}{}% 39
-\BOOKMARK [1][-]{section.5}{Uniform Filter Bank Specifications and Results}{}% 40
-\BOOKMARK [1][-]{section.6}{Symmetric Filter Bank Specifications and Results}{}% 41
-\BOOKMARK [1][-]{section.7}{Critical-Like Filter Bank Specifications and Results}{}% 42
-\BOOKMARK [1][-]{section.8}{Octave Filter Bank Specifications and Results}{}% 43
-\BOOKMARK [1][-]{section.9}{ANSI S1.11 Filter Bank Specifications and Results}{}% 44
-\BOOKMARK [1][-]{section.10}{Optimised ANSI S1.11 Filter Bank Specifications and Results}{}% 45
-\BOOKMARK [1][-]{section.11}{Dynamic Range Compression Parameters}{}% 46
-\BOOKMARK [1][-]{section.12}{Dynamic Range Compression Calculations}{}% 47
-\BOOKMARK [1][-]{section.13}{Testing and Results}{}% 48
-\BOOKMARK [2][-]{subsection.13.1}{Matching Error Testing and Results}{section.13}% 49
-\BOOKMARK [1][-]{section.14}{Project Planning and Execution}{}% 50
-\BOOKMARK [1][-]{section.15}{Meeting Minutes}{}% 51
+\BOOKMARK [1][-]{section.2}{Design Research}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Existing Solutions}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Literature Review}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Design Objectives}{}% 5
+\BOOKMARK [1][-]{section.4}{Design Requirements}{}% 6
+\BOOKMARK [1][-]{section.5}{Design Assumptions and Constraints}{}% 7
+\BOOKMARK [1][-]{section.6}{Design Methodology}{}% 8
+\BOOKMARK [1][-]{section.7}{System Overview}{}% 9
+\BOOKMARK [1][-]{section.8}{Adaptive Filter Design}{}% 10
+\BOOKMARK [2][-]{subsection.8.1}{Audiogram}{section.8}% 11
+\BOOKMARK [2][-]{subsection.8.2}{Insertion Gain}{section.8}% 12
+\BOOKMARK [2][-]{subsection.8.3}{Number of Filters}{section.8}% 13
+\BOOKMARK [2][-]{subsection.8.4}{Uniform, Critical-like, Symmetric and Octave Filter Bank Design}{section.8}% 14
+\BOOKMARK [3][-]{subsubsection.8.4.1}{Uniform Filter Bank Design}{subsection.8.4}% 15
+\BOOKMARK [3][-]{subsubsection.8.4.2}{Symmetric Filter Bank Design}{subsection.8.4}% 16
+\BOOKMARK [3][-]{subsubsection.8.4.3}{Critical-like Filter Bank Design}{subsection.8.4}% 17
+\BOOKMARK [3][-]{subsubsection.8.4.4}{Octave Filter Bank Design}{subsection.8.4}% 18
+\BOOKMARK [2][-]{subsection.8.5}{ANSI S1.11 Design}{section.8}% 19
+\BOOKMARK [2][-]{subsection.8.6}{Filter Design Selection}{section.8}% 20
+\BOOKMARK [2][-]{subsection.8.7}{Filter Bank Optimisation}{section.8}% 21
+\BOOKMARK [1][-]{section.9}{Dynamic Range Compression Design}{}% 22
+\BOOKMARK [1][-]{section.10}{System Realisation}{}% 23
+\BOOKMARK [1][-]{section.11}{Success Criterion}{}% 24
+\BOOKMARK [1][-]{section.12}{Critical Evaluation of Results}{}% 25
+\BOOKMARK [2][-]{subsection.12.1}{Matching Error Results}{section.12}% 26
+\BOOKMARK [2][-]{subsection.12.2}{Response Time Results}{section.12}% 27
+\BOOKMARK [2][-]{subsection.12.3}{Dynamic Range Compression Results}{section.12}% 28
+\BOOKMARK [2][-]{subsection.12.4}{Socio-economic Impacts of Design}{section.12}% 29
+\BOOKMARK [2][-]{subsection.12.5}{Cost Analysis}{section.12}% 30
+\BOOKMARK [1][-]{section.13}{Future Recommendations}{}% 31
+\BOOKMARK [1][-]{section.14}{Conclusion}{}% 32
+\BOOKMARK [1][-]{section.1}{Social and Economic Implications of Design}{}% 33
+\BOOKMARK [1][-]{section.2}{Insertion Gain Parameters}{}% 34
+\BOOKMARK [1][-]{section.3}{Number of Filters Investigation}{}% 35
+\BOOKMARK [1][-]{section.4}{Bark-Scale}{}% 36
+\BOOKMARK [1][-]{section.5}{Uniform Filter Bank Specifications and Results}{}% 37
+\BOOKMARK [1][-]{section.6}{Symmetric Filter Bank Specifications and Results}{}% 38
+\BOOKMARK [1][-]{section.7}{Critical-Like Filter Bank Specifications and Results}{}% 39
+\BOOKMARK [1][-]{section.8}{Octave Filter Bank Specifications and Results}{}% 40
+\BOOKMARK [1][-]{section.9}{ANSI S1.11 Filter Bank Specifications and Results}{}% 41
+\BOOKMARK [1][-]{section.10}{Optimised ANSI S1.11 Filter Bank Specifications and Results}{}% 42
+\BOOKMARK [1][-]{section.11}{Dynamic Range Compression Parameters}{}% 43
+\BOOKMARK [1][-]{section.12}{Dynamic Range Compression Calculations}{}% 44
+\BOOKMARK [1][-]{section.13}{System Realisation}{}% 45
+\BOOKMARK [1][-]{section.14}{Project Planning and Execution}{}% 46
+\BOOKMARK [1][-]{section.15}{Meeting Minutes}{}% 47

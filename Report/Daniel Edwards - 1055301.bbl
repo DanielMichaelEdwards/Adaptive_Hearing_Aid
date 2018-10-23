@@ -157,82 +157,32 @@
       \verb https://www.hear-it.org/Sensorineural-hearing-loss
       \endverb
     \endentry
-    \entry{atlantic}{misc}{}
+    \entry{condLoss}{misc}{}
       \name{author}{1}{}{%
-        {{hash=ea1691a90da75a362265dc76b988aef6}{%
-           family={Centers},
-           familyi={C\bibinitperiod},
-           given={Atlantic\bibnamedelima Hearing},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=36c4d2fc1da37dff3a34ce40e8a5cd1b}{%
+           family={WIDEX},
+           familyi={W\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Atlantic Hearing Centers}%
+        {WIDEX}%
       }
-      \strng{namehash}{ea1691a90da75a362265dc76b988aef6}
-      \strng{fullhash}{ea1691a90da75a362265dc76b988aef6}
-      \strng{bibnamehash}{ea1691a90da75a362265dc76b988aef6}
-      \strng{authorbibnamehash}{ea1691a90da75a362265dc76b988aef6}
-      \strng{authornamehash}{ea1691a90da75a362265dc76b988aef6}
-      \strng{authorfullhash}{ea1691a90da75a362265dc76b988aef6}
+      \strng{namehash}{36c4d2fc1da37dff3a34ce40e8a5cd1b}
+      \strng{fullhash}{36c4d2fc1da37dff3a34ce40e8a5cd1b}
+      \strng{bibnamehash}{36c4d2fc1da37dff3a34ce40e8a5cd1b}
+      \strng{authorbibnamehash}{36c4d2fc1da37dff3a34ce40e8a5cd1b}
+      \strng{authornamehash}{36c4d2fc1da37dff3a34ce40e8a5cd1b}
+      \strng{authorfullhash}{36c4d2fc1da37dff3a34ce40e8a5cd1b}
       \field{sortinit}{6}
       \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Hearing Aids in Kensington, MD - Atlantic Hearing Centers}
-      \field{month}{2}
-      \field{title}{Cochlear Implant vs. a Hearing Aid - What's the difference?}
-      \field{year}{2018}
+      \field{journaltitle}{WIDEX}
+      \field{title}{CONDUCTIVE HEARING LOSS}
       \verb{urlraw}
-      \verb https://www.atlantichearingcenters.com/blog/2018/feb02-cochlear-implants-vs-hearing-aids
+      \verb https://global.widex.com/en/hearing-loss/types-of-hearing-loss/conductive-hearing-loss
       \endverb
       \verb{url}
-      \verb https://www.atlantichearingcenters.com/blog/2018/feb02-cochlear-implants-vs-hearing-aids
-      \endverb
-    \endentry
-    \entry{carroll}{article}{}
-      \name{author}{3}{}{%
-        {{hash=cc57125685925bff5ddee17c643f3451}{%
-           family={Carroll},
-           familyi={C\bibinitperiod},
-           given={Jeff},
-           giveni={J\bibinitperiod}}}%
-        {{hash=b1dce1007d5a62a155aae495adf8afa8}{%
-           family={Tiaden},
-           familyi={T\bibinitperiod},
-           given={Stephanie},
-           giveni={S\bibinitperiod}}}%
-        {{hash=0b1d9ff321e23ca3f19787893d625c12}{%
-           family={Zeng},
-           familyi={Z\bibinitperiod},
-           given={Fan-Gang},
-           giveni={F\bibinithyphendelim G\bibinitperiod}}}%
-      }
-      \strng{namehash}{08d21c90ed1db3d979742d233ab39af2}
-      \strng{fullhash}{08d21c90ed1db3d979742d233ab39af2}
-      \strng{bibnamehash}{08d21c90ed1db3d979742d233ab39af2}
-      \strng{authorbibnamehash}{08d21c90ed1db3d979742d233ab39af2}
-      \strng{authornamehash}{08d21c90ed1db3d979742d233ab39af2}
-      \strng{authorfullhash}{08d21c90ed1db3d979742d233ab39af2}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Journal of the Acoustic Society of America}
-      \field{month}{10}
-      \field{number}{4}
-      \field{title}{Fundamental frequency is critical to speech perception in noise in combined acoustic and electric hearing}
-      \field{volume}{130}
-      \field{year}{2011}
-      \field{pages}{2054\bibrangedash 2062}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1121/1.3631563
-      \endverb
-      \verb{urlraw}
-      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3206909/
-      \endverb
-      \verb{url}
-      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3206909/
+      \verb https://global.widex.com/en/hearing-loss/types-of-hearing-loss/conductive-hearing-loss
       \endverb
     \endentry
     \entry{woodford}{misc}{}
@@ -249,8 +199,8 @@
       \strng{authorbibnamehash}{dbe6d9f98cd129a4856753f0f1129244}
       \strng{authornamehash}{dbe6d9f98cd129a4856753f0f1129244}
       \strng{authorfullhash}{dbe6d9f98cd129a4856753f0f1129244}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Explain that Stuff}
@@ -278,8 +228,8 @@
       \strng{authorbibnamehash}{dcfc03545be9a04bf52c80147ec744a9}
       \strng{authornamehash}{dcfc03545be9a04bf52c80147ec744a9}
       \strng{authorfullhash}{dcfc03545be9a04bf52c80147ec744a9}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Trends In Amplification}
@@ -564,8 +514,8 @@
       \strng{authorbibnamehash}{9a443b750211196c1b5c5a0e6f8b87b5}
       \strng{authornamehash}{9a443b750211196c1b5c5a0e6f8b87b5}
       \strng{authorfullhash}{9a443b750211196c1b5c5a0e6f8b87b5}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Digital Filtering In Hearing Aid System For The Hearing Impaired}
@@ -736,8 +686,8 @@
       \list{publisher}{1}{%
         {ASHA}%
       }
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Averican Speech-Language-Hearing Association}
       \field{title}{The Audiogram}
@@ -787,6 +737,27 @@
       \verb{url}
       \verb https://ieeexplore.ieee.org/document/705338
       \endverb
+    \endentry
+    \entry{aru}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7da4a44d44f6b6f2537e6ecf2151a16c}{%
+           family={Pathania},
+           familyi={P\bibinitperiod},
+           given={Arunima},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7da4a44d44f6b6f2537e6ecf2151a16c}
+      \strng{fullhash}{7da4a44d44f6b6f2537e6ecf2151a16c}
+      \strng{bibnamehash}{7da4a44d44f6b6f2537e6ecf2151a16c}
+      \strng{authorbibnamehash}{7da4a44d44f6b6f2537e6ecf2151a16c}
+      \strng{authornamehash}{7da4a44d44f6b6f2537e6ecf2151a16c}
+      \strng{authorfullhash}{7da4a44d44f6b6f2537e6ecf2151a16c}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Design of an Adaptive Hearing Aid}
+      \field{title}{Design of an Adaptive Hearing Aid}
     \endentry
     \entry{mahmoud}{misc}{}
       \name{author}{1}{}{%
@@ -1165,6 +1136,37 @@
       \verb https://www.nb-hearing.co.za/audiologists-experience-working-public-sector-new-year-hear-anew/
       \endverb
     \endentry
+    \entry{rock}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=86a361a087148073ce9cfa6ad270e070}{%
+           family={Rockets},
+           familyi={R\bibinitperiod},
+           given={Reading},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Speech-Language-Hearing Association}%
+      }
+      \strng{namehash}{86a361a087148073ce9cfa6ad270e070}
+      \strng{fullhash}{86a361a087148073ce9cfa6ad270e070}
+      \strng{bibnamehash}{86a361a087148073ce9cfa6ad270e070}
+      \strng{authorbibnamehash}{86a361a087148073ce9cfa6ad270e070}
+      \strng{authornamehash}{86a361a087148073ce9cfa6ad270e070}
+      \strng{authorfullhash}{86a361a087148073ce9cfa6ad270e070}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{WETA}
+      \field{title}{Effects of Hearing Loss on Development}
+      \field{year}{2005}
+      \verb{urlraw}
+      \verb http://www.readingrockets.org/article/effects-hearing-loss-development
+      \endverb
+      \verb{url}
+      \verb http://www.readingrockets.org/article/effects-hearing-loss-development
+      \endverb
+    \endentry
     \entry{bark}{misc}{}
       \name{author}{1}{}{%
         {{hash=438418c7ecd91754acabbd3bb4378361}{%
@@ -1182,8 +1184,8 @@
       \strng{authorbibnamehash}{438418c7ecd91754acabbd3bb4378361}
       \strng{authornamehash}{438418c7ecd91754acabbd3bb4378361}
       \strng{authorfullhash}{438418c7ecd91754acabbd3bb4378361}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Bark Frequency Scale}
@@ -1212,8 +1214,8 @@
       \strng{authorbibnamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
       \strng{authornamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
       \strng{authorfullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Dynamic range compressor - Simulink}

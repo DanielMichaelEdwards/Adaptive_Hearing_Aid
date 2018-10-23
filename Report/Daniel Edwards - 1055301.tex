@@ -77,29 +77,26 @@ Biomedical Engineering - Design of an Adaptive Hearing Aid\\
 
 \section*{Abstract}
 
-\noindent This paper presents the design of an adaptive hearing aid. The hearing aid is divided into two subsystem, the directionality an adaptive filtering subsystems, the latter of which is the focus of this paper. Various filter bank designs are evaluated, of which, the ANSI S1.11 octave filter yielded the best matching error, but did not meet the group delay requirements. The filter bank was optimised using iterative relaxation techniques yielding a matching error of $0.83dB$ and a group delay of $8.88ms$. A dynamic range compression algorithm was implemented to keep the loudness output of the filter bank within a comfortable auditory range. Further optimisations can be applied to this design to minimise the matching error and group delay.
+\noindent This paper presents the design of an adaptive hearing aid. The hearing aid is divided into two subsystem, the directionality and adaptive filtering subsystems, the latter of which is the focus of this paper. Various filter bank designs are simulated using \texttt{MATLAB} and \texttt{Simulink}. The ANSI S1.11 octave filter yielded the best matching error, but did not meet the group delay requirements. The filter bank was optimised using iterative relaxation techniques yielding a matching error of $0.83dB$ and a group delay of $8.88ms$. A dynamic range compression algorithm was implemented to keep the loudness output of the filter bank within a comfortable auditory range. Further optimisations can be applied to this design to minimise the matching error and group delay. The cost of the hearing aid is $R4300$ per ear.
 
 \section{Introduction}
 
-define what adaptive means
-
-\section{Background}
-
-\noindent Hearing loss is a common problem in society. In \textit{2016}, the University of the Witwatersrand released a statement saying that in South Africa, approximately $20\%$ of the population suffers from a form of hearing loss \cite{witsHearingStats}. As a result of hearing loss, an individual can suffer from isolation, dependence, depression and frustration which are factors that may affect quality of life \cite{qualityOfLife}. The amount of people with an impaired quality of life provides motivation for the necessity of devices to improve an individuals hearing, namely a hearing aid to improve the patients speech intelligibility. 
+\noindent Hearing loss is a common problem in society. In \textit{2016}, the University of the Witwatersrand released a statement saying that in South Africa, approximately $20\%$ of the population suffers from a form of hearing loss \cite{witsHearingStats}. As a result of hearing loss, an individual can suffer from isolation, dependence, depression and frustration which are factors that may affect quality of life \cite{qualityOfLife}. The amount of people with an impaired quality of life provides motivation for the necessity of devices to improve an individuals hearing, namely a hearing aid. These devices aim to improve the patients speech intelligibility. \\
+\newline
+\noindent A hearing aid is adaptive in the sense that it has the capability of being set to match the specific needs of a patient. This paper presents a comparison, through simulation, between various adaptive filter bank designs to determine the best performing design. The chosen design is further optimised. Dynamic range compression is also considered to ensure that the hearing operates at comfortable loudness levels. A hardware system is realised in addition to the design, such that this system could be implemented physically.
 
 
 \section{Design Research}
 
-\noindent Many factors contribute to hearing loss. A common type is conductive hearing loss whic is caused by older age, excessive noise or various diseases \cite{earinfo},\cite{hearIt}. This is a permanent form of hearing loss which can be treated with hearing assisting devices \cite{hearIt}. This section presents an analysis of existing solutions to this problem (Section \ref{sec:existSoln}) and a literature review (Section \ref{sec:litReview}).
+\noindent Many factors contribute to hearing loss. A common type is conductive hearing loss which is caused by older age, excessive noise or various diseases \cite{earinfo},\cite{hearIt}. This is a permanent form of hearing loss which can be treated with hearing assisting devices \cite{hearIt}. This section presents an analysis of existing solutions to this problem (Section \ref{sec:existSoln}) and a literature review (Section \ref{sec:litReview}).
 
 \subsection{Existing Solutions}
 \label{sec:existSoln}
 
-make it for conductive here
 
-\noindent Two main hearing assisting devices exist for sensorineural hearing impairments namely; hearing aids and cochlear implants \cite{atlantic}. Cochlear implants are typically used in cases of extreme hearing loss. These devices work well in quiet environments \cite{carroll}. However, cochlear implant users battle to perceive speech in noisy environments \cite{carroll} and thus, the individuals quality of life is not improved. Therefore, this design will make use of hearing aid technology.\\
+\noindent Conductive hearing loss can be treated surgically or with the use of a hearing aid  \cite{condLoss}. When surgery is performed, the damage caused to the ear cannot always be reversed. A hearing aid however, has very positive benefits for those suffering from conductive hearing loss \cite{condLoss}. Therefore, this design will make use of hearing aid technology.\\
 \newline
-\noindent There are two main types of hearing aids, analog and digital. Analog hearing aids amplify all sounds, including noise\cite{woodford}. Ricketts \cite{ricketts} states that the largest problem for the hearing impaired is listening in noisy situations. Digital hearing aids however, contain a signal processing element which gives them additional functionality such as filtering noise, and isolating sounds in specific directions \cite{ricketts}. Thus, these hearing aids improve the patient's speech intelligibility which can positively influence their social experience.
+\noindent There are two main types of hearing aids, analog and digital. Analog hearing aids amplify all sounds, including noise \cite{woodford}. Ricketts \cite{ricketts} states that the largest problem for the hearing impaired is listening in noisy situations. Digital hearing aids however, contain a signal processing element which gives them additional functionality such as filtering noise, and isolating sounds in specific directions \cite{ricketts}. Thus, these hearing aids improve the patient's speech intelligibility which can positively influence their social experience.
 
 \subsection{Literature Review}
 \label{sec:litReview}
@@ -127,28 +124,23 @@ make it for conductive here
 \noindent McCowan \cite{mccowan} provides a comprehensive explanation of the wave propagation and various algorithms to determine directivity. This paper evaluates the performance of these algorithms within this context to determine the optimum solution.\\
 \newline
 
-\section{Design Objectives and High-Level Requirements}
+\section{Design Objectives}
 
-\noindent This design aims to provide an adaptive hearing aid for patients with conductive hearing loss. This device should allow for patients to operate comfortably in social situations and thus, improving their quality of life. To achieve this, the hearing aid must compensate for the hearing loss of the patient, allow the patient to listen in different directions and hear within a comfortable loudness range. Factors such as response time should be designed such that the hearing aid resembles the human auditory system. These requirements are technically defined in Section \ref{sec:assCons}
+\noindent This design aims to provide an adaptive hearing aid for patients with conductive hearing loss. This device should allow for patients to operate comfortably in social situations and thus, improving their quality of life. To achieve this, the hearing aid must compensate for the hearing loss of the patient, allow the patient to listen in different directions and hear within a comfortable loudness range. Factors such as response time should be designed such that the hearing aid resembles the human auditory system. These requirements are technically defined in Section \ref{sec:assCons} and \ref{sec:req}.
 
 \section{Design Requirements}
+\label{sec:req}
 
-\noindent The maximum matching error, within the conversational frequency range $(500Hz \rightarrow 4kHz)$, must lie within the preferable compensation limit of $3dB$ \cite{chang}.
+\noindent The maximum matching error, within the conversational frequency range $(500Hz \rightarrow 4kHz)$, must lie within the preferable compensation limit of $3dB$ \cite{chang}. A system delay of $6ms \rightarrow 8ms$ is noticeable and a $20ms$ delay results in confusion between the audio sound and visual movements \cite{brennan}. Therefore, this system must have a response time of $20ms$ or less.  
 
 \section{Design Assumptions and Constraints}
 \label{sec:assCons}
 
-\subsection{Assumptions}
-
-\noindent This paper presents a theoretical design and hence, assumptions can be made. This design is not limited by cost, power or space. This design is considered for adult patients only. The directionality component considers a $2D$ wave in a plane instead of a $3D$ wave. Finally, it is assumed that the speaker is deep inside the ear and hence separated from the microphone. This separation is considered to be significant enough such that feedback cancellation is not required. The directionality assumes that audiogram will be corrected to a flat response. This design assumes that the limitations of the hardware are negligible and that only the effects of the system itself contributes to delays.
-
-\subsection{Constraints}
-
-\noindent This system is constrained to a bandwidth of $20Hz$ to $8kHz$ to correspond to the audiogram frequency range. A system delay of $6ms \rightarrow 8ms$ is noticeable and a $20ms$ delay results in confusion between the audio sound and visual movements \cite{brennan}. Therefore, this system must have an maximum response time of $20ms$ or less. 
+\noindent This paper presents a theoretical design and hence, assumptions can be made. This design is not limited by cost, power or space. This design is considered for adult patients only. The directionality component considers a $2D$ wave in a plane instead of a $3D$ wave. Finally, it is assumed that the speaker is deep inside the ear and hence separated from the microphone. This separation is considered to be significant enough such that feedback cancellation is not required. The directionality assumes that audiogram will be corrected to a flat response. This design assumes that the limitations of the hardware are negligible and that only the effects of the system itself contributes to delays. This system is constrained to a bandwidth of $20Hz$ to $8kHz$ to correspond to the audiogram frequency range. 
 
 \section{Design Methodology}
 
-\noindent The design of this system consists of two main subsystems. The first is applying directionality techniques to allow for the user to listen in specific directions. The second is the audiogram correction subsystem. These subsystems will be amalgamated into a single system. This paper focuses on the adaptive hearing subsystem. The audiogram correction subsystems consists of a filter bank, dynamic range compression, DAC\footnote{Digital-to-Analog-Converter} and a speaker. \\
+\noindent The design of this system consists of two main subsystems. The first is applying directionality techniques to allow for the user to listen in specific directions. This aspect of the design was completed by Arunima Pathania. More information regarding this design can be found at resource \cite{aru}. The second is the audiogram correction subsystem. These subsystems will be amalgamated into a single system. This paper focuses on the adaptive hearing subsystem. The audiogram correction subsystems consists of a filter bank, dynamic range compression, DAC\footnote{Digital-to-Analog-Converter} and a speaker. \\
 \newline
 \noindent In this system, the adaptive filtering component is optimised for the audiogram matching error and response time. Various filter bank designs are presented in literature. Therefore, a comparison will be drawn between each design within the conductive hearing loss context. The best performing design will be further optimised for the best trade-off between matching error and response time. Dynamic range compression will be applied to the output of the filter bank to maintain the sound levels within a comfortable range. Once a design is selected, the suitable hardware will be selected and a circuit realised. Digital filters were considered, as opposed to analog filters, since the specifications of the digital filter can be easily adjusted to satisfy the gain requirements of various prescription formulas.
 
@@ -332,7 +324,7 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
 
 \section{System Realisation}
 
-\noindent This subsystem consists of an input, an analysis and synthesis stage, and finally an output. For the analysis stage, a DSP\footnote{Digital-Signal-Processor} is required which will house the filter bank and the dynamic range compression algorithm. The sythesis stage consists of a DAC, reconstruction filter, pre-amplifier which outputs to a speaker. The input to this subsystem is the output of the directionality subsystem. The directionality analysis phases takes placed on an Arduino Mega. An $SPI$ transaction paradigm is used to communicate between the directionality and adaptive filter subsystems. The Analog Devices, \textit{ADAU1463 Sigma Digital Audio Processor} is chosen as the DSP for this system. This DSP can handle $24000$ filter taps per sample \cite{dsp}. The optimised filter bank consists of a total of $1683$ filter taps per sample and therefore, this DSP can easily handle the filter bank processing requirements. The \textit{ADAU1463} has $2$ communication port types, $I^2C$ and $SPI$.  To synthesise the signal, the output of the DSP is connected to the \textit{TLV320AIC3109-Q1} audio processor. The \textit{ADAU1463} supports both $SPI$ and $I^2C$ as opposed to \textit{TLV320AIC3109-Q1} which only supports $I^2C$. Therefore, the \textit{ADAU1463} communicates with the \textit{TLV320AIC3109-Q1} via the $I^2C port$. The \textit{TLV320AIC3109-Q1} contains the DAC, reconstruction filter and pre-amplifier suitable for a $16 \Omega$ headphone output load resistance \cite{dac}. The \textit{CE20M-16} micro speaker is specified to output the sound of the system to the patient. The \textit{CE20M-16} micro speaker has a $16 \Omega$ load resistance \cite{speaker} and thus, is suitable for the output of the \textit{TLV320AIC3109-Q1} audio processor. An overall circuit diagram is giving in Figure XXX of Appendix XXX.
+\noindent This subsystem consists of an input, an analysis and synthesis stage, and finally an output. For the analysis stage, a DSP\footnote{Digital-Signal-Processor} is required which will house the filter bank and the dynamic range compression algorithm. The sythesis stage consists of a DAC, reconstruction filter, pre-amplifier which outputs to a speaker. The input to this subsystem is the output of the directionality subsystem. The directionality analysis phases takes placed on an Arduino Mega. An $SPI$ transaction paradigm is used to communicate between the directionality and adaptive filter subsystems. The Analog Devices, \textit{ADAU1463 Sigma Digital Audio Processor} is chosen as the DSP for this system. This DSP can handle $24000$ filter taps per sample \cite{dsp}. The optimised filter bank consists of a total of $1683$ filter taps per sample and therefore, this DSP can easily handle the filter bank processing requirements. The \textit{ADAU1463} has $2$ communication port types, $I^2C$ and $SPI$.  To synthesise the signal, the output of the DSP is connected to the \textit{TLV320AIC3109-Q1} audio processor. The \textit{ADAU1463} supports both $SPI$ and $I^2C$ as opposed to \textit{TLV320AIC3109-Q1} which only supports $I^2C$. Therefore, the \textit{ADAU1463} communicates with the \textit{TLV320AIC3109-Q1} via the $I^2C port$. The \textit{TLV320AIC3109-Q1} contains the DAC, reconstruction filter and pre-amplifier suitable for a $16 \Omega$ headphone output load resistance \cite{dac}. The \textit{CE20M-16} micro speaker is specified to output the sound of the system to the patient. The \textit{CE20M-16} micro speaker has a $16 \Omega$ load resistance \cite{speaker} and thus, is suitable for the output of the \textit{TLV320AIC3109-Q1} audio processor. An overall circuit diagram is giving in Figure \ref{fig:cct} of Appendix \ref{app:cct}.
 
 
 \section{Success Criterion}
@@ -380,7 +372,7 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
 \subsection{Socio-economic Impacts of Design}
 \label{sec:socioImpacts}
 
-\noindent The designed adaptive filter bank can adjust the gains of it's various sub-bands such that a patients audiogram can be corrected, with a reasonable matching error. The adaptability of this design implies that hearing aids can be updated, as a patients hearing deteriorates, as opposed to constructing a new one, which keeps the recurring cost of the device low. By compensating for the hearing impaired, more professional and capable individuals would be interacting with society and hence, the economy would improve.
+\noindent The designed adaptive filter bank can adjust the gains of it's various sub-bands such that a patients audiogram can be corrected, with a reasonable matching error. The adaptability of this design implies that hearing aids can be updated when a patients hearing deteriorates, as opposed to constructing a new one, which keeps the recurring cost of the device low. By compensating for the hearing impaired, more professional and capable individuals would be interacting with society and hence, the economy would benefit.
 
 \subsection{Cost Analysis}
 
@@ -441,6 +433,9 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
 \newline
 \noindent Having people with hearing impairments able to function in society is not only beneficial to the recipients of hearing aids, but society and the economy. Opportunities, such as further education and business roles that require effective communicators, that were previously more difficult to attain for the hearing impaired, may be freely available with the use of hearing aids. By wearing a hearing aid, the hearing impaired can contribute significantly to society, without the hindrances of hearing loss, and consequently, improve the economy. \\
 \newline
+\noindent Hearing impairment is particularly devasting for its sufferers during their formative childhood years. These children battle to develop their vocabulary, which affects their speech abilities. The discrepancies between their vocabulary and the vocabulary of other children their age only worsen with age. They also battle to hear the ends of words which produces difficulties understanding tenses, resulting in poor sentence construction. Due to the inability to hear their own voices, they may not speak with correct volume. They also cannot hear certain speech sounds which comprises their pronunciation.  The children may consequently lack important social skills, which are essential for their adult life as a member of society \cite{rock}. Children with hearing loss consequently suffer academically and in cases of moderate hearing loss, perform on average one to four grade levels below their fully hearing peers. This may deprive of them of opportunities later on in life, as battling academically is usually accentuated  with age \cite{rock}.\\
+\newline
+\noindent Engineering plays a vital role in society. This design has direct social and economic impacts. 
 \section{Insertion Gain Parameters}
 \label{app:insertGainParam}
 
@@ -802,7 +797,7 @@ f_{cl}[k] &= 2^{1/2}\times f_c[k]
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.6\linewidth]{uniMatErr.PNG}
-\caption{Matching Error for Symmetric Filter Bank}
+\caption{Matching Error for Uniform Filter Bank}
 \label{fig:uniMatErr}
 \end{figure}  
 
@@ -1133,21 +1128,17 @@ y[n] = x[n] \times g_{lin}[n]
 \end{equation}
 
 
-\section{Testing and Results}
-\label{app:test}
+\section{System Realisation}
+\label{app:cct}
 
-\noindent This appendix contacts the various experimentation set-ups and results used to evaluate the success of the design.
+\noindent Figure \ref{fig:cct} is a representation of the circuit diagram, connecting the various processors together in this design.
 
-\subsection{Matching Error Testing and Results}
-\label{app:testMatErr}
-
-\noindent To investigate the conversational performance of the system, the experimentation set-up, illustrated in Figure \ref{fig:matErrTest} is used.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.6\linewidth]{matErrTest.PNG}
-\caption{Dynamic Range Compressor Static Characteristics}
-\label{fig:matErrTest}
+\includegraphics[width=0.6\linewidth]{cct.pdf}
+\caption{High-Level Realised Circuit Diagram}
+\label{fig:cct}
 \end{figure}
 
 \section{Project Planning and Execution}
